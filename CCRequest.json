@@ -1,0 +1,88 @@
+{
+   "lookup": "ksessionCC",
+   "commands": [
+      {
+         "insert": {
+            "out-identifier": "Customer",
+            "object": {
+               "capiot.kotak_rulesengine.CreditCardApplication.Root": {
+                  "header": {
+                     "transactionID": "12345",
+                     "timestamp": "2018-01-30T03:00:00"
+                  },
+                  "customer": {
+                     "isPreCibilCheck": "Yes",
+                     "status": "",
+                     "creditCardLimit": 0,
+                     "responseCode": "",
+                     "ruleFlowName": "",
+                     "xxx": 0,
+                     "panDetails": {
+                        "panNumber": "ALPPJ12345",
+                        "isBCIF": true,
+                        "nsdlMatch": "Partial",
+                        "isAadharVerified": true
+                     },
+                     "customerDetails": {
+                        "name": "Rakesh",
+                        "address": "Mumbai",
+                        "gender": "M",
+                        "age": 31,
+                        "salary": 80000,
+                        "promoCode": "JCL1",
+                        "cibilScore": 670
+                     },
+                     "scoreCardDetails": {
+                        "scoreCardType": "Cibil Hit",
+                        "scoreCardValue": "Red",
+                        "inputPromoCode": "JCL1",
+                        "vintage": 6,
+                        "rv": 5
+                     },
+                     "sanctionDetails": [
+                        {
+                           "sanctionType": "PL",
+                           "sanctionAmount": 100000
+                        },
+                        {
+                           "sanctionType": "AL",
+                           "sanctionAmount": 60000
+                        },
+                        {
+                           "sanctionType": "RL",
+                           "sanctionAmount": 80000
+                        }
+                     ],
+                     "accountDetails": [
+                        {
+                           "accountNumber": "AL123456",
+                           "accountStatus": "Z",
+                           "accBlockCode1": "Q",
+                           "accBlockCode2": "Q",
+                           "productCode": "QQQ"
+                        },
+                        {
+                           "accountNumber": "AL55555",
+                           "accountStatus": "Z",
+                           "accBlockCode1": "Q",
+                           "accBlockCode2": "Q",
+                           "productCode": "QQQ"
+                        }
+                     ],
+                     "cardDetails": [
+                        {
+                           "cardNumber": "5346182659",
+                           "cardBlockCode": "Z",
+                           "cardType": "Q"
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      },
+      {
+         "fire-all-rules": {}
+      }
+   ]
+}

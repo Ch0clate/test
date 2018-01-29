@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="d3ad089e-0fb3-40e3-9129-a800dd5b9571" activeEnvironment="Default" name="CCRules" resourceRoot="" soapui-version="5.2.1" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="eb1f41c5-13f7-4d00-8b76-78e4f374f963" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8080" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8080</con:endpoint></con:endpoints><con:resource name="CCRules" path="/kie-server/services/rest/server/containers/instances/CCRules" id="23aa769a-387d-4ce7-96b6-6e892df85dc6"><con:settings/><con:parameters/><con:method name="CCRules" id="24101577-7642-4552-ad54-1e1c3c0f058b" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ccr="http://localhost/kie-server/services/rest/server/containers/instances/CCRules">ccr:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Approved_withXXX" id="6e06bb1f-8213-4ac3-b682-6bb0d8e210c0" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request>{
+   "lookup": "ksessionCC",
+   "commands": [
+      {
+         "insert": {
+            "out-identifier": "Customer",
+            "object": {
+               "capiot.kotak_rulesengine.CreditCardApplication.Root": {
+                  "header": {
+                     "transactionID": "12345",
+                     "timestamp": "2018-01-30T03:00:00"
+                  },
+                  "customer": {
+                     "isPreCibilCheck": "Yes",
+                     "panDetails": {
+                        "panNumber": "ALPPJ12345",
+                        "isBCIF": true,
+                        "nsdlMatch": "Partial",
+                        "isAadharVerified": true
+                     },
+                     "customerDetails": {
+                        "name": "Rakesh",
+                        "address": "Mumbai",
+                        "gender": "M",
+                        "age": 31,
+                        "salary": 80000,
+                        "promoCode": "JCL1",
+                        "cibilScore": 670
+                     },
+                     "scoreCardDetails": {
+                        "scoreCardType": "Cibil Hit",
+                        "scoreCardValue": "Green",
+                        "inputPromoCode": "JCL1",
+                        "vintage": 6,
+                        "rv": 5
+                     },
+                     "sanctionDetails": [
+                        {
+                           "sanctionType": "PL",
+                           "sanctionAmount": 100000
+                        },
+                        {
+                           "sanctionType": "AL",
+                           "sanctionAmount": 60000
+                        },
+                        {
+                           "sanctionType": "HL",
+                           "sanctionAmount": 80000
+                        }
+                     ],
+                     "accountDetails": [
+                        {
+                           "accountNumber": "AL123456",
+                           "accountStatus": "Z",
+                           "accBlockCode1": "Q",
+                           "accBlockCode2": "Q",
+                           "productCode": "QQQ"
+                        }
+                     ],
+                     "cardDetails": [
+                        {
+                           "cardNumber": "5346182659",
+                           "cardBlockCode": "A",
+                           "cardType": "Q"
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      },
+      {
+         "fire-all-rules": {}
+      }
+   ]
+}</con:request><con:originalUri>http://localhost/kie-server/services/rest/server/containers/instances/CCRules</con:originalUri><con:credentials><con:username>admin</con:username><con:password>admin</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="RejectedDML1" id="6e06bb1f-8213-4ac3-b682-6bb0d8e210c0" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request>{
+   "lookup": "ksessionCC",
+   "commands": [
+      {
+         "insert": {
+            "out-identifier": "Customer",
+            "object": {
+               "capiot.kotak_rulesengine.CreditCardApplication.Root": {
+                  "header": {
+                     "transactionID": "12345",
+                     "timestamp": "2018-01-30T03:00:00"
+                  },
+                  "customer": {
+                     "isPreCibilCheck": "Yes",
+                     "panDetails": {
+                        "panNumber": "ALPPJ12345",
+                        "isBCIF": true,
+                        "nsdlMatch": "Partial",
+                        "isAadharVerified": true
+                     },
+                     "customerDetails": {
+                        "name": "Rakesh",
+                        "address": "Mumbai",
+                        "gender": "M",
+                        "age": 31,
+                        "salary": 80000,
+                        "promoCode": "JCL1",
+                        "cibilScore": 670
+                     },
+                     "scoreCardDetails": {
+                        "scoreCardType": "Cibil Hit",
+                        "scoreCardValue": "Green",
+                        "inputPromoCode": "JCL1",
+                        "vintage": 6,
+                        "rv": 5
+                     },
+                     "sanctionDetails": [
+                        {
+                           "sanctionType": "PL",
+                           "sanctionAmount": 100000
+                        },
+                        {
+                           "sanctionType": "AL",
+                           "sanctionAmount": 60000
+                        },
+                        {
+                           "sanctionType": "RL",
+                           "sanctionAmount": 80000
+                        }
+                     ],
+                     "accountDetails": [
+                        {
+                           "accountNumber": "AL123456",
+                           "accountStatus": "Z",
+                           "accBlockCode1": "Q",
+                           "accBlockCode2": "Q",
+                           "productCode": "QQQ"
+                        }
+                     ],
+                     "cardDetails": [
+                        {
+                           "cardNumber": "5346182659",
+                           "cardBlockCode": "B",
+                           "cardType": "Q"
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      },
+      {
+         "fire-all-rules": {}
+      }
+   ]
+}</con:request><con:originalUri>http://localhost/kie-server/services/rest/server/containers/instances/CCRules</con:originalUri><con:credentials><con:username>admin</con:username><con:password>admin</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="Approved_JCL3" id="6e06bb1f-8213-4ac3-b682-6bb0d8e210c0" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request>{
+   "lookup": "ksessionCC",
+   "commands": [
+      {
+         "insert": {
+            "out-identifier": "Customer",
+            "object": {
+               "capiot.kotak_rulesengine.CreditCardApplication.Root": {
+                  "header": {
+                     "transactionID": "12345",
+                     "timestamp": "2018-01-30T03:00:00"
+                  },
+                  "customer": {
+                     "isPreCibilCheck": "Yes",
+                     "panDetails": {
+                        "panNumber": "ALPPJ12345",
+                        "isBCIF": true,
+                        "nsdlMatch": "Partial",
+                        "isAadharVerified": true
+                     },
+                     "customerDetails": {
+                        "name": "Rakesh",
+                        "address": "Mumbai",
+                        "gender": "M",
+                        "age": 31,
+                        "salary": 80000,
+                        "promoCode": "JCL3",
+                        "cibilScore": 6
+                     },
+                     "scoreCardDetails": {
+                        "scoreCardType": "Cibil Hit",
+                        "scoreCardValue": "Green",
+                        "inputPromoCode": "JCL3",
+                        "vintage": 6,
+                        "rv": 5
+                     },
+                     "sanctionDetails": [
+                        {
+                           "sanctionType": "PL",
+                           "sanctionAmount": 100000
+                        },
+                        {
+                           "sanctionType": "AL",
+                           "sanctionAmount": 60000
+                        },
+                        {
+                           "sanctionType": "HL",
+                           "sanctionAmount": 80000
+                        }
+                     ],
+                     "accountDetails": [
+                        {
+                           "accountNumber": "AL123456",
+                           "accountStatus": "Z",
+                           "accBlockCode1": "Q",
+                           "accBlockCode2": "Q",
+                           "productCode": "QQQ"
+                        }
+                     ],
+                     "cardDetails": [
+                        {
+                           "cardNumber": "5346182659",
+                           "cardBlockCode": "A",
+                           "cardType": "Q"
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      },
+      {
+         "fire-all-rules": {}
+      }
+   ]
+}</con:request><con:originalUri>http://localhost/kie-server/services/rest/server/containers/instances/CCRules</con:originalUri><con:credentials><con:username>admin</con:username><con:password>admin</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="Reject_2AccsNo" id="6e06bb1f-8213-4ac3-b682-6bb0d8e210c0" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request>{
+   "lookup": "ksessionCC",
+   "commands": [
+      {
+         "insert": {
+            "out-identifier": "Customer",
+            "object": {
+               "capiot.kotak_rulesengine.CreditCardApplication.Root": {
+                  "header": {
+                     "transactionID": "12345",
+                     "timestamp": "2018-01-30T03:00:00"
+                  },
+                  "customer": {
+                     "isPreCibilCheck": "Yes",
+                     "panDetails": {
+                        "panNumber": "ALPPJ12345",
+                        "isBCIF": true,
+                        "nsdlMatch": "Partial",
+                        "isAadharVerified": true
+                     },
+                     "customerDetails": {
+                        "name": "Rakesh",
+                        "address": "Mumbai",
+                        "gender": "M",
+                        "age": 31,
+                        "salary": 80000,
+                        "promoCode": "JCL3",
+                        "cibilScore": 6
+                     },
+                     "scoreCardDetails": {
+                        "scoreCardType": "Cibil Hit",
+                        "scoreCardValue": "Green",
+                        "inputPromoCode": "JCL3",
+                        "vintage": 6,
+                        "rv": 5
+                     },
+                     "sanctionDetails": [
+                        {
+                           "sanctionType": "PL",
+                           "sanctionAmount": 100000
+                        },
+                        {
+                           "sanctionType": "AL",
+                           "sanctionAmount": 60000
+                        },
+                        {
+                           "sanctionType": "HL",
+                           "sanctionAmount": 80000
+                        }
+                     ],
+                     "accountDetails": [
+                        {
+                           "accountNumber": "AL123456",
+                           "accountStatus": "Z",
+                           "accBlockCode1": "Q",
+                           "accBlockCode2": "Q",
+                           "productCode": "QQQ"
+                        },
+                        {
+                           "accountNumber": "AL123456",
+                           "accountStatus": "A",
+                           "accBlockCode1": "A",
+                           "accBlockCode2": "A",
+                           "productCode": "QQQ"
+                        }                        
+                     ],
+                     "cardDetails": [
+                        {
+                           "cardNumber": "5346182659",
+                           "cardBlockCode": "A",
+                           "cardType": "Q"
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      },
+      {
+         "fire-all-rules": {}
+      }
+   ]
+}</con:request><con:originalUri>http://localhost/kie-server/services/rest/server/containers/instances/CCRules</con:originalUri><con:credentials><con:username>admin</con:username><con:password>admin</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request><con:request name="Approved_JCV8" id="6e06bb1f-8213-4ac3-b682-6bb0d8e210c0" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request>{
+   "lookup": "ksessionCC",
+   "commands": [
+      {
+         "insert": {
+            "out-identifier": "Customer",
+            "object": {
+               "capiot.kotak_rulesengine.CreditCardApplication.Root": {
+                  "header": {
+                     "transactionID": "12345",
+                     "timestamp": "2018-01-30T03:00:00"
+                  },
+                  "customer": {
+                     "isPreCibilCheck": "Yes",
+                     "panDetails": {
+                        "panNumber": "ALPPJ12345",
+                        "isBCIF": true,
+                        "nsdlMatch": "Partial",
+                        "isAadharVerified": true
+                     },
+                     "customerDetails": {
+                        "name": "Rakesh",
+                        "address": "Mumbai",
+                        "gender": "M",
+                        "age": 31,
+                        "salary": 80000,
+                        "promoCode": "JCV8",
+                        "cibilScore": 4
+                     },
+                     "scoreCardDetails": {
+                        "scoreCardType": "Cibil Hit",
+                        "scoreCardValue": "Green",
+                        "inputPromoCode": "LCL2",
+                        "vintage": 4,
+                        "rv": 5
+                     },
+                     "sanctionDetails": [
+                        {
+                           "sanctionType": "PL",
+                           "sanctionAmount": 100000
+                        },
+                        {
+                           "sanctionType": "AL",
+                           "sanctionAmount": 60000
+                        },
+                        {
+                           "sanctionType": "HL",
+                           "sanctionAmount": 80000
+                        }
+                     ],
+                     "accountDetails": [
+                        {
+                           "accountNumber": "AL123456",
+                           "accountStatus": "Z",
+                           "accBlockCode1": "Q",
+                           "accBlockCode2": "Q",
+                           "productCode": "QQQ"
+                        }
+                     ],
+                     "cardDetails": [
+                        {
+                           "cardNumber": "5346182659",
+                           "cardBlockCode": "A",
+                           "cardType": "Q"
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      },
+      {
+         "fire-all-rules": {}
+      }
+   ]
+}</con:request><con:originalUri>http://localhost/kie-server/services/rest/server/containers/instances/CCRules</con:originalUri><con:credentials><con:username>admin</con:username><con:password>admin</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>
