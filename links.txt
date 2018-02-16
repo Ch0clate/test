@@ -9,3 +9,16 @@ http://www.codeconfuse.com/2016/03/oracle-api-gateway-configure-outbound.html
 https://docs.oracle.com/cd/E55956_01/doc.11123/oauth_guide/content/oauth_client_credentials.html
 
 http://techrambler99.blogspot.in/2013/07/oracle-api-gateway-authenticating-with.html
+
+
+Authorization Endpoint (REST API)	https://GATEWAY:8089/api/oauth/authorize 
+Token Endpoint (REST API)	https://GATEWAY:8089/api/oauth/token 
+Token Info Endpoint (REST API)	https://GATEWAY:8089/api/oauth/tokeninfo 
+Revoke Endpoint (REST API)	https://GATEWAY:8089/api/oauth/revoke 
+Oracle API Manager (HTML Interface)	https://GATEWAY:8089 
+Oracle API Manager (REST API)	https://GATEWAY:8089/api/kps/ClientApplicationRegistry 
+
+
+
+Listeners -> API Gateway -> OAuth 2.0 Services  -> Ports
+OAuth 2.0 Interface -->	Enable Interface -->   Deploy 
