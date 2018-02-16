@@ -7,3 +7,5 @@ http://www.codeconfuse.com/2016/03/oracle-api-gateway-configure-inbound.html
 http://www.codeconfuse.com/2016/03/oracle-api-gateway-configure-outbound.html
 
 https://docs.oracle.com/cd/E55956_01/doc.11123/oauth_guide/content/oauth_client_credentials.html
+
+http://techrambler99.blogspot.in/2013/07/oracle-api-gateway-authenticating-with.html
