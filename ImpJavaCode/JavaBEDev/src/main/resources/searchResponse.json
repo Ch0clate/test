@@ -1,0 +1,277 @@
+{
+	"_id": "",
+	"responseHeader": {
+		"status": "",
+		"sessionID": "",
+		"userID": "",
+		"clientContext": {
+			"clientID": "",
+			"clientType": ""
+		}
+
+	},
+	"responseBody": {
+
+		"itinerary": [{
+
+			"supplierRef": "AIRARABIA",
+
+			"lowFareSearch": [{
+
+				"echotoken": "",
+				"isReturnJourneyCombined": true,
+				"CancellationPolicyIndicator": true,
+				"pricedItinerary": [{
+					"AirItinerary": {
+						"directionIndicator": "",
+						"rph": "",
+						"originDestinationOptions": [{
+							"rph": "",
+							"flightSegment": [{
+								"departureDate": "2017-10-29T00:00:00.000Z",
+								"arrivalDate": "2017-10-29T00:00:00.000Z",
+								"originLocation": "",
+								"departureTerminal": "",
+								"arrivalTerminal": "",
+								"destinationLocation": "",
+								"sequenceNo": 1,
+								"operatingAirline": {
+									"flightNumber": "",
+									"airlineCode": "",
+									"shortName": "",
+									"equipmentCode": {
+										"type": ""
+									}
+								},
+								"journeyDuration": 5,
+								"quoteID": "",
+								"extendedRPH": "",
+								"availableCount": 2,
+								"RefundableIndicator": true,
+								"CabinType": "",
+								"ResBookDesigCode": "",
+								"comments": [
+									""
+								]
+
+							}]
+						}]
+					},
+					"AirItineraryPricingInfo": [{
+						"QuoteID": "",
+						"ItinTotalFare": {
+							"TotalFare": {
+								"CurrencyCode": "",
+								"FareAmountType": "",
+								"Amount": 10000,
+								"DecimalPlaces": 2
+							},
+							"BaseFare": {
+								"FareAmountType": "",
+								"CurrencyCode": "",
+								"Amount": 7000,
+								"DecimalPlaces": 2
+							},
+							"Taxes": {
+								"TaxCode": "",
+								"CurrencyCode": "",
+								"Amount": 1000,
+								"DecimalPlaces": 2
+							},
+							"EquivFare": {
+								"FareAmountType": "",
+								"CurrencyCode": "",
+								"Amount": 9500,
+								"DecimalPlaces": 2
+							},
+							"Fees": {
+								"FeeType": "",
+								"CurrencyCode": "",
+								"Amount": 500,
+								"DecimalPlaces": 2
+							}
+						},
+
+
+						"PTC_FareBreakdown": [{
+							"FareType": "",
+							"FlightRefNumberRPHList": "",
+							"PassengerTypeQuantity": {
+								"Code": "",
+								"Quantity": 1
+							},
+							"PassengerFare": {
+								"BaseFare": [{
+									"FareAmountType": "",
+									"Amount": 7000,
+									"CurrencyCode": "",
+									"DecimalPlaces": 2
+								}],
+								"Taxes": {
+									"TotalAmount": 10000,
+									"Tax": [{
+										"TaxCode": "",
+										"CurrencyCode": "",
+										"Amount": 800,
+										"DecimalPlaces": 2,
+										"TaxTransactionType": "",
+										"TaxName": "ServiceTax"
+									}]
+
+								},
+								"TotalFare": {
+									"CurrencyCode": "",
+									"Amount": 10000,
+									"DecimalPlaces": 2
+								},
+
+								"QuoteID": "",
+								"EquivFare": {
+									"CurrencyCode": "",
+									"DecimalPlaces": 2,
+									"Amount": 9500
+								},
+								"Fees": {
+									"CurrencyCode": "",
+									"DecimalPlaces": 2,
+									"Amount": 500
+								}
+							},
+
+							"FareBasisCodes": {
+								"FareBasisCode": [{
+									"NotValidBefore": "",
+									"NotValidAfter": "",
+									"FlightSegmentRPH": ""
+								}]
+
+							},
+							"ticketType": ""
+
+
+						}]
+
+
+					}]
+
+
+				}]
+
+
+			}]
+
+
+		}]
+
+	},
+	"commercials": [{
+		"commercialID": 12345,
+		"commercialHeadTypeCode": "",
+		"commercialTypeCode": "",
+		"commercialCategoryTypeCode": "",
+		"prodCategoryTypeCode": "",
+		"prodCategorySubTypeCode": "",
+		"approvalStatusTypeCode": "",
+		"remark": "",
+		"commercialDetails": [{
+			"commercialRecordID": 101,
+			"payableReceivableTypecode": "",
+			"description": "",
+			"isSettlementTransactionWise": true,
+			"isCommissionable": true,
+			"isFixed": true,
+			"percentageAmountTypecode": "",
+			"amountValue": 4000,
+			"calculationTypecode": "",
+			"netOffTypecode": "",
+			"isMarkDownApplicable": true,
+			"markDownClientTypecode": "",
+			"minMarkUpPercentage": 5,
+			"maxMarkUpPercentage": 10,
+			"markUpClientTypecode": "",
+			"isReturnOfPayable": true,
+			"isServiceTaxAppld": true,
+			"transactionTypecode": "",
+			"mSFChrgeTypecode": "",
+			"isRefund": true,
+			"feeFrequencyTypecode": "",
+			"isSingleTopUp": true,
+			"incentiveFreqTypecode": "",
+			"incentiveFreqRecurValue": 50,
+			"lookToBookTypecode": "",
+			"waiverFromDate": "2017-7-29T00:00:00.000Z",
+			"waiverToDate": "2017-12-29T00:00:00.000Z",
+			"lookToBookRatePerLookAmt": 100,
+			"lookToBookRatePerBookAmt": 100,
+			"isPLBApplicable": true,
+			"slabRunTypecode": "",
+			"slabTypecode": "",
+			"contracttValidFromDate": "2017-05-29T00:00:00.000Z",
+			"contractValidToDate": "2017-15-29T00:00:00.000Z",
+			"companyMrkupToAmt": 1000,
+			"clientPercentageValue": 5,
+			"clientAmtValue": 1000,
+			"clientMarkupToAmt": 100,
+			"companyRetentionPercentage": 2,
+			"companyRetentionAmtPercentage": 2,
+			"clientRetentionPercentage": 2,
+			"clientRetentionAmtPercentage": 2,
+			"rateTypecode": "",
+			"fixedPercentageTypecode": "",
+			"rateTypeApplicableForTypecode": "",
+			"rateTypeApplicableCategoryTypecode": "",
+			"paymtModeTypecode": "",
+			"isTransactional": true,
+			"noOfStations": 2
+
+		}]
+	}],
+	"offers": [{
+
+		"OfferID": 101,
+		"Name": "",
+		"OfferTypecode": "",
+		"OfferSubTypecode": "",
+		"StatusTypecode": "",
+		"DiscountTyecode": "",
+		"EffectiveFromDate": "2017-05-29T00:00:00.000Z",
+		"Reason": "",
+		"Remark": "",
+		"ApprovalStatusTypeCode": "",
+
+		"OfferDetails": [{
+			"ProductID": 201,
+			"OfferDetailID": 121,
+			"DiscountPercentage": 2,
+			"DiscountAmount": 1000,
+			"DiscountAppliedOnTypecode": "",
+			"FeeDedutionTypecode": "",
+			"PercentageAmountTypecode": "",
+			"DiscountCalculatedOnTypecode": "",
+			"MealPlanTypecode": "",
+			"OfferInclusive": "",
+			"UpgradeTypecode": "",
+			"UpgradeRoomCatgyTypecode": "",
+			"UpgradeRoomTypecode": "",
+			"FocAppliedOnTypecode": "",
+			"SupplementTypecode": "",
+			"SupplementNameTypecode": "",
+			"FromAge": 1,
+			"ToAge": 60,
+			"NoOfChild": 1,
+			"DiscountountedNoOfBooks": "",
+			"DisocuntedNoOfPax": 5,
+			"FocActicities": 1,
+			"DisocuntedNoOfNight": 1,
+			"UpgradeTransferTypecode": "",
+			"UpgradeVehicleCategoryTypecode": "",
+			"IsUpgradeAirCondition": true,
+			"UpgradeActvySeatClassTypecode": "",
+			"PaxTypecode": ""
+		}]
+
+	}]
+
+
+
+}

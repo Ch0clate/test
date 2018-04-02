@@ -1,0 +1,84 @@
+/********** Not Included starts **********/
+/**** Search Result Page Starts ****/
+/*Filter Section Starts*/
+.activities  .pkg-listing.grid-view#recommend-pkg-tabs > li.active > .pkg-thumbnail:after,.activities  .pkg-listing.grid-view > li.hovered > .pkg-thumbnail:after {bottom: -32px !important;}
+.activities .sort-sec .ul-sort{margin-top: -16px;}
+/*Filter Section Ends*/
+/**** Search Result Page Ends ****/
+
+/***Activities result citytour flavours start***/
+.pay-location{color: #5a00e2;display:inline-block;width: 100%;vertical-align: middle; font-size: 12px;padding:0px 0px 0px 20px;font-weight: 700;}
+.pay-location img{display:inline-block; vertical-align: middle;margin-left: -20px;}
+.pay-location span{vertical-align: middle;}
+
+.activities .list-view.on-hover-details .pkg-similar-list .price-sec .price-info{margin-top: 0;line-height: 15px;}
+
+.red{color:#ff0000;}
+.activities .list-view.on-hover-details .pkg-similar-list ul > li > div{vertical-align: top;}
+.tool-tip a.more-links{color:#0043a7;font-size: 12px;}
+/***Activities result citytour flavours end***/
+
+
+/********* Activity details start **********/
+/*** Details Top section start ***/
+.activities .bdr1 { border: 1px solid #d8d8d8;} 
+.prv-nxt-btns {position: absolute; top:30%; width: 100%;}
+.next-btn{background-image: url(../images/common/arrowright-withshadow.png); width: 59px; z-index: 5; height: 55px; position: absolute; right: 0px;}
+.prev-btn{background-image: url(../images/common/arrowleft-withshadow.png); width: 59px; z-index: 5; height: 55px; position: absolute; left: 0px;}
+/*** Details Tab section start ***/
+/** Tab Section Start **/
+
+
+/** Tab Section End **/
+a.collapsed .fa-custom-angle-right:before{    background: url(../images/common/icons/fa-custom-angle-up.png) no-repeat center center;}
+.no-bdr-btm { border-bottom:0 !important; }
+/*** Details Tab section end ***/
+
+/********* Activity details end **********/
+/********** Not Included Ends **********/
+
+
+
+
+.filter-pannel .attractions-fltr .filter-inner-list ul.fltr-slt-list > li{text-align: center;display: block;}
+.filter-pannel .attractions-fltr .filter-inner-list ul.fltr-slt-list > li > .fltr-slt-wrap{margin: 0px auto;display: block;max-width: 76px;}
+.filter-pannel > ul .tab li {padding-left: 20px;margin-top: 4px;}
+.reviews-span a{font-size: 13px; padding-left: 10px;}
+.fa-custom-pick-up:before   {content: ""; background:url(../images/common/icons/custom-pick-up-icon.png) left top no-repeat; width: 28px; height: 30px; }
+.btn-booknow.active{ background: #868686 !important; color: #b5b5b5 !important}
+.list-icons-big > li > .icon-sec > i.fa-custom-pick-up{ width: 28px; height: 30px;}
+.list-icons-big > li.top-space{padding-top: 25px;}    
+.img-list2 .img-fit figure figcaption{ padding-bottom: 10px}
+.info-list li > span > b > i:before{ z-index: inherit}
+.desc-box .destination-details .amount .pre-txt{ font-size: 11px; top: -7px; position: relative}
+.dest-th-tiles.lg .item{ height: 300px;}
+.img-sec .desc-box .sub-tl.sm{ font-size: 14px; margin-bottom: 0; color: #fff; font-weight: 300; font-family: 'nexa'; padding: 6px 0}
+.img-tile-gallery.theme-02 .img-tiles{ padding-left: 230px}
+.img-tile-gallery.theme-02 .dest-th-tiles .item.wh2{ width: 455px;}
+.img-tile-gallery.theme-02 .dest-th-tiles .item.wh2 .item{ padding: 1px 0px 1px 1px}
+.img-tile-gallery.theme-02 .img-tiles-left.dest-th-tiles .item.wh2{ width: 456px; height: 399px;}
+.img-tile-gallery.theme-02 .dest-th-tiles .item.h2{ height: 400px}
+.homepage .head-tl-link .head-tl .cities-dropdown{ display: inline-block; vertical-align: middle}
+.cities-dropdown > a{ font-size: 32px; color: #000; padding-right: 38px; position: relative; border-bottom: 1px solid #000}
+.cities-dropdown > a:before{ content: ""; background: url(../images/common/custom_calender-up-arrow.png) no-repeat center center; width: 8px; height: 6px; position: absolute; left: 0; right: 0; display: block; margin: 0 auto; bottom: -13px; z-index: 9999; display: none}
+.cities-dropdown > a.active:before{ display: block}
+.cities-dropdown > a:after{content: "\f078"; font-size: 16px; position: absolute; right: 0; top: 12px}
+.dest-th-tiles-wrap{ position: relative}
+.cities-dropdown > a.active:after{ content: "\f077";}
+.cities-dropdown-menu{ position: absolute; right: 0; top: -15px; z-index: 999; background: #fff; width:505px; padding: 19px 30px 38px; border-top: 1px solid #000096; border-bottom: 1px solid #000096; box-shadow:0 0 3px 3px rgba(0, 0, 0, 0.4); display: none}
+.cities-dropdown-menu ul > li > a{ color: #000096; font-size: 14px;}
+.cities-dropdown-menu ul > li > a:hover{ text-decoration: underline}
+.cities-dropdown-menu ul > li + li{ margin-top: 6px;}
+.cities-dropdown-menu .head-tl{ font-size: 17px !important; color: #000000; font-weight: 600; text-align: left; margin-bottom: 15px;}
+.cities-dropdown-menu .search-wrap { padding-right: 100px; position: relative; margin-top: 19px;}
+.cities-dropdown-menu .search-wrap input.search-input[type="text"]{ border:1px solid #d7d7d7; border-radius: 3px; font-weight: 400; color: #000}
+.cities-dropdown-menu .search-wrap input.search-input[type="text"]::-webkit-input-placeholder {color: #000; opacity: 1}
+.cities-dropdown-menu .search-wrap input.search-input[type="text"]::-moz-placeholder {color: #000; opacity: 1}
+.cities-dropdown-menu .search-wrap input.search-input[type="text"]:-ms-input-placeholder {color: #000; opacity: 1}
+.cities-dropdown-menu .search-wrap input.search-input[type="text"]:-moz-placeholder {color: #000; opacity: 1}
+
+.cities-dropdown-menu .search-wrap .btn.btn-primary{ width: 91px; font-size: 14px; background: #6b92c5; position: absolute; right: 0; top: 0; line-height: 37px; padding: 0; min-height: 37px;}
+.cities-dropdown-menu .search-wrap .btn.btn-primary:hover{ background: #000096}
+.cities-dropdown-menu .close-popup{ color: #6b92c5; position: absolute; right: 6px; top: 5px; width: 23px; height: 23px; line-height: 23px;}
+.cities-dropdown-menu .close-popup > i:before{ font-size:26px; color: #6b92c5; cursor:pointer}
+.cities-dropdown-menu .close-popup:hover > i:before{ color: #000096}

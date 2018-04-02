@@ -1,0 +1,180 @@
+/*------------------------------- Icon : Starts --------------------------------------*/
+.fa-custom-meal-1:before {background-image: url(../images/common/icons/fa-custom-meal-1.png);background-size: 100%;width: 23px;height: 22px;}
+.fa-custom-shower:before {background-image: url(../images/common/icons/fa-custom-shower.png);background-size: 100%;width: 21px; height: 26px;}
+.fa-custom-winter:before {background-image: url(../images/common/icons/fa-custom-winter.png);background-size: 100%;width: 18px;height: 22px;}
+.fa-custom-at-rate:before {background-image: url(../images/common/icons/fa-custom-email.png);background-position: 100%;width: 18px;height: 26px;}
+.fa-custom-cruise-liners:before {background-image: url(../images/common/icons/fa-custom-cruise-liners.png);width: 39px;height: 39px;}
+.fa-custom-ship:before {background-image: url(../images/common/icons/fa-custom-ship.png);width: 39px;height: 39px;}
+.fa-custom-no-of-cabin:before {background-image: url(../images/common/icons/fa-custom-no-of-cabin.png);width: 39px;height: 39px;}
+.fa-custom-deck:before {background-image: url(../images/common/icons/fa-custom-deck.png);width: 39px;height: 39px;}
+.fa-custom-gross-tonage:before {background-image: url(../images/common/icons/fa-custom-gross-tonage.png);width: 39px;height: 39px;}
+.fa-custom-crew:before {background-image: url(../images/common/icons/fa-custom-crew.png);width: 39px;height: 39px;}
+.fa-custom-star {width: 30px;height: 17px;background-image: url(../images/common/icons/fa-custom-star.png);position: absolute;left: -40px;top: 10px;}
+.fa-custom-round {width: 30px;height: 17px;background-image: url(../images/common/icons/fa-custom-round.png);position: absolute;left: -40px;top: 10px;}
+.fa-custom-boat {width: 30px;height: 17px;background-image: url(../images/common/icons/fa-custom-boat.png);position: absolute;left: -40px;top: 10px;}
+.fa-custom-silver-round {width: 30px;height: 17px;background-image: url(../images/common/icons/fa-custom-silver-round.png);position: absolute;left: -40px;top: 10px;}
+.fa-custom-cruise-liners:before {background-image: url(../images/common/icons/fa-custom-cruise-liners.png);width: 39px;height: 39px;}
+.fa-custom-ship-2:before {background-image: url(../images/common/icons/fa-custom-ship-2.png);width: 33px;height: 25px;}
+/*------------------------------- Icon : Ends --------------------------------------*/
+
+/*------------------------------- Globle : Starts --------------------------------------*/
+.red-txt{color:#f40707;}
+.green-txt{color:#00691f;}
+/*------------------------------- Globle : Ends --------------------------------------*/
+
+/*------------------------------- Cancel Text : Starts --------------------------------------*/
+.cruises .cancel-text {color: #ff0000;display: inline-block;width: 100%;vertical-align: middle;font-size: 12px;padding: 10px 10px 10px 20px;}
+.cruises .cancel-text img {display: inline-block;vertical-align: middle;margin-left: -20px;}
+.cruises .cancel-text span {vertical-align: middle;}
+.cruises .cancel-text b {font-weight: 600;}
+/*------------------------------- Cancel Text : Ends --------------------------------------*/
+
+/*------------------------------- Filter : Starts --------------------------------------*/
+.cruises .filter-pannel .price-range-deals-fltr{width:16.57894737%;}
+.cruises .filter-pannel .length-fltr{width: 8.771929825%;}
+.cruises .filter-pannel .cruise-liners-flt{width: 13.24561404%;}
+.cruises .filter-pannel .destinations-fltr{width: 10.0877193%;}
+.cruises .filter-pannel .departure-ports-fltr{width: 12.36842105%;}
+.cruises .filter-pannel .rating-fltr{width: 9.122807018%;}
+.cruises .filter-pannel .ship-size-facilities-fltr{width: 15.0877193%;}
+.cruises .filter-pannel .traveller-interest-fltr{width: 14.56140351%;}
+/*------------------------------- Filter : Ends --------------------------------------*/
+
+/*------------------------------- Sort by : Starts --------------------------------------*/
+.cruises .sort-top-sec .search-res-txt{width: 70%;}
+.cruises .sort-top-sec .sort-sec{width: 30%;}
+/*------------------------------- Sort by : Ends --------------------------------------*/
+
+/*------------------------------- Recommended : Starts --------------------------------------*/
+.cruises .recommendeds.pkg-list .shp-no-cont,.cruises .recommendeds .cancel-text{display: none;}
+.cruises .recommendeds.pkg-list .ajax-entry-rec.list-view.openEntryRec .shp-no-cont,.cruises .recommendeds .ajax-entry-rec.list-view.openEntryRec .cancel-text{display: block;}
+.cruises .recommendeds .pkg-thumbnail .thumb-wrap .img-descr span.tour-type,.cruises .grid-view .pkg-thumbnail .thumb-wrap .img-descr span.tour-type{display: inherit;right: 5px;width: 34px;}
+.cruises .recommendeds .pck-details .inclusions{display: inherit;margin-bottom: 0;}
+/*.cruises .recommendeds .offer-ribbon{display: none;}*/
+.cruises .pkg-list.listing .grid-view .cancel-text{display: none;}
+.cruises .pkg-list.listing .grid-view .ajax-entry.list-view.openEntry .cancel-text{display: block;}
+/*------------------------------- Recommended : Ends --------------------------------------*/
+
+/*------------------------------- List View : Starts --------------------------------------*/
+.cruises .list-view .pck-details .inclusions{margin-bottom: 0;}
+.cruises .pkg-thumbnail .pck-details .inclusions span{margin-top: 4px;}
+.cruises .pkg-highlights.custm-panls:before,.cruises .pkg-highlights.custm-panls:after{display: table;content: '';clear: both;}
+.cruises .pkg-highlights.custm-panls {padding-left: 90px;padding-top: 5px;padding-bottom: 5px;}
+.cruises .pkg-highlights.custm-panls b {width: 90px;display: inline-block;margin-left: -90px;}
+.pkg-list .pkg-highlights li {font-size: 12px;color: #333333;padding-bottom: 5px;display: block;float: left;width: 100%;}
+.shp-no-cont {width: 210px;margin-left: 90px;}
+.pkg-list .grid-view .shp-no-cont {margin-left: 0;}
+.cruises .shp-no-cont ul > li {width: 29px;height: 22px;margin: 0 10px 0 0;border: #d9d9d9 solid 1px;text-align: center;display: inline-block;}
+.cruises .ajax-entry-rec.list-view .pkg-thumbnail .thumb-wrap .img-descr span.tour-type, .cruises .pkg-thumbnail .thumb-wrap .img-descr span.tour-type {top: 0px;text-align: center;width: 56px;right: 30px;margin-top:15px;}
+.cruises .pkg-thumbnail .thumb-wrap .img-descr span.tour-type > span {width: 100%;display: block;font-size: 10px;background-color: #f6f4f3;color: #000;border: 1px solid #e0e0e0;text-align: center;padding: 5px 0;font-weight:600;}
+.cruises .list-view .pkg-thumbnail .price-sec .select-grp > li > label{margin-bottom: 5px;font-size: 13px;color:#333333;}
+.cruises .list-view .pkg-destin{display: none;}
+/*------------------------------- List View : Ends --------------------------------------*/
+
+
+/*------------------------------- Similer List : Starts --------------------------------------*/
+.cruises .pkg-similar-list ul > li.head > .price-sec{}
+.cruises .pkg-similar-list ul > li.head > .price-sec > small{display: block;}
+.cruises .pkg-similar-list ul > li > .pkg-similar-tl{width: 25%;}
+.cruises .pkg-similar-list ul > li > .pkg-similar-tl > span{display: block;}
+.cruises .pkg-similar-list ul > li > .pkg-similar-tl .share-collapse{margin-left: -15px;}
+.cruises .pkg-similar-list ul > li > .price-sec{width: 20%;}
+.cruises .pkg-similar-list ul > li > .action-button{width: 150px;text-align: center;}
+.cruises .pkg-similar-list .old-price{display: inline-block;margin-right: 10px;}
+.cruises .pkg-similar-list ul > li > div.price-sec > .offer-price .price{font-size: 14px;}
+.pkg-similar-list ul > li.sub-head >div{font-weight: 600}
+.pkg-similar-list ul > li.sub-head {background: #f9f9f9;}
+/*------------------------------- Similer List : Ends --------------------------------------*/
+
+/*------------------------------- Details Page : Starts --------------------------------------*/
+.details-container .details-brief > .heading-tl{color:#6b92c5;font-size: 18px;font-weight: 600;margin-bottom: 15px;}
+.cruises .review-cmnt-grp .individual-rating{margin-bottom: 20px;}
+/*------------------------------- Details Page : Ends --------------------------------------*/
+
+/*------------------------------- Itinerary : Starts --------------------------------------*/
+
+
+
+/*------------------------------- Itinerary : Ends --------------------------------------*/
+
+/*------------------------------- Deck Plan : Starts --------------------------------------*/
+
+/*------------------------------- Deck Plan : Ends --------------------------------------*/
+
+/*------------------------------- Category Key : Starts --------------------------------------*/
+
+/*------------------------------- Category Key : Ends --------------------------------------*/
+
+/*------------------------------- Ship Info : Starts --------------------------------------*/
+
+
+.cruises .ver-tab-container.theme-01{border: 0 none;}
+.cruises .ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li a{border-left: 1px solid #e4e4e4;border-right: 0 none;}
+.cruises .ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li:first-child a{border-top: 1px solid #e4e4e4}
+.cruises .ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li:last-child a {border-bottom: 1px solid #e4e4e4 !important;}
+.cruises .ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li.r-tabs-state-active a{margin-right: -1px;}
+.cruises .ver-tab-container.theme-01 .ver-tab-content{border: 1px solid #e4e4e4;padding-bottom: 30px;padding-top: 15px;}
+/*------------------------------- Ship Info : Ends --------------------------------------*/
+
+/*-----------------------Start Of FAQs Cruises-------------------------*/
+
+/*-----------------------END Of FAQs Cruises-------------------------*/
+
+/*----------------------- cruise-details.shtml : Starts ----------------------*/
+#tab-imp-info-sect > p, #tab-imp-info-sect > ul, #tab-imp-info-sect > .visacard-mastercrd-list{margin-bottom: 25px;}
+#tab-imp-info-sect > .visacard-mastercrd-list{margin-top: 15px;margin-bottom: 25px;}
+#tab-imp-info-sect > .visacard-mastercrd-list > span{display: inline-block;margin-right: 5px;}
+/*----------------------- cruise-details.shtml : Ends ----------------------*/
+
+
+
+.cruises .shopping-cart .steps-container .step .step-content .detial-info > .other-dtl > .optional-service .price-right-sec > a{font-size: 18px;color: #7b8dc0;margin-left: 5px;}
+
+
+/** Amendment - Cancellation **/
+
+/** cruise change traveler info **/
+.cruises.amendment .change-info .pkg-container .pck-img{width:20%;}
+.shopping-cart .steps-container .step .step-content .detial-info .pax > h4{font-size: 16px; margin-bottom: 10px;}
+/** cruise change traveler info **/
+
+.flt-det {padding: 15px 0px 0px 20px;}
+/** Cruise cancel fullbooking review refund **/
+
+/** Cruise change date result **/
+.top-mid-sec.pkg-add.theme-01 {padding-top: 15px;}
+/*20-06-2017 : Cruises Ammendments*/
+.hrtabs-panel .resp-tabs-list.theme-02{ margin: 0; padding: 0; list-style: none; display: table; width: 100%; background: #f6f4f3;  position: relative;  border:1px solid #dfdfdf; float: none}
+.hrtabs-panel .resp-tabs-list.theme-02:after { content: ""; position: absolute; left: 0; bottom: -5px; height: 5px; background: url(../images/common/tab-list-shadow.png) repeat-x left top; width: 100%;}
+.hrtabs-panel .resp-tabs-list.theme-02 > li{ display: table-cell; text-align: center; padding: 0 20px; background: none !important}
+.hrtabs-panel .resp-tabs-list.theme-02 > li > a{ display: inline-block; font-size: 12px; font-weight: 400; text-transform: uppercase; color: #000096; padding: 11px 0 12px; position: relative; border: 0; min-height: inherit}
+.hrtabs-panel .resp-tabs-list.theme-02 > li > a:after{ content: ""; position: absolute; left: 0; bottom:0; width: 100%; height: 2px; background: #323232; opacity: 0}
+.hrtabs-panel .resp-tabs-list.theme-02 li a{ min-width: inherit; padding: 11px 0 12px;}
+.hrtabs-panel .resp-tabs-list.theme-02 li.resp-tab-active a{ border: 0; background: none !important}
+.hrtabs-panel .resp-tabs-list.theme-02 li a:hover:after,
+.hrtabs-panel .resp-tabs-list.theme-02 li.resp-tab-active a:after,
+.tab-list > li.active > a:after{ opacity: 1}
+.booked-pkg .tab-cruise .widget-form-elements .holder{ padding-top: 0}
+.booked-pkg .tab-cruise .widget-form-elements .holder i{ line-height: 15px; padding:14px 0 0;  display: block}
+.tab-cont{ background: #f6f8fe;  border:1px solid #dfdfdf; border-top: 0}
+.booked-pkg .tab-flight .widget-wrap{ background: none}
+.tab-cont .tab-cruise{ padding: 22px 0 68px}
+.tab-cont .tab-flight{ padding: 0px 0 10px}
+/*20-06-2017 : Cruises Ammendments*/
+
+/*.save-txt{color: #666666; font-size: 14px; padding-left: 23px;}*/
+.pck-info > b{font-size: 16px!important;}
+.price-packag-sec > b{font-size: 16px!important;}
+.pkg-bar .share-sec.text-center{text-align: center!important;}
+
+
+.accpt-terms .checkbox-inline > .styled-checkbox {top: 8px;}
+
+/* Page -> amendment-and-cancellation/cruise-add-product-search-result-flight.shtml */
+.cruises .flight-filter .filter-pannel .holidy-fltr {width: 18%; padding-right: 20px;}
+.cruises .flight-filter .filter-pannel .deals-fltr{width: 14%;}
+.cruises .flight-filter .filter-pannel .price-flt{width: 12%; padding-right: 20px; text-align: center;}
+.cruises .flight-filter .filter-pannel .traveller-fltr{width: 15%;}
+.cruises .flight-filter .filter-pannel .interest-fltr{width: 15%;}
+.cruises .flight-filter .filter-pannel .specials-fltr{width: 15%;}
+.pkg-container .heading  > .trvl-detl-list{ display: inline-block}

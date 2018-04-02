@@ -1,0 +1,164 @@
+package com.coxandkings.travel.bookingengine.orchestrator.air;
+
+import com.coxandkings.travel.bookingengine.utils.Constants;
+
+public interface AirConstants extends Constants {
+	public static final String JSON_PROP_ADDCOMMDETAILS = "additionalCommercialDetails";
+	public static final String JSON_PROP_AGE = "age";
+	public static final String JSON_PROP_AIRITINERARY = "airItinerary";
+	public static final String JSON_PROP_AIRLINECODE = "airlineCode";
+	public static final String JSON_PROP_AIRLINENAME = "airlineName";
+	public static final String JSON_PROP_AIRLINEPNR = "airlinePNR";
+	public static final String JSON_PROP_AIRLINETYPE = "airlineType";
+	public static final String JSON_PROP_AIRPRICEINFO = "airItineraryPricingInfo";
+	public static final String JSON_PROP_AIRTRAVELERAVAIL = "airTravelerAvail";
+	public static final String JSON_PROP_AMOUNT = "amount";
+	public static final String JSON_PROP_ARRIVEDATE = "arrivalDate";
+	public static final String JSON_PROP_ARRIVETERMINAL = "arrivalTerminal";
+	public static final String JSON_PROP_AVAILCOUNT = "availableCount";
+	public static final String JSON_PROP_AMENDRQS = "amendRequests";
+	public static final String JSON_PROP_AMENDRQ = "amendRequest";
+	public static final String JSON_PROP_AMENDTYPE ="amendType";
+	public static final String JSON_PROP_AMENDTYPE_PIS="PIS";
+	public static final String JSON_PROP_AMENDTYPE_REM="REM";
+	public static final String JSON_PROP_BASEFARE = "baseFare";
+	public static final String JSON_PROP_BASEFARE_COMM = "baseFare";
+	public static final String JSON_PROP_BOOKID = "bookId";
+	public static final String JSON_PROP_BOOKINGTYPE = "bookingType";
+	public static final String JSON_PROP_BOOKREFID = "bookRefId";
+	public static final String JSON_PROP_BOOKREFIDX = "bookRefIdx";
+	public static final String JSON_PROP_BOOKREFS = "bookReferences";
+	public static final String JSON_PROP_BASEPRICE = "basePrice";
+	public static final String JSON_PROP_CABINCLASS = "cabinClass";	
+	public static final String JSON_PROP_CABINTYPE = "cabinType";
+	public static final String JSON_PROP_CANCELREQUESTS="cancelRequests";
+	public static final String JSON_PROP_CANCELRULES="cancelRules";
+	public static final String JSON_PROP_CANCELTYPE = "cancelType";	
+	public static final String JSON_PROP_CATCODE = "categoryCode";
+	public static final String JSON_PROP_CCYCODE = "currencyCode";
+	public static final String JSON_PROP_COMPANYSHORTNAME = "companyShortName";
+	public static final String JSON_PROP_CONNTYPE = "connectionType";
+	public static final String JSON_PROP_CITYFROM = "cityFrom";
+	public static final String JSON_PROP_CITYTO = "cityTo";
+	public static final String JSON_PROP_CLIENTCALLBACK = "clientCallbackAddress";
+	public static final String JSON_PROP_CLIENTCOMMITININFO = "clientCommercialItinInfo";
+	public static final String JSON_PROP_CODESHAREFLIGHTINC = "codeShareFlightIncluded";
+	public static final String JSON_PROP_CONNECTSUPP = "connectivitySupplier";
+	public static final String JSON_PROP_CONNECTSUPPTYPE = "connectivitySupplierType";
+	public static final String JSON_PROP_COUNTRYFROM = "countryFrom";
+	public static final String JSON_PROP_COUNTRYTO = "countryTo";
+	public static final String JSON_PROP_DEPARTDATE = "departureDate";
+	public static final String JSON_PROP_DEPARTTERMINAL = "departureTerminal";
+	public static final String JSON_PROP_DESTLOC = "destinationLocation";
+	public static final String JSON_PROP_DESC = "description";
+	public static final String JSON_PROP_EXTENDEDRPH = "extendedRPH";
+	public static final String JSON_PROP_EMAILINFO = "emailInfo";
+	public static final String JSON_PROP_EMAILTYPE = "emailType";
+	public static final String JSON_PROP_EMAILID = "emailId";
+	public static final String JSON_PROP_FAREBREAKUP = "fareBreakUp";
+	public static final String JSON_PROP_FAREDETAILS = "fareDetails";
+	public static final String JSON_PROP_FARENAME = "fareName";
+	public static final String JSON_PROP_FAREVAL = "fareValue";
+	public static final String JSON_PROP_FEE = "fee";
+	public static final String JSON_PROP_FEECODE = "feeCode";
+	public static final String JSON_PROP_FEES = "fees";
+	public static final String JSON_PROP_FLIGHTDETAILS = "flightDetails";
+	public static final String JSON_PROP_FLIGHTNBR = "flightNumber";
+	public static final String JSON_PROP_FLIGHREFNBR="flightRefNumberRphList";
+	public static final String JSON_PROP_FLIGHTSEG = "flightSegment";
+	public static final String JSON_PROP_FLIGHTLINETYPE = "flightLineType";
+	public static final String JSON_PROP_FLIGHTTIMIMNG = "flightTiming";
+	public static final String JSON_PROP_FLIGHTTYPE = "flightType";
+	public static final String JSON_PROP_FROMCITY = "fromCity";
+	public static final String JSON_PROP_FROMCONTINENT = "fromContinent";
+	public static final String JSON_PROP_FROMCOUNTRY = "fromCountry";
+	public static final String JSON_PROP_GDSPNR = "gdsPNR";
+	public static final String JSON_PROP_IATANBR = "iatanumber";	// This is for BRMS
+	public static final String JSON_PROP_ISCODESHARE = "isCodeShareFlight";
+	public static final String JSON_PROP_ISRETURNJRNYCOMBINED = "isReturnJourneyCombined"; 
+	public static final String JSON_PROP_ITINTOTALFARE = "itinTotalFare";
+	public static final String JSON_PROP_JOURNEYDETAILS = "journeyDetails";
+	public static final String JSON_PROP_JOURNEYDUR = "journeyDuration";
+	public static final String JSON_PROP_JOURNEYTYPE = "journeyType";
+	public static final String JSON_PROP_MARKAIRLINE = "marketingAirline";
+	public static final String JSON_PROP_MARKUPCOMMDTLS = "markUpCommercialDetails";
+	public static final String JSON_PROP_NAMEPREFIX = "namePrefix";
+	public static final String JSON_PROP_NUMBER = "number";
+	public static final String JSON_PROP_OPERAIRLINE = "operatingAirline";
+	public static final String JSON_PROP_OPERATIONNAME = "operationName";
+	public static final String JSON_PROP_ORIGDESTINFO = "originDestinationInfo";
+	public static final String JSON_PROP_ORIGDESTOPTS = "originDestinationOptions";
+	public static final String JSON_PROP_ORIGLOC = "originLocation";
+	public static final String JSON_PROP_PAXDETAILS = "paxDetails";
+	public static final String JSON_PROP_PAXDATA_AMEND = "paxDataAmendInfo";
+	public static final String JSON_PROP_PAXINFO = "paxInfo";
+	public static final String JSON_PROP_PAXTYPE = "paxType";
+	public static final String JSON_PROP_PAXTYPEFARES = "paxTypeFares";
+	public static final String JSON_PROP_PAXREMARKTYPE ="paxRemarkType";
+	public static final String JSON_PROP_PAXREMARKTEXT ="paxRemarkText";
+	public static final String JSON_PROP_PRICEDITIN = "pricedItinerary";
+	public static final String JSON_PROP_PRODDETAILS = "productDetails";
+	public static final String JSON_PROP_PSGRDETAILS = "passengerDetails";
+	public static final String JSON_PROP_PSGRTYPE = "passengerType";
+	public static final String JSON_PROP_PHNO = "phoneNumber";
+	public static final String JSON_PROP_PHUSETYPE = "phoneUseType";
+	public static final String JSON_PROP_QUOTEID = "quoteID";
+	public static final String JSON_PROP_RBD = "rbd";
+	public static final String JSON_PROP_RECEIVABLE = "receivable";
+	public static final String JSON_PROP_RECEIVABLES = "receivables";
+	public static final String JSON_PROP_REFUNDIND = "refundableIndicator";
+	public static final String JSON_PROP_RESBOOKDESIG = "resBookDesigCode";
+	public static final String JSON_PROP_RPH = "rph";
+	public static final String JSON_PROP_SEGMENT = "segment";
+	public static final String JSON_PROP_SPECIALREQUESTINFO="specialRequestInfo";
+	public static final String JSON_PROP_SPECIALSVCREQS = "specialServiceRequests";
+	public static final String JSON_PROP_SPECIALREQS = "specialRequests";
+	public static final String JSON_PROP_SSRCODE = "ssrCode";
+	public static final String JSON_PROP_SUPPBOOKREFS = "supplierBookReferences";
+	public static final String JSON_PROP_SUPPPRICEINFO = "supplierItineraryPricingInfo";
+	public static final String JSON_PROP_STATUS = "status";
+	
+	public static final String JSON_PROP_SVCPRC = "servicePrice";
+	public static final String JSON_PROP_SVCQTY = "serviceQuantity";
+	public static final String JSON_PROP_TAX = "tax";
+	public static final String JSON_PROP_TAXCODE = "taxCode";
+	public static final String JSON_PROP_TAXDETAILS = "taxDetails";
+	public static final String JSON_PROP_TAXES = "taxes";
+	public static final String JSON_PROP_TAXNAME = "taxName";
+	public static final String JSON_PROP_TAXVALUE = "taxValue";
+	public static final String JSON_PROP_TELEPHONEINFO = "telephoneInfo";
+	public static final String JSON_PROP_TICKETINGDATE = "ticketingDate";
+	public static final String JSON_PROP_TICKETPNR = "ticketPNR";
+	public static final String JSON_PROP_TOCITY = "toCity";
+	public static final String JSON_PROP_TOCONTINENT = "toContinent";
+	public static final String JSON_PROP_TOCOUNTRY = "toCountry";
+	public static final String JSON_PROP_TOTAL = "total";
+	
+	public static final String JSON_PROP_TOTALFARE = "totalFare";
+	public static final String JSON_PROP_TOTALFARE2 = "totalFare";
+	public static final String JSON_PROP_TRIPIND = "tripIndicator";
+	public static final String JSON_PROP_TRIPTYPE = "tripType";
+	public static final String JSON_PROP_TYPE = "type";
+	public static final String JSON_PROP_VIACITY = "viaCity";
+	public static final String JSON_PROP_VIACONTINENT = "toContinent";
+	public static final String JSON_PROP_VIACOUNTRY = "toCountry";
+	
+	public static final String JSON_VAL_BASE = "Base";
+
+	public static final String PRODUCT_AIR = "AIR";
+	public static final String PRODUCT_NAME_BRMS = "Flights";
+	
+	//Cancel Types
+	public static final String CANCEL_TYPE_ALL = "ALL";			// Full Cancel
+	public static final String CANCEL_TYPE_JOU = "JOU";		// Segment Cancel
+	public static final String CANCEL_TYPE_SSR = "SSR";			// Special Service Request Cancel
+	public static final String CANCEL_TYPE_PAX = "PAX";	
+	public static final String CANCEL_TYPE_PRE = "PRE";	
+	
+	public static final String CANCEL_SI_ERR = "SI-NotSupported";
+	
+	public static final String PROD_CATEG_SUBTYPE_FLIGHT = "Flight";
+	
+	public static final int PASSENGER_COUNT_MINIMUM_ADULT = 1;
+	public static final int PASSENGER_COUNT_MAXIMUM_ADULT_CHILD = 9;
+}

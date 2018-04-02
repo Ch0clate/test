@@ -1,0 +1,280 @@
+{
+	"products": [ "ACCO", "AIR", "BUS", "CARS", "HOLIDAYS"],
+	"productSuppliers": [
+		{
+			"product": "AIR",
+			"suppliers": [
+				{
+					"supplierId": "INDIGO",
+					"credentials": [
+						{
+							"title": "DomainCode",
+							"value": "WWW",
+							"isEncrypted": false
+						},
+						{
+							"title": "AgentName",
+							"value": "OTI004",
+							"isEncrypted": false
+						},
+						{
+							"title": "Password",
+							"value": "3KxZvLPo+uIxgwW5lApmwQ==",
+							"isEncrypted": true
+						},
+						{
+							"title": "AgentCode",
+							"value": "AG",
+							"isEncrypted": false
+						}
+					],
+					"operationURLs": [
+						{
+							"operationName": "availability",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "book",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "cancel",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "getsession",
+							"endUrl": "https://6etestr3xapi.navitaire.com/SessionManager.svc"
+						},
+						{
+							"operationName": "payment",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "price",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "pushpromotion",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "pushseat",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "reprice",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "retrievepnr",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "seatmap",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "sell",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "sellbyssr",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "ssr",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "bookstate",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						},
+						{
+							"operationName": "UpdatePNR",
+							"endUrl": "https://6etestr3xapi.navitaire.com/BookingManager.svc"
+						}
+					]
+				}
+			]
+		},
+		{
+			"product": "HOLIDAYS",
+			"suppliers": [
+				{
+					"supplierId": "COSMOSANDGLOBUS",
+					"credentials": [
+						{
+							"title": "Username",
+							"value": "kAo+8Xc6eQsQvttr62mNiucQYpPkRy9vzceaZ2UDoqg=",
+							"isEncrypted": true
+						},
+						{
+							"title": "Password",
+							"value": "e5z/KsZ7ONs=",
+							"isEncrypted": true
+						},
+						{
+							"title": "VendorId",
+							"value": "CpGnouL5ZWNsBgqji9A5U02nR4UIL5Sx",
+							"isEncrypted": true
+						},
+						{
+							"title": "VendorPassword",
+							"value": "e5z/KsZ7ONs=",
+							"isEncrypted": true
+						}
+					],
+					"operationURLs": [
+						{
+							"operationName": "search",
+							"endUrl": "https://bookingapitest.globusfamily.com/bookingapi.asmx"
+						},
+						{
+							"operationName": "addservice",
+							"endUrl": "https://bookingapitest.globusfamily.com/bookingapi.asmx"
+						},
+						{
+							"operationName": "reprice",
+							"endUrl": "https://bookingapitest.globusfamily.com/bookingapi.asmx"
+						},
+						{
+							"operationName": "book",
+							"endUrl": "https://bookingapitest.globusfamily.com/bookingapi.asmx"
+						},
+						{
+							"operationName": "retrieve",
+							"endUrl": "https://bookingapitest.globusfamily.com/bookingapi.asmx"
+						}
+					]
+				}
+			]
+		},
+		{
+			"product": "BUS",
+			"suppliers": [{
+					"supplierId": "ABHIBUS",
+					"credentials": [{
+							"title": "username",
+							"value": "demo@test",
+							"isEncrypted": false
+						},
+						{
+							"title": "password",
+							"value": "demo@abhibus",
+							"isEncrypted": false
+						}
+
+					],
+					"operationURLs": [{
+						"operationName": "all",
+						"endUrl": "http://demo.abhibus.com/abhiWebServer" 
+
+					}]
+				}
+                
+
+			]
+		},
+		{
+			"product": "CARS",
+			"suppliers": [
+				{
+					"supplierId": "CARZONRENT",
+					"credentials": [
+						{
+							"title": "mer_id",
+							"value": "K6aVTIOsPqYE/Jqpn8qXuw==",
+							"isEncrypted": true
+						},
+						{
+							"title": "mer_secret",
+							"value": "0cNmXwx2JlHWULMTqUYaKZ9IzcLTFs5FJtUbpOUzYsc=",
+							"isEncrypted": true
+						}
+					],
+					"operationURLs": [
+						{
+							"operationName": "all",
+							"endUrl": "https://stagingapi.carzonrent.com"
+						}
+					]
+				},
+				{
+					"supplierId": "ALAMO",
+					"credentials": [
+						{
+							"title": "VERSION",
+							"value": "3.0",
+							"isEncrypted": false
+						},
+						{
+							"title": "UserID",
+							"value": "eaDcDsdgP6LYN79mJBQBEg==",
+							"isEncrypted": true
+						},
+						{
+							"title": "Password",
+							"value": "l0AlxOVmvi0yzN0Cd8/PqA==",
+							"isEncrypted": true
+						},
+						{
+							"title": "Type",
+							"value": "UGXdSFyskpg=",
+							"isEncrypted": true
+						},
+						{
+							"title": "ID",
+							"value": "0uSVETuesmQ=",
+							"isEncrypted": true
+						},
+						{
+							"title": "Code",
+							"value": "g+WbbhrihQA=",
+							"isEncrypted": true
+						},
+						{
+							"title": "CompanyShortName",
+							"value": "UcFoRF9BGdOsECV01biVng==",
+							"isEncrypted": true
+						}
+						
+						
+					],
+					"operationURLs": [
+						{
+							"operationName": "all",
+							"endUrl": "https://cis2-xmldirect.ehi.com/services30/OTA30SOAP"
+						}
+					]
+				}
+			]
+		},
+		{
+			"product": "TRANSFERS",
+			"suppliers": [
+				{
+					"supplierId": "TRANS_ACAMPORA",
+					"credentials": [
+						{
+							"title": "USERNAME",
+							"value": "7a9bl/qpZmpNjzX1HQ3t2Q==",
+							"isEncrypted": true
+						},
+						{
+							"title": "PASSWORD",
+							"value": "/uiMvq9+h/T2XSpRMDMV5g==",
+							"isEncrypted": true
+						}
+					],
+					"operationURLs": [
+						{
+							"operationName": "all",
+							"endUrl": "http://booking.acamporatravel.it:8001/test/b2b/service.asmx"
+						}
+				
+					]
+				}
+			]
+		}
+	]
+}

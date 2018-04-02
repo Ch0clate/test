@@ -1,0 +1,215 @@
+
+
+
+/*Insurance Booking Details MultiTrip start*/
+.fa-custom-insurance-purple:before {background-image: url(../images/common/icons/fa-custom-insurance-purple.png); width: 30px;height: 30px;}
+
+
+.insurance .booking-details .booked-pkg .section .custom-mob-tbl table > thead > tr > th{ width:auto;}
+
+/*Insurance Booking Details MultiTrip end*/
+
+
+
+
+
+/* checkout-multitrip-travelers-adult2 start*/
+
+
+
+/* checkout-multitrip-travelers-adult2 end*/
+
+
+
+
+
+
+
+/* Bookinf Details table start*/
+ .insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.name{ width: 17.37%; border-bottom:none;}
+ .insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.destination{ width: 15.98%;}
+ .insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.insurance-type{ width:12.72%;}
+ .insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.start-date{ width:12.17%;}
+ .insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.insurance-policy{ width: 15.99%;}
+ .insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.sum-insured{ width: 13%;}
+ .insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.status{ width: 13.43%;}
+/* Bookinf Details table end*/
+
+
+
+/* Insurance Results SingleTrip start*/
+
+
+.insurance .filter-pannel.fltr-cont li{ padding-left: 0px; padding-right: 0px;}
+.insurance .filter-pannel.fltr-cont li.fltr-deal-col{ width: 18.94%; padding-left: 16px;  }
+.insurance .filter-pannel.fltr-cont li.fltr-insurers-col{ width: 17%; }
+.insurance .filter-pannel.fltr-cont li.fltr-sum-insured-col{width: 20.26%; }
+.insurance .filter-pannel.fltr-cont li.fltr-premium-col{width: 18.59%; }
+.insurance .filter-pannel.fltr-cont li.fltr-coverages-col{width: 16.84%; }
+.insurance .filter-pannel.fltr-cont li.fltr-star-rating-col{width: 7.98%;}
+.insurance .filter-pannel.fltr-cont li .fltr-slt-wrap.blue-rect.attractions-sec ul.fltr-slt-list li{/*margin: 0px auto; display: block;max-width: 76px;*/}
+.insurance .search-res-txt .search-res-info {/*font-weight: 600;*/}
+.insurance .top-slider .lht-secdata-inn span,
+.insurance .top-slider .lht-secdata-inn > div{ display: table-cell; vertical-align: middle;    padding-top: 15px; padding-bottom:15px;}
+.insurance .top-slider .lht-secdata-inn span figure img,
+.insurance .top-slider .lht-secdata-inn > div figure img { max-width:auto; width:auto;}
+.bg-pinklight{ background: #fceef7;}
+.insurance .top-slider .lht-secdata-inn span p,
+.insurance .top-slider .lht-secdata-inn > div p{  padding-left:12px;  margin-bottom:0px; font-size:12px; color:#000000; font-weight:600;}
+.insurance .top-slider .lht-secdata-inn > div span{  padding-left:12px;  margin-bottom:0px; font-size:12px; color:#000000; font-weight:400;padding-top: 0;padding-bottom: 0;}
+/*.insurance .top-slider .lht-secdata-inn span p.flights-inter-time{margin-top:15px;}*/
+.insurance .filter-inner-list{ /*margin-bottom: 50px;*/}
+.insurance .filter-inner-list .range-sec{ width: 140px;}
+.insurance .list-view li.selected .pkg-thumbnail .price-sec{background-color: #edf3fd;}
+.insurance .offer-ribbon{border: 1px solid #d8d8d8;border-bottom: 0 none;}
+.insurance .offer-ribbon + .pkg-thumbnail{border-top: 0 none;}
+.insurance .lht-secdata .lht-secdata-inn ul{ padding-top: 20px;}
+.insurance .lht-secdata .lht-secdata-inn ul li.airline-info{     width: 11%;}
+.insurance .lht-secdata .lht-secdata-inn ul li.airline-departu {width: 39%;}
+.insurance .lht-secdata .lht-secdata-inn ul li span { color:#565353; font-weight: 600; font-style: italic; font-size: 12px; margin-bottom:4px;}
+.insurance .lht-secdata ul li > ul.three-coltab { padding: 0px; border: solid 1px #ccc;    background: #fff;}
+.insurance .lht-secdata ul li > ul.three-coltab li{ padding: 7px 15px;border-right: solid 1px #ccc;}
+.insurance .lht-secdata ul li > ul.three-coltab li h5{ font-size: 14px; color: #000; margin-bottom: 4px; font-weight:600;}
+.insurance .lht-secdata ul li > ul.three-coltab li p{ font-size: 12px; color: #9d9d9d;}
+.insurance .lht-secdata ul li > ul.three-coltab li:last-child{ border-right:none;}
+.insurance .rht-secdata .price-diffrence-sec .price-diffrence-left{display: table-cell;vertical-align: middle;}
+.insurance .rht-secdata .price-diffrence-sec .price-diffrence-left .ofr-price-contnr{ color: #005596; font-size: 20px;    margin-top:6px; }
+.insurance .rht-secdata .price-diffrence-sec .price-diffrence-left .ofr-price-contnr p{ font-size: 12px; color:#9d9d9d;}
+.insurance .rht-secdata .price-diffrence-sec span.price-diffrence {font-size: 14px;color: #3c3e40;}
+.insurance .rht-secdata .price-diffrence-sec  span.price-diffrence:after{ top:9px;}
+.insurance .rht-secdata .price-diffrence-right .price-diffrence-left { text-align: left; padding-left:8px;}
+.insurance .rht-secdata .price-diffrence-right .price-diffrence-left .ofr-price-contnr{ color: #333333;    margin-top: 0px;}
+.insurance .rht-secdata .price-diffrence-right .btn.btn-blue{ background: #000096; margin-top: 0px; padding: 4px 14px; font-size: 16px;}
+.insurance .rht-secdata .price-diffrence-right .share-sec{ margin-top:3px; padding-bottom: 0px;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont{ width:360px; padding:8px 15px 4px 15px;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont h2.tooltip-head{ padding-bottom: 10px; text-transform: capitalize; font-weight: 600; font-size: 16px; color: #000;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont .price-list.total-price li { line-height:26px;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont .price-list.total-price li .price-tl{ font-size: 12px;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont .price-list.total-price li .price-tl span{ font-style: italic; color: #757575;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont .price-list.total-price li.bordtop{margin-top:10px; border-top:solid 1px #d8d8d8;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont .price-list.total-price li.bordtop .price-tl{ font-weight: 600;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont .price-list.total-price li.bordbtm{border-bottom:solid 1px #d8d8d8;}
+.insurance .rht-secdata .price-diffrence-right .tool-tip.info .tooltip-cont .price-list.total-price li.bordbtm .price-tl{ font-weight: 600;}
+
+/* Insurance Results SingleTrip end*/
+
+
+
+/* Insurance-Results-MutliTrip-Filter start*/
+.insurance .filter-pannel.fltr-cont li.fltr-deal-coltyp2{ width: 15.41%; padding-left:16px;}
+.insurance .filter-pannel.fltr-cont li.fltr-insurers-coltyp2{ width:16.28%;}
+.insurance .filter-pannel.fltr-cont li.fltr-tripfrequency-coltyp2{width:16.28%;}
+.insurance .filter-pannel.fltr-cont li.fltr-sum-insured-coltyp2{width:16.32%;}
+.insurance .filter-pannel.fltr-cont li.fltr-premium-coltyp2{width: 14.27%;}
+.insurance .filter-pannel.fltr-cont li.fltr-coverages-coltyp2{width: 12.08%;}
+.insurance .filter-pannel.fltr-cont li.fltr-star-rating-coltyp2{width:9%;}
+.insurance .lht-secdata .lht-secdata-inn ul li.airline-departu p{ font-size:12px; margin-bottom:4px; }
+.insurance .top-slider .lht-secdata-inn span p.days{ color:#565353;     font-weight: 600;}
+/* Insurance-Results-MutliTrip-Filter end*/
+
+/*amendment-Cancellation-insurance-change-date-select start*/
+.add-trvlr .add-sec .frm-txt.lbl{margin-top: 30px;}
+
+.insurance .select-area-cont .checkbox-cont > ul > li{ padding: 10px 0 20px 0; font-size: 14px; font-weight: 600;}
+.insurance .select-area-cont .checkbox-cont ul li > ul{ padding: 0px;}
+/*
+.insurance .shopping-cart .step .step-content{ margin-bottom: 15px;}
+.insurance .shopping-cart .steps-container .step-content{ background:#f6f8fd; border-left: solid 1px #d6d6d6; border-right: solid 1px #d6d6d6; border-top:solid 1px #d6d6d6; margin-bottom:00px;}
+.insurance .shopping-cart .step.active{ border: none;}
+*/
+
+/*amendment-Cancellation-insurance-change-date-select end*/
+
+
+
+/*Insurance-Change-Date-Price-Change start*/
+.insurance .head-pageinfo.heading-inter-sec .lht-secdata ul.border-list{ padding-bottom:8px;}
+.insurance .head-pageinfo.heading-inter-sec .lht-secdata ul.border-list li{display: inline;font-size: 13px;line-height: 16px;}
+.insurance .head-pageinfo.heading-inter-sec .lht-secdata ul.border-list li:last-child{ padding-left: 5px; font-weight: 600;}
+.insurance .head-pageinfo.heading-inter-sec .lht-secdata ul.border-list li:first-child{ font-size:16px; font-weight:700; color:#000; }
+.insurance .head-pageinfo.heading-inter-sec .lht-secdata ul.border-list > li::after{ width:2px; background:#000; top:4px; height:76%;}
+.insurance .head-pageinfo.heading-inter-sec .rht-secdata{vertical-align: bottom; width: 32%;}
+.insurance .head-pageinfo.heading-inter-sec .rht-secdata > div:last-child{/* padding-left:136px;*/}
+
+
+/*nsurance-Change-Date-Price-Change end*/
+
+
+
+/*Insurance-Cancel-Traveler-Select start*/
+
+.insurance.amendment .pkg-container{margin-bottom: 15px;}
+.insurance.amendment .pkg-container h3.pkg-tl{margin-top: 0px;}
+.insurance.amendment .pkg-container p{font-weight: 600}
+.insurance.amendment.review-refund .shopping-cart .pkg-container .pck-details{ padding-bottom: 0px;}
+.insurance.amendment.review-refund .shopping-cart .pkg-container{ margin-bottom:15px;}
+.insurance.amendment.review-refund .shopping-cart .pkg-container .pck-img {width: 13%;}
+.insurance.amendment.review-refund .booking-details .booked-pkg .section .pkg-bkng-dtls.type2{ background:#f6f8fd; padding-top:8px;}
+
+.insurance.amendment.review-refund .booking-details .booked-pkg .section .pkg-bkng-dtls.type2 .step-content .overview{ border-bottom:none; padding-left: 20px;}
+
+
+
+
+/*Insurance-Cancel-Traveler-Select end*/
+
+/*Homepage - search Start*/
+
+/*Homepage - search Ends*/
+
+
+
+
+/***** pasted style from media start *****/
+.insurance-wrp.search-sec .widget-wrap .widget-form-elements > li.destination{ width: 25%} 
+.insurance-wrp.search-sec .widget-form-elements > li.pckup-cont{ width: 20%}
+.insurance-wrp.search-sec .widget-form-elements > li.custom-field.input-append{ width: 15%}
+.insurance-wrp.search-sec .widget-form-elements > li.traveller{ width: 25%}
+.form-des-details .travel-sec .description,
+.pickuptime-from-sec .travel-sec .cust-spinner{ display: inline-block; vertical-align: middle}
+.insurance-wrp.search-sec .input-group .form-control:not(:first-child):not(:last-child){ border-top: 1px solid #d7d7d7 !important; border-bottom: 1px solid #d7d7d7 !important;     min-height: 37px;}
+.pickuptime-from-sec{ width: 255px; padding: 15px 0}
+.multi-bootselt .dateof-birthsec .form-des-element {position: relative; font-size: 13px;  border: 1px solid #cccccc; color: #000; height: 44px; min-height: 44px;  background: #fff;  border-radius: 3px;  padding: 0px 0px; vertical-align: middle;     height: 36px;    min-height: 36px;}
+.search-sec .widget-form-elements > li .dateof-birthsec .form-des-element input{ padding: 4px 6px; min-height: 37px; font-size: 13px;}
+.dateof-birthsec .heding-tl{ border-top: 1px solid #d6d6d6; margin-top: 19px; font-size: 13px; color: #000; padding: 9px 0 11px;}
+.dateof-birthsec .heding-tl small{ font-size: 13px;}
+.dateof-birthsec .trave-date .lbl{ padding-top: 0; font-size: 13px; display: inline-block; vertical-align: middle; margin-right: 14px;}
+.dateof-birthsec .trave-date .date-input{ display: inline-block; vertical-align: middle}
+.search-sec .widget-form-elements > li .dateof-birthsec .trave-date .date-input input{ font-size: 13px; color: #9d9d9d; border:1px solid #6b92c5 !important; width: 145px; padding: 0 8px; min-height: 37px; border-radius: 3px; text-transform: uppercase}
+.search-sec .form-sec .chekbox-radio-group + .widget-form-elements + .widget-form-elements{padding-bottom: 0;    padding-top: 0;}
+
+.insurance-wrp.search-sec .widget-wrap #multi-trip.widget-form-elements > li.destination{width: 27%;}
+.insurance-wrp.search-sec #multi-trip.widget-form-elements > li.pckup-cont{width: 25%;}
+.insurance-wrp.search-sec #multi-trip.widget-form-elements > li.traveller{ width: 28%}
+.search-sec .widget-form-elements > li input.pickup-select{ width: 100%}
+.insurance-wrp.search-sec .widget-wrap #multi-trip.widget-form-elements > li.destination{width: 27%;}
+.insurance-wrp.search-sec #multi-trip.widget-form-elements > li.pckup-cont{width: 25%;}
+.insurance-wrp.search-sec #multi-trip.widget-form-elements > li.input-append {width: 20%;}
+.insurance-wrp.search-sec #multi-trip.widget-form-elements > li.traveller{ width: 28%}
+.search-sec .widget-form-elements > li input.pickup-select{ width: 100%}
+.insurance-wrp .pickuptime-from-sec{width: 260px;right: 0;left: auto;top: 50px;padding:15px;border-top: #000096 solid 1px;border-bottom: #000096 solid 1px;box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);border-left: none;border-right: none;border-radius: 0;}
+.insurance-wrp .pickuptime-from-sec .description { margin-right: 18px}
+.insurance-wrp .pickuptime-from-sec .description small{ font-size: 13px;}
+/*
+.banner .insurance-wrp .ui-datepicker-trigger:before{ content: ""; width: 20px; height: 20px; background: url(../images/common/icons/fa-custom-cal-blue-icon.png) no-repeat center center; display: block}
+*/
+.insurance .banner-cont-wrap{ max-width: inherit; padding: 0 25px;}
+/***** pasted style from media  end *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

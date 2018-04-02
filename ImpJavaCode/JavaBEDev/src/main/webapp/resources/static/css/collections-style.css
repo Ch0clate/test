@@ -1,0 +1,63 @@
+/* Exclusive Offers Starts */
+.explore-brochure .four-item-carousel   .item   {background: #f6f6f6; padding: 13px; display: table; width: 100%;}
+.explore-brochure .four-item-carousel   .item figure    {display: table-cell; width: 90px;  vertical-align: top; }
+.explore-brochure .four-item-carousel   .item .explore-cont {display: table-cell; width: calc(100% - 90px); vertical-align: top; padding-left: 13px; position: relative; padding-bottom: 35px;}
+.explore-brochure .four-item-carousel   .item .explore-cont h5  {font-size: 15px; line-height: 18px; font-weight: 700;     padding-bottom: 8px;}
+.explore-brochure .four-item-carousel   .item .explore-cont p   {font-size: 13px; line-height: 15px; color: #000;}
+.explore-brochure .four-item-carousel   .item .explore-cont .btn    {padding: 4px 0px; position: absolute; left: 13px; bottom: -5px;}
+.explore-brochure .four-item-carousel   .item .explore-cont .btn:hover{padding-left: 6px; padding-right: 6px;}
+.explore-brochure .four-item-carousel .owl-dots {display: none;}
+.explore-brochure .four-item-carousel .owl-prev {position: absolute; top: 50%; left: -22px; background: #383369; border-radius: 3px; width: 34px; height: 34px; margin-top: -17px;}
+.explore-brochure .four-item-carousel .owl-prev:before  {content: "\f104"; font-size: 20px; position: relative;  top: -2px;}
+.explore-brochure .four-item-carousel .owl-next {position: absolute; top: 50%; right: -22px; background: #383369; border-radius: 3px; width: 34px; height: 34px; margin-top: -17px;}
+.explore-brochure .four-item-carousel .owl-next:before  {content: "\f105"; font-size: 20px;position: relative; top: -2px;}
+.explore-brochure .head-tl  {padding-bottom: 22px;}
+.explore-brochure   {padding-bottom: 40px; border-bottom: 1px solid #e6e6e6; padding-top: 0px;}
+.explore-brochure .four-item-carousel.type2 .owl-stage {text-align: center; display:block; width: 100% !important;}
+.explore-brochure .four-item-carousel.type2 .owl-stage .owl-item {float: none; display: inline-block; width: 300px !important;}
+.explore-brochure .four-item-carousel.type2 .item .explore-cont {text-align: left;}
+.homepage .customer-testi .head-link {margin-top: 0px;}
+.homepage .customer-testi .owl-theme .owl-nav.disabled + .owl-dots {margin-top: 20px;}
+.homepage .customer-testi .owl-theme .owl-dots .owl-dot span {width: 12px;height: 12px;background-color: #383369; margin: 0 3px;}
+.homepage .customer-testi .owl-theme .owl-dots .owl-dot.active span{ background: #fff}
+/* Exclusive Offers end */
+
+/*  Customer Testimonials starts */
+.collections .banner-pkgcont .pkg-dest .pkg-lgdest  {text-transform:uppercase;}
+.customer-testi {text-align: center;padding: 25px 60px;padding-bottom: 0px;}
+.customer-sec {display: inline-block;vertical-align: middle;padding: 20px 20px 0px;}
+.cust-img {display: table-cell; }
+.cust-img figure {width: 90px;height: 90px;border-radius: 100%;display: block;}
+.cust-img figure img {border-radius: 100%;display: block;}
+.cust-review {display: table-cell;vertical-align: top;font-size: 14px;font-weight: 400;text-align: justify;padding-left: 10px;font-style: italic;padding-top: 5px;}
+.cust-review .cust-name {display: block;font-weight: 600;padding-top: 10px;}
+.cust-review .cust-name span {font-weight: 300;}
+.collections .head-tl { font-size: 32px; color: #383369;  text-align: center;  font-family: "nexa"; font-weight: 700; letter-spacing: 1px; padding-bottom: 15px;}
+/*  Customer Testimonials ends */ 
+/* Travel Deals & Featured Holidays - Starts */ 
+.sub.head-tl { font-size: 18px; margin-top: -10px;}
+.pkg-price-start { display: inline-block; vertical-align: middle; margin-left: 4px; position: relative;  top: -2px;}
+.sec-info {padding: 0px 15px;}
+.pkgs-lists .call-out { font-size: 12px; width: 190px; border-radius: 8px 8px 0 0;  padding-bottom: 0px;padding: 7px 14px;}
+.collections .homepage .head-tl { font-size: 32px; color: #383369; text-align: center;  font-family: "nexa"; font-weight: 700; letter-spacing: 1px; padding-bottom: 15px;}
+.pkgs-lists .call-out:after   {background: url(../images/common/call-out-btm1.png) no-repeat left center; width: 190px; height: 26px;bottom: -26px; margin-left: -11px; left: 10px;}
+.img-sec .desc-box.md .tour-type { font-size: 12px;}
+.desc-box .tour-type b { font-weight: 600;}
+.img-sec .desc-box.md .price {font-size: 12px;}
+.section .pkgs-lists { display: inline-block; width: 100%;  padding-bottom: 30px;}
+.img-sec .desc-box.md .desc-tl.lg {font-size: 32px;}
+.banner .banner-img-fit > figure.fh-railway { height: 349px;}
+.collections .homepage .head-tl { font-size: 32px; color: #383369; text-align: center;  font-family: "nexa"; font-weight: 700; letter-spacing: 1px; padding-bottom: 15px;}
+.banner-pkgcont .pkg-detail .amount {line-height: 36px; font-size: 42px; font-family: 'Open Sans';}
+.banner-pkgcont .pkg-detail .price { vertical-align: bottom; padding-left: 25px; font-family: "nexa";  margin-top: 3px;}
+/* Travel Deals & Featured Holidays - ends */
+
+
+
+
+
+
+
+
+
+

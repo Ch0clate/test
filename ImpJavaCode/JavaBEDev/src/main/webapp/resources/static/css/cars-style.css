@@ -1,0 +1,682 @@
+/** Icons Starts **/
+
+/** Icons Ends **/
+/***common***/
+/*.details-sec .recomended-btn{ background:#6a8fc3; color:#fff; font-size:13px;padding: 5px 13px; margin-bottom: 6px; margin-top: 7px;}
+.details-sec .recomended-btn.active{background: none;  border: 1px solid #6b92c5; color: #6b92c5; box-shadow: none;}*/
+.banner-cont-wrap .widget-form-elements .frm-cont .edit-btn{ position: absolute;right: 3px;top: 9px;background: none;padding: 0;z-index: 1111;}
+.fa-custom-edit:before {width: 16px; height: 16px;background-image: url(../images/common/icons/fa-custom-edit.png);
+vertical-align: middle;margin-right: 5px;}
+/*.banner-cont-wrap .widget-form-elements .pckup-cont{position: relative;}
+.banner-cont-wrap .widget-form-elements .pckup-cont .edit-btn{ position: absolute;right: 3px;top: 50%; margin-top: -11px; background: none;padding: 0;z-index: 1111;}*/
+.fa-custom-down-arw:before {width: 12px; height: 8px;background-image: url(../images/common/icons/fa-custom-down-arw.png);
+vertical-align: middle;margin-right: 5px;}
+
+.car-tab .btn.btn-white {background:#fff; border:1px solid #000096; color:#000096; padding: 5px 10px; font-weight: 700; text-transform: uppercase; font-size: 12px;}
+.car-tab .btn.btn-white:hover {background:#7e99a4; color:#fff;}
+.frm-cont{width:30%;}
+.to-cont{width:30%;}
+.frm-cal{width:20%;}
+#Multicity .pckup-cont{width:25%;}
+#return .frm-cont{width:26.5%;}
+#return .to-cont{width:26.5%;}
+#return .frm-cal{width:17%;}
+#return .pckup-cont{width:15%;}
+#WithinCity .frm-cont{width:33.333333%;}
+#WithinCity .pckup-cont{width:33.333333%;}
+.self-drive-cont  .widget-form-elements > li {width: 33.333333%;}
+.ui-datepicker.ui-datepicker-multi-2{min-width: 750px;}
+.customPlaceholder > span{ position: absolute;cursor: auto; z-index: 1;left: 8px; right: 0px;top: 0px;bottom: 0px;padding: 6px 0 0;background: #fff;}
+.customPlaceholder > span >  label { font-size: 18px; display: block;line-height: 18px; padding-bottom: 2px;}
+.customPlaceholder > span > i {font-size: 12px; color: #9d9d9d; display: block;line-height: 12px;}
+
+.fa-custom-confirmation::before {background-image: url(../images/common/icons/fa-custom-confirmation.png); width: 24px; height: 32px;}
+.fa-custom-ola-logo:before {width:59px; height:22px; margin:-6px auto;background-image:url(../images/common/icons/fa-custom-ola-logo.png);}
+
+.txt-lnk.md{font-size: 14px;}
+.border-list.sm li {font-size: 12px !important;}
+
+.err-msg { padding: 6px 15px; border: 1px solid #ff0000; color: #ff0000; background: #fce8e2; font-size: 14px; display: block; position: relative; margin-bottom: 15px; padding-right: 6px; }
+.err-msg .fa{font-size: 17px}
+.err-msg strong{font-weight: 600; display: inline-block; margin-left: 10px;}
+
+/* Theme Blue */
+/***common***/
+
+
+
+/******** Common Starts *********/
+
+.fa-custom-car.circle:before{content: ""; background:url(../images/common/icons/fa-custom-car-circle.png) no-repeat center center; height:30px; width:30px;     vertical-align: middle;}
+.fa-custom-time.circle:before{content: ""; background:url(../images/common/icons/fa-custom-time-circle.png) no-repeat center center; height:30px; width:30px;     vertical-align: middle;}
+
+
+/********** Result more info popup Start
+
+.prod-more-info h4 { font-size: 20px; color: #333333; font-weight: 600; margin-bottom: 5px;}
+.prod-more-info { border: 1px solid #c4c2c3; padding: 20px 18px; position: relative; border-bottom: 1px solid #000096; border-top: 1px solid #000096; display: none;}
+.prod-more-info .prod-detail-descr{ border-top: 1px solid #eaeaea; padding-top: 18px;}
+.prod-more-info .prod-detail-descr p{ font-size: 13px; color: #333333; font-weight: 400}
+.prod-more-info .prod-detail-descr h6{ font-size: 12px; color: #005596; text-transform: uppercase; font-weight: 600; padding-bottom: 10px;}
+.prod-more-info .prod-detail-descr ul.list{ padding-bottom: 20px;/* padding-left: 16px;}
+.prod-more-info .prod-detail-descr ul > li{ display: inline-block; vertical-align: middle; padding-left: 22px; position: relative; font-size: 13px; color: #000; margin-bottom: 8px;}
+.prod-more-info .prod-detail-descr ul.list > li:before{content: ""; width: 14px; height: 14px; position: absolute; left: 0; top: 2px}
+.prod-more-info .prod-detail-descr ul.list > li.incl:before{ background: url(../images/common/icons/fa-custom-incl-icon.png) no-repeat center center}
+.prod-more-info .prod-detail-descr ul.list > li.excl:before{ background: url(../images/common/icons/fa-custom-excl-icon.png) no-repeat center center}
+.prod-allowanc { border-top: 1px solid #eaeaea; margin-top: 8px; padding: 10px 0px;}
+.prod-allowanc > li{ display: inline-block;margin-right: 32px; vertical-align: middle; }
+.prod-allowanc > li span{ display: inline-block; vertical-align: middle; color: #333333; font-size: 13px;}
+.prod-allowanc > li img{ display: inline-block; vertical-align: middle; margin-right: 8px;}
+.prod-allowanc > li.seating-capacity span{ display: block; font-size: 10px; color: rgba(51,51,51,0.7)}
+.prod-allowanc > li.seating-capacity img{ margin-right: 0; margin-bottom: 4px;}
+.prod-more-info .btn-link.close-sec { position: absolute;right: 0; top: 0;}
+.detail-list > li{ display: inline-block; vertical-align: middle; font-size: 13px; font-style: italic;  color: #333333;}
+.detail-list > li + li:before{ content: "-"; font-style: normal; margin-right: 4px;}
+ Result more info popup End*********/
+
+
+/******Car Details Start ******/
+
+
+
+
+.itenary-section .customize-trip-list:before {  left: 8px !important; }
+.itenary-section .customize-trip-list .schedule-details > ul > li:before{border-left: 2px dotted #cfcfcf !important; width: 2px; top: 22px !important;}
+.itenary-section .schedule-details .iti-details{height: inherit;}
+.itenary-section .itinerary-tab-desc p{font-size: 14px;}
+.itenary-section .customize-trip-list .schedule-details .iti-details .pkg-details{padding-bottom: 20px !important; padding-top: 10px !important;}
+
+.cars .itenary-section .customize-trip-list .schedule-details .iti-details  .pkg-dist-time{top:75px; margin-right: 0; padding-left: 20px; color: #777;}
+.cars.within-city .itenary-section .customize-trip > .schedule-tl{padding-bottom: 0px;}
+.cars.within-city .itenary-section .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr h3{font-weight: 700;}
+.cars.within-city .itenary-section .customize-trip-list .schedule-details li:last-child .iti-details .pkg-details{border-bottom: 0px;}
+.cars.within-city .itenary-section .customize-trip-list .schedule-details .iti-details{padding-right: 50px;}
+.cars.within-city .itenary-section .customize-trip-list .schedule-details li:last-child:before{display: none;}
+.cars.within-city .itenary-section .customize-trip-list .schedule-details .day-slot{top:20px;}
+.cars.within-city .itenary-section .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr{vertical-align: top;}
+/******Car Details End******/
+
+/**** Car Top bar start *****/
+.pkg-bar ul.pkg-bar-list > li.packag-sec h4{margin-top: 5px;margin-bottom: 5px;font-size: 14px;font-weight: 600;}
+
+/**** Car Top bar end *****/
+
+
+
+/******Recommended Extra  Start
+.pkg-similar-list.rcmd-extrs ul > *.head > div{padding-top: 18px; margin-bottom: -1px; font-size: 14px;}
+.pkg-similar-list.rcmd-extrs {border: 1px solid #ddd;}
+.pkg-similar-list.rcmd-extrs
+.pkg-similar-list.rcmd-extrs  ul li:nth-child(2) > div{border-top:0px;}
+.pkg-similar-list.rcmd-extrs  ul li .pkg-similar-tl {width: 50%;}
+.pkg-similar-list.rcmd-extrs   .pkg-similar-tl .chk-bx{width: 35px;}
+.pkg-similar-list.rcmd-extrs   .pkg-similar-tl figure{width: 95px;}
+.pkg-similar-list.rcmd-extrs   .pkg-similar-tl .particulars-info{vertical-align: top;}
+.pkg-similar-list.rcmd-extrs   .pkg-similar-tl .particulars-info h6 {font-size: 14px; font-weight: 600; color: #333333; padding-bottom: 6px;}
+.pkg-similar-list.rcmd-extrs   .pkg-similar-tl .particulars-info span{display: block; font-size: 13px; line-height: 16px;}
+.pkg-similar-list.rcmd-extrs   .price{font-size: 18px; font-weight: 600;}
+.pkg-similar-list.rcmd-extrs   .price .fa-rupee{font-size: 15px;}
+.pkg-similar-list.rcmd-extrs .price-sec  .price{display: none}
+.pkg-similar-list.rcmd-extrs  ul > *.head .pkg-similar-tl{padding-left: 50px;}
+.pkg-similar-list.rcmd-extrs  ul > *.head .pkg-inclusion{width: 200px;}
+.pkg-similar-list.rcmd-extrs  ul > li.selected{background: #edf3fd}
+.pkg-similar-list.rcmd-extrs  ul > li.selected{background: #edf3fd}
+.pkg-similar-list.rcmd-extrs  ul > li > div.price-sec{text-align: left}
+.pkg-similar-list.rcmd-extrs  ul > li.selected .price-sec  .price{display: block}
+.pkg-similar-list.rcmd-extrs  ul > li.selected .price-sec  .price small{font-weight: 400}
+
+/******Recommended Extra  end******/
+
+/******** Common End *********/
+
+/****** car result upgrade start ******/
+/*.cars .pkg-similar-list.blue-theme {  border: 1px solid #cfcece; border-bottom: 1px solid #040096; border-top: 1px solid #040096; position: relative;}
+.cars .pkg-similar-list.blue-theme .close-sec {position: absolute; right: 0px; top: 2px; line-height: 10px;}
+.cars .pkg-similar-list.blue-theme li.active {background-color: #edf3fd;}
+.cars .pkg-similar-list ul > li.head{font-size: 14px;padding: 7px 15px;}
+
+.cars .pkg-similar-list ul > li .car-type{padding-left: 40px;width: 30.52631579%;}
+.cars .pkg-similar-list ul > li .car-type > div{margin: 12px 0;}
+.cars .pkg-similar-list ul > li .car-type > div > .table-cell {vertical-align: top;}
+.cars .pkg-similar-list ul > li .car-type > div > figure{width: 82px}
+.cars .pkg-similar-list ul > li .car-type > div > div{padding-left: 15px;}
+.cars .pkg-similar-list ul > li .car-type > div > div h6 { font-size: 14px;font-weight: 600; color: #333333; margin-bottom: 10px;}
+.cars .pkg-similar-list ul > li .car-type > div > div span { display: block; font-size: 13px; line-height: 16px;margin-bottom: 0;}
+.cars .pkg-similar-list ul > li .car-type > span + span{ display: block}
+.cars .pkg-similar-list ul > li .seating-capacity{width: 25.70175439%; display: table-cell !important}
+.cars .pkg-similar-list ul > li .seating-capacity span {display: block; font-size: 10px; color: #838383;}
+.cars .pkg-similar-list ul > li .price-difference{width: 23.50877193%}
+.cars .pkg-similar-list ul > li .price-difference > span {font-size: 18px;font-weight: 600;}
+.cars .pkg-similar-list ul > li .upgrade-cont{width: 20.26315789%}
+.cars .pkg-similar-list ul > li .upgrade-cont a.upgrade{font-size: 13px; background: #6a92c5; color: #fff; width: 110px; height: 29px; line-height: 26px; border: 0px; border-radius: 3px; display: inline-block; text-align: center;}
+.cars .pkg-similar-list ul > li .upgrade-cont span {font-size: 13px; color: #006a1f; display: inline-block; width: 76px; text-align: center; line-height: 26px;}
+.cars .pkg-similar-list ul > li .upgrade-cont span .fa-check:before { content: ""; background: url(../images/common/icons/fa-custom-checked.png) left top no-repeat; width: 12px; height: 10px;display: inline-block; position: relative; top: 1px;}
+.cars .pkg-similar-list ul > li .upgrade-cont span .fa-check{margin-right: 5px; visibility: visible;}*/
+/*.recommendeds .rht-sec .share-sec{margin-top: 8px;}*/
+
+/*
+.cars .pkg-similar-list > li.head .car-type{padding-left: 0px;}
+.cars .pkg-similar-list > li.head > div{padding-bottom: 0px; padding-top: 3px;}
+.cars .pkg-similar-list > li > div{font-size: 15px; padding-left: 40px; padding-top: 8px; padding-bottom: 8px;}
+.cars .pkg-similar-list > li .car-type {padding-left: 98px; position: relative; width: 345px; }
+
+.cars .pkg-similar-list > li .seating-capacity{width: 275px; }
+.cars .pkg-similar-list  li .price-difference{width: 275px; font-size: 16px; font-weight: 600;}
+.cars .pkg-similar-list  li.head .price-difference{font-size: 15px;}
+.cars .pkg-similar-list > li .car-type figure {  width: 82px; position: absolute; left: 0;  top: 8px;}
+.cars .pkg-similar-list > li .car-type h6 { font-size: 14px;font-weight: 600; color: #333333; padding-bottom: 6px;}
+.cars .pkg-similar-list > li .car-type span { display: block; font-size: 13px; line-height: 16px;}
+.cars .pkg-similar-list > li .upgrade-cont a.upgrade{font-size: 13px; background: #6a92c5; color: #fff; width: 110px; height: 29px; line-height: 26px; border: 0px; border-radius: 3px; display: inline-block; text-align: center;}
+.cars .pkg-similar-list > li .upgrade-cont span {font-size: 13px; color: #006a1f; display: inline-block; width: 76px; text-align: center; line-height: 26px;}
+.cars .pkg-similar-list > li .upgrade-cont span .fa-check:before { content: ""; background: url(../images/common/icons/fa-custom-checked.png) left top no-repeat; width: 12px; height: 10px;display: inline-block; position: relative; top: 1px;}
+.cars .pkg-similar-list > li .upgrade-cont span .fa-check{margin-right: 5px; visibility: visible;}
+.package-sim-drop .price-difference .fa-plus{visibility: visible; font-size: 13px;margin-right: 2px;}
+
+
+/****** car result upgrade end ******/
+
+
+/*----------- Self Drive: Filter Section Start ----------*/
+/*.cars.self-drive .filter-pannel .price-range-deals-fltr{ width:17.89%; padding-right:48px;}
+.cars.self-drive .filter-pannel .car-retal-company-fltr{width:16.84%;}
+.cars.self-drive .filter-pannel .car-type-fltr{width:14.21%;}
+.cars.self-drive .filter-pannel .car-name-fltr{width:15%;}
+.cars.self-drive .filter-pannel .seating-capacity-fltr{width:20.70%;    padding-right: 34px;}
+.cars.self-drive .filter-pannel .car-features-fltr{width:15.35%;}
+
+.cars.self-drive .filter-pannel .price-range-deals-fltr .filter-tl{ padding-bottom:15px;}
+.cars.self-drive .filter-pannel .car-retal-company-fltr .filter-tl{ padding-bottom:15px;}
+.cars.self-drive .filter-pannel .car-type-fltr .filter-tl{ padding-bottom:15px;}
+.cars.self-drive .filter-pannel .car-name-fltr .filter-tl{ padding-bottom:15px;}
+.cars.self-drive .filter-pannel .seating-capacity-fltr .filter-tl{ padding-bottom:15px;}
+.cars.self-drive .filter-pannel .car-features-fltr .filter-tl{ padding-bottom:15px;}
+.cars.self-drive .filter-pannel .seating-capacity-fltr .filter-inner-list .filter-sub-tl{ color:#000; font-size:13px; padding-bottom:5px; }*/
+.cars .filter-pannel .reset-all{ position:absolute; bottom:8px; right:8px; text-transform:uppercase; font-size:12px; color:#003a9b; font-weight:600; text-align: right;}
+/*----------- Self Drive: Filter Section Start ----------*/
+
+/** car globle starts **/
+/*.cars .filter-pannel .filter-inner-list{padding-top: 15px;}*/
+.cars .filter-pannel .filter-tl{text-align: left;}
+/*.cars .list-view .rht-sec.price-sec .btn.btn-blue{max-width: 125px}
+.cars .list-view .rht-sec.price-sec .btn.btn-blue.active{background-color: #868687;color:rgba(255,255,255,.5);}
+.cars.within-city .list-view .rht-sec.price-sec .btn.btn-blue, .cars.multicity .list-view .rht-sec.price-sec .btn.btn-blue{max-width: 100%}*/
+/*.cars a.button-close {position: absolute;right: 5px;top: 5px;}
+.cars a.button-close i{margin: 0;}*/
+/*.cars .pck-details .view-map-larger {display: none;background: #fff;padding: 5px;position: absolute;left: -280px;top: 100%;min-width: 760px;min-height: 540px;border: 1px solid #d8d6d7;z-index: 9998;box-shadow: 0px 0px 6px -2px #000;border-top: 1px solid #000099;border-bottom: 1px solid #000099;margin-top: 4px;}
+.cars .pck-details .view-map-larger img {display: block;}
+.cars .list-view  .details-sec .pkg-pace li + li{padding-left: 0px;}*/
+
+/*.cars .transfr-incl{padding-bottom:0;color: #908f8f;}
+.cars .transfr-incl .transfr-incl-icons{height: 35px;    margin-top: 5px;}
+.cars .transfr-incl > li > b{margin-top:4px;}
+.cars .pkg-pace{padding-bottom:0;margin-top: 7px;}
+.cars .pkg-pace li{padding: 0;padding-left: 30px;}
+.cars .pkg-pace li:before{right: 7px;}
+.cars .pkg-pace li:nth-child(3):before{width: 0;}
+.cars .pkg-pace li{padding-left: 0;margin-top: 9px;}
+.cars .pkg-pace li i{margin-left: 0;width: 22px;}
+.cars .rht-sec.price-sec .btn-seats-sel{position: relative;}
+.cars .rht-sec.price-sec .btn-seats-sel.active:after {content: '';display: block;position: absolute;top: 26px;left: 50%;margin-left: -5px;width: 10px;height: 10px;background: #FFFFFF;border-right: 1px solid #000096;border-bottom: 1px solid #000096;-moz-transform: rotate(-135deg);-webkit-transform: rotate(-135deg);z-index: 9999;}*/
+/** car globle end **/
+
+/** Filter Starts **/
+/*.cars .filter-pannel > ul {padding: 11px 6px;}*/
+/*.cars.nonshare .price-range-deals-fltr, .cars.share .price-range-deals-fltr, .cars.return .price-range-deals-fltr, .cars.amendment .price-range-deals-fltr{width: 17.63157895%}
+.cars.nonshare .car-retal-company-fltr, .cars.share .car-retal-company-fltr, .cars.return .car-retal-company-fltr, .cars.amendment .car-retal-company-fltr{width: 17.63157895%}
+.cars.nonshare .car-type-fltr, .cars.share .car-type-fltr, .cars.return .car-type-fltr, .cars.amendment .car-type-fltr{width: 11.22807018%}
+.cars.nonshare .car-name-fltr, .cars.share .car-name-fltr, .cars.return .car-name-fltr, .cars.amendment .car-name-fltr{width: 11.84210526%}
+.cars.nonshare .seating-capacity-fltr, .cars.share .seating-capacity-fltr, .cars.return .seating-capacity-fltr, .cars.amendment .seating-capacity-fltr{width: 15.43859649%}
+.cars.nonshare .baggage-capacity-fltr, .cars.share .baggage-capacity-fltr, .cars.return .baggage-capacity-fltr, .cars.amendment .baggage-capacity-fltr{width: 16.49122807%;}
+.cars.nonshare .car-features-fltr, .cars.share .car-features-fltr, .cars.return .car-features-fltr, .cars.amendment .car-features-fltr{width: 9.736842105%}
+
+.cars.within-city .price-range-duration-fltr,.cars.multicity .price-range-duration-fltr{width: 21%;}
+.cars.within-city .deals-fltr,.cars.multicity .deals-fltr{width: 14%;}
+.cars.within-city .attractions-fltr,.cars.multicity .attractions-fltr{width: 17%;}
+.cars.within-city .car-type-fltr,.cars.multicity .car-type-fltr{width: 16%;}
+.cars.within-city .car-name-fltr,.cars.multicity .car-name-fltr{width: 16%;}
+.cars.within-city .seating-capacity-fltr,.cars.multicity .seating-capacity-fltr{width: 16%;}*/
+
+/** Filter Ends **/
+
+/* Recommanded : Starts */
+/*.cars .grid-view .pkg-thumbnail .lht-sec {position: relative;}
+.cars .grid-view .pkg-thumbnail .offer-ribbon {display: block;z-index: 3;position: absolute;left: 0px;top: 0px;}*/
+.cars .grid-view .ajax-entry-rec .pkg-thumbnail .offer-ribbon,.cars .grid-view .ajax-entry .pkg-thumbnail .offer-ribbon{position: initial;}
+
+/* Recommanded : Ends */
+
+/* list-view Starts */
+/*.cars .list-view .pck-details .btn-map.active{position: relative;}
+.cars .list-view .pck-details .btn-map.active:after {content: '';display: block;position: absolute;top: 17px;left: 50%;margin-left: -5px;width: 10px;height: 10px;background: #FFFFFF;border-right: 1px solid #000099;border-bottom: 1px solid #000099;-moz-transform: rotate(-135deg);-webkit-transform: rotate(-135deg);z-index: 9999;
+.cars .list-view .pck-details .transfer-details ul.transfr-incl > li{margin: 0;padding: 0;}
+.cars .list-view .pck-details .transfer-details ul.transfr-incl > li:before{position: inherit;}
+.cars .list-view .pck-details .transfer-details ul.transfr-incl > li:nth-child(1){width: 30%;}*/
+/*.cars .list-view .price-sec.rht-sec {padding: 15px 27px 12px 71px;}
+.cars.within-city .list-view .price-sec.rht-sec, .cars.multicity .list-view .price-sec.rht-sec {padding: 15px 30px 12px 30px;}
+/*.cars .list-view .price-info {margin-bottom: 3px;padding-left: 7px;}
+.cars .list-view .price-sec .operator-logo{right: 100%;margin-right: 10px;margin-top: 10px;top: 0;text-align: right;}
+.cars .list-view .operator-logo > img{height: auto;}
+/*.cars .list-view .price-sec .offer-price{width: 100%;text-align: left;}
+.cars .list-view .price-sec .price-dtl,.cars .list-view .pkg-thumbnail .price-sec .price{text-align: left;}
+.cars .list-view .price-sec .share-sec{margin-top:10px;text-align: center;}*/
+/*.cars.self-drive .list-view .share-sec,.cars.nonshare .list-view .price-sec .share-sec,.cars.share .list-view .price-sec .share-sec{max-width: 125px;}*/
+
+
+/* list-view Ends */
+
+/* grid-view Starts */
+/*.cars .grid-view .price-sec .share-sec{margin-top: 15px;}*/
+/* grid-view Ends */
+
+/* Seat no popup starts 
+.cars .select-seats-contain { z-index:20; }
+.sel-seats-wrap { border-top:1px solid #000096;border-bottom:2px solid #000096; padding:40px 0; position:absolute; right:15px; width:845px; background:#fff; z-index:20; box-shadow:0px 2px 5px 0px rgba(0,0,0,0.51); }
+.sel-seats-wrap .car-portrait { border-right:solid 1px #ddd; }
+.sel-seats-wrap .car-portrait  .model-container { width:455px; height:203px; margin:0 auto; position:relative;}
+.sel-seats-wrap .car-portrait  .model-container .car-model { width:100%; height:100%; }
+.sel-seats-wrap .car-portrait  .model-container .car-model img { display:inline-block;}
+.sel-seats-wrap .car-portrait  .model-container .car-model > div { position:absolute; left:0; right:0; top:0; bottom:0; background-repeat:no-repeat; background-position:left top; background-size:contain !important; }
+.sel-seats-wrap .car-portrait  .model-container > a { display:inline-block; position:absolute; left:152px; top:112px; width:100px; height:100px;}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-two, .sel-seats-wrap .car-portrait  .model-container > a.seat-three {left:276px; width:68px; height: 74px}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-two {top:28px;}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-three {top:102px;}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-driver,.sel-seats-wrap .car-portrait  .model-container > a.seat-one.selected, .sel-seats-wrap .car-portrait  .model-container > a.seat-one.occupied{ top:112px; left:152px;  background-repeat:no-repeat; width:87px; height:62px; }
+.sel-seats-wrap .car-portrait  .model-container > a.seat-driver {background-image:url(../images/common/car-front-seat-disable.png);top:29px;}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-one.selected{background-image:url(../images/common/car-front-seat-selected.png)}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-one.occupied{background-image:url(../images/common/car-front-seat-occupy.png)}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-two.selected,.sel-seats-wrap .car-portrait  .model-container > a.seat-three.selected,
+.sel-seats-wrap .car-portrait  .model-container > a.seat-two.occupied,.sel-seats-wrap .car-portrait  .model-container > a.seat-three.occupied {width:68px; height:74px; left:276px; }
+.sel-seats-wrap .car-portrait  .model-container > a.seat-two.selected,.sel-seats-wrap .car-portrait  .model-container > a.seat-three.selected { background:rgba(55, 217, 35, 0.4);}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-two.occupied,.sel-seats-wrap .car-portrait  .model-container > a.seat-three.occupied { background:rgba(55, 217, 35, 0.4);}
+.sel-seats-wrap .car-portrait  .model-container > a.seat-two.selected,.sel-seats-wrap .car-portrait  .model-container > a.seat-two.occupied { top:28px; }
+.sel-seats-wrap .car-portrait  .model-container > a.seat-three.selected, .sel-seats-wrap .car-portrait  .model-container > a.seat-three.occupied { top:102px; }
+.sel-seats-wrap .car-portrait .car-seats-legends { margin-top:20px;margin-bottom: 15px;}
+.sel-seats-wrap .car-portrait .car-seats-legends li { float:left; text-align:center;}
+.sel-seats-wrap .car-portrait .car-seats-legends li i.fa-custom-empty-seat:before,
+.sel-seats-wrap .car-portrait .car-seats-legends li i.fa-custom-occupy-seat:before,
+.sel-seats-wrap .car-portrait .car-seats-legends li i.fa-custom-driver-seat:before { width:32px; height:24px; }
+.sel-seats-wrap .car-portrait ul.count-three { display:inline-block; width:100%;}
+.sel-seats-wrap .car-portrait ul.count-three > li{ width:33.33%;}
+.sel-seats-wrap .car-portrait ul li p{font-size: 13px;}
+.sel-seats-wrap .car-portrait ul.count-four > li { width:25%;}
+.sel-seats-wrap .car-portrait ul.count-three > li .ship-img{ width:28px;}
+.sel-seats-wrap .car-select-options { border-bottom:solid 1px #ddd;}
+.sel-seats-wrap .car-select-options + .car-select-options { margin-top:15px; }
+.sel-seats-wrap .car-select-options .head-txt { font-size:14px; color:#000; font-weight:600; text-align:left;}
+.sel-seats-wrap .option-list { display:inline-block; padding:15px 0;width: 100%;}
+.sel-seats-wrap .option-list li { display:inline-block; float:left; }
+.sel-seats-wrap .option-list li:last-child {padding-right:0;}
+.sel-seats-wrap .option-list li a {display:inline-block; color:#5e97cc; vertical-align:top; text-align:center;}
+.sel-seats-wrap .option-list li a .seat-no, .option-list li a .inclusion-wrap { border:solid 1px; border-radius:50%; display:inline-block; width:33px; height:33px; text-align:center; }
+.sel-seats-wrap .option-list li a .seat-no { padding-top:7px; }
+.sel-seats-wrap .option-list li a span.txt { display:block; }
+.sel-seats-wrap .option-list li a span.txt { font-size:11px; line-height:normal; color:#5e97cc; margin-top: 4px; line-height: 11px; }
+.sel-seats-wrap .option-list li a i.fa-custom-music, .option-list li a i.fa-custom-pet, .option-list li a i.fa-custom-smoking { padding-top:7px; }
+.sel-seats-wrap .option-list li a i.fa-custom-music:before { width:15px; height:16px; }
+.sel-seats-wrap .option-list li a i.fa-custom-smoking:before { width:17px; height:10px; }
+.sel-seats-wrap .option-list li a i.fa-custom-pet:before { width:17px; height:16px; }
+.sel-seats-wrap .option-list li.active .seat-no, .sel-seats-wrap .option-list li.active .inclusion-wrap { color:#5c8b57; background:rgba(55, 217, 35, 0.4); border: none }
+
+.sel-seats-wrap .option-list li.active a span.txt { color:#b6b6b7; }
+.sel-seats-wrap .option-list li.active a .inclusion-wrap i.fa-custom-music:before { background-image:url(../images/common/icons/fa-custom-music-white.png);}
+.sel-seats-wrap .option-list li.active a .inclusion-wrap i.fa-custom-smoking:before { background-image:url(../images/common/icons/fa-custom-smoking-cr-fff.png);}
+.sel-seats-wrap .option-list li.active a .inclusion-wrap i.fa-custom-pet:before { background-image:url(../images/common/icons/fa-custom-pet-cr-fff.png);}
+.sel-seats-wrap .rht-sec { margin-top:10px;text-align: center;}
+.sel-seats-wrap .price-info{display: block;margin-bottom: 10px;}
+.sel-seats-wrap .price-info > .offer-price{display: block;}
+.sel-seats-wrap .price-info > .offer-price > .price{font-size: 24px;font-weight: normal;}
+.sel-seats-wrap .price-info > .offer-price > .tool-tip{display: inline-block;}
+.sel-seats-wrap .price-info > .price-dtl{margin-top: -5px;}
+/* Seat no popup ends */
+
+
+/* Common Css */
+.fa-custom-ola-logo:before {width:59px; height:22px; margin:-6px auto;background-image:url(../images/common/icons/fa-custom-ola-logo.png);}
+.fa-custom-hotel:before {width:11px; height:22px; background-image:url(../images/common/icons/fa-custom-hotel.png);}
+.fa-custom-easycabs-logo:before {width:65px; height:19px; background-image:url(../images/common/icons/easy-cabs-icon-mid.png);}
+.fa-custom-uber-logo:before {width:21px; height:33px; background-image:url(../images/common/icons/uber-icon.png);}
+.fa-custom-bullet-red:before{ width: 16px; height: 16px; background-image: url(../images/common/icons/fa-custom-bullet.png);}
+.fa-custom-car-grey:before{ width: 18px; height: 17px; background-image: url(../images/common/icons/fa-custom-car-grey.png);}
+.fa-custom-car-grey-filled:before{ width: 18px; height: 16px; background-image: url(../images/common/icons/fa-custom-car-grey-filled.png);}
+.fa-custom-dsc-icon:before{ width: 9px; height: 17px; background-image: url(../images/common/icons/asc-arrow.png)}
+.fa-custom-asc-icon:before{ width: 9px; height: 17px; background-image: url(../images/common/icons/dsc-arrow.png)}
+
+/* Common Css */
+
+
+.pkg-container .heading{font-size: 18px; padding: 0px 0px 20px 0px;}
+
+
+.similar-pckgs.recommendeds{background: none; border: none;}
+/*.similar-pckgs.recommendeds .pkg-listing .pkg-thumbnail{margin-bottom: 22px;}*/
+/*.cars .comp-tbl-dev > div + div .comp-tbl-list > li {border-right: none}
+.cars .comp-tbl-dev > div + div .comp-tbl-list > li.comp-tbl-servic{border-right: 1px solid #e1e1e1;}
+.cars .comp-tbl-dev > div + div.comp-tbl-servic .comp-tbl-list > li.comp-tbl-servic{border-right: none }*/
+.cars .comp-tbl-dev .comp-tbl-servic, .cars .comp-tbl-dev .sel-pr-one, .cars .comp-tbl-dev .sel-pr-two, .cars .comp-tbl-dev .sel-pr-three{width:225px}
+.cars .comp-tbl-dev .comp-tbl-servic{width:100px}
+/*Checkout traveler css starts */
+
+/* Car packages sec css starts */
+.cars .addtional-info.pck-info ul.list-icons-big{max-width:240px;}
+.cars .pck-info .list-icons-big > li{display: block; float: none;}
+.cars .pck-info .dtl-info{float: right; max-width: 295px;}
+.cars .pck-info .dtl-info-img{width: 145px;}
+.cars .pck-info .dtl-info-tl{font-size: 12px; font-weight: 600; line-height: 16px;}
+.cars .shopping-cart .pkg-container .pck-details .pck-info .dtl-info .border-list{padding-bottom: 5px;}
+.cars .shopping-cart .steps-container .step .step-content .detial-info p.sub-head small{color: #7b7c80; font-weight:700; font-size: 11px;}
+/* Car packages sec css ends */
+
+/* Travelers sec css starts */
+.cars .addtional-info.type-02 ul.list-icons-big{max-width: 100%;}
+/* Travelers sec css ends */
+
+/* Summary css Sec */
+
+/* Summary css Sec */
+
+/*Checkout traveler css ends */
+
+/* Cars customize add activities css starts */
+
+/* Add activities sec css starts */
+.cars .draggable-sect li{ cursor: pointer;}
+.cars .add-activities-sec .listing-sec .switchBtns a{ width:  115px; font-size: 13px; color: #0072bc; border-color:#cbcbcb;}
+.cars .add-activities-sec .listing-sec .switchBtns a i{ font-size: 16px; margin-right: 5px; }
+.cars .add-activities-sec .listing-sec .switchBtns a i.fa-list{ position: relative; top: 2px; }
+.cars .add-activities-sec .listing-sec .listing-heading{ display: inline-block; width: 100%; }
+.cars .add-activities-sec .listing-sec .listing-heading h5{ float: left; color:#000000; }
+.cars .add-activities-sec .listing-sec .listing-heading .switchBtns{ float: right;}
+.cars .add-activities-sec .btn.btn-white{background: none; border: 0px;}
+/* Add activities sec css ends */
+
+/* Included activities sec css starts */
+.cars .right-sec{ padding-left: 30px;}
+.cars .right-sec .sub-fixed-panel{ padding-left: 0;}
+.cars .customize-trip-list .schedule-details .day-slot{ width: 18px; padding-bottom: 0; padding-top: 0; top: 0;}
+.cars .customize-trip-list .schedule-details{ padding-left: 0;}
+.cars .customize-trip-list .schedule-details > ul > li.schedule-slot{ padding-left: 21px; position: relative; z-index: 1;}
+.cars .customize-trip-list .schedule-details > ul > li.schedule-slot.selected{ padding-left: 0; background: none;}
+.cars .customize-trip-list .schedule-details > ul > li.schedule-slot.selected  .schedule-slot .iti-details{ background: #fefbea;}
+/*.cars .customize-trip-list .schedule-details > ul > li:before{content: ""; position: absolute; width: 1px; height: 100%; border-left: 1px dashed #cfcfcf; left: 8px; top: 12px;}*/
+.cars .customize-trip-list > li > .schedule-details > ul {counter-reset:section;}
+.cars .customize-trip-list > li > .schedule-details > ul > li.schedule-slot:before {position:absolute;counter-increment:section;content:counter(section) ".";font-size:14px; font-family:"Open Sans";top:10px;left:126px;z-index:111;}
+.cars .customize-trip-list > li:first-child .schedule-details > ul > li + li{ margin: 0;}
+.cars .customize-trip-list:before{ left: 9px;}
+.cars .customize-trip > .schedule-tl{ text-transform: uppercase; font-weight: 600; font-size: 13px;position: relative;}
+.cars .customize-trip > .schedule-tl b{ width: 18px;}
+.cars .customize-trip > .schedule-tl span.schedule-time{ display: inline-block; color: #f7941d;}
+.cars .customize-trip-list .schedule-details .droppable-sect.iti-details{ border:0;padding-top: 10px; padding-bottom: 0;}
+.cars .customize-trip-list .schedule-details .droppable-sect.iti-details .tool-tip .tooltip-cont{top: 23px;}
+.cars .customize-trip-list .schedule-details .droppable-sect.iti-details:before{ display: none;}
+.cars .customize-trip-list .schedule-details .iti-details{ padding-right: 191px; margin: 0;}
+.cars .customize-trip-list .schedule-details .iti-details .action-btn{ width: 136px; text-align: left; top: 13px;}
+.cars .customize-trip-list .schedule-details .iti-details .action-btn ul li{ display: inline-block; vertical-align: middle}
+.cars .action-btn .tbl-style .no-list li .btn.btn-white{ min-width: inherit; width: 22px; height: 29px; line-height: 29px; border: 1px solid #cbcbcb; padding: 0; margin-left: 11px;}
+.cars .action-btn .tbl-style .no-list li .btn.btn-white:hover i{ color: #fff;} 
+.cars .action-btn .tbl-style .no-list li .btn.btn-white i{ font-style: normal; color: #0072bc; font-size: 13px;}
+.cars .customize-trip-list .schedule-details .iti-details .action-btn .tbl-style > div{ vertical-align: top;}
+.cars .action-btn .tbl-style .no-list li .btn.btn-check .fa-custom-check:before{ margin-right: 0;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details{ border-bottom: 1px dashed #dddddd; padding: 0 0 6px 0;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img{ width: 81px;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img + .pkg-feature-img-descr{ padding-left: 15px;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr h3{font-size: 14px;color: #000;font-weight: 400;padding-left: 22px;position: relative;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr h3 .sr-num{ display: none}
+.cars .customize-trip-list .schedule-details .droppable-sect.iti-details .pkg-details .pkg-feature-img-descr p{font-size: 13px;color: rgba(0,0,0,0.8);font-weight: 400;padding-left: 22px;padding-top: 8px;}
+.cars .customize-trip-list .schedule-details .iti-details .action-btn ul li.pkg-status{ position: relative; min-width: 63px; text-align: right; }
+.cars .customize-trip-list .schedule-details .iti-details .action-btn ul li.pkg-status{ position: relative; min-width: 63px; text-align: right; }
+.cars .customize-trip-list .schedule-details .iti-details  .pkg-dist-time{position: absolute;font-size: 11px;line-height: 11px;right: 0;top:-11px;text-transform: uppercase;font-weight: 600;margin-right: 73px;background: #fff; color: #858585}
+.cars .customize-trip-list .schedule-details .iti-details  .pkg-dist-time span{ color: #f7941d; }
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr{ position: relative; }
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip{ position: absolute; right: 0; top:-6px; }
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip a{ font-size: 11px; font-weight: 600; color: #0072bc; }
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip a:hover{ text-decoration: underline; }
+.cars .customize-trip h5{ font-size: 17px; color: #0072bc; padding: 5px 0 25px; float: left}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip a i{ color: #0072bc; font-weight: 400; margin-right: 4px; }
+.cars .customize-trip-list .schedule-details iti-details .pkg-details .pkg-feature-img-descr .tool-tip a:hover i{ color: #fff;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip h3{ padding-left: 0; font-size: 16px; color: #333333; font-weight: 600;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip p{ padding: 0; margin: 0; padding-top: 10px; }
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip p span{ color: #0072bb; font-weight: 600;}
+.cars .customize-trip.activeSec .customize-trip-list .schedule-details .iti-details .action-btn ul li.order-list{ display: inline-block;}
+.cars .customize-trip-list .schedule-details .btn-wrapper{ text-align: center; padding: 10px 0; display: none}
+.cars .customize-trip.activeSec .customize-trip-list .schedule-details .btn-wrapper{ display: block; }
+.cars .customize-trip-list .schedule-details .btn-wrapper .btn-primary{ font-size: 13px; font-weight: 600; min-width: 154px; }
+.cars .customize-trip .undo-redo-opt{ display: none; position: static;/*position: absolute; top: 16px; right: 0;*/ float: right; margin-top: 9px;}
+.cars .customize-trip .undo-redo-opt .active a{ color: #0072bc; }
+.cars .customize-trip .undo-redo-opt a:hover{ /*color: #fff;*/ }
+/*.cars .customize-trip.activeSec .undo-redo-opt{ display: block; }*/
+.cars .customize-trip-list .schedule-details .iti-details  .pkg-price{ position: absolute; right: 0; bottom: 21px;  padding: 0; font-size: 12px;padding-right: 73px; background: none; border: 0}
+.cars .customize-trip-list .schedule-details .iti-details  .pkg-price .price-amt{ font-weight: 600; font-size: 12px;}
+.cars .customize-trip-list .schedule-details .iti-details  .pkg-price .price-amt > i.fa-rupee{ position: static; }
+.cars .customize-trip-list .schedule-details .iti-details  .pkg-price .price-amt > b{ font-size: 17px; font-weight: 700; margin-right: 7px; }
+
+.cars .activities-sec h3 span{ font-size: 18px; color: #000; display: inline-block; padding: 0 0 14px 10px; }
+.cars .mapView { position: relative; display: none}
+.cars .mapView  img{ width: 100%; }
+.cars .mapView .mapPopup{/* position: absolute; */bottom: 66px;width: 215px;top: inherit;left: 230px; }
+.cars.multi-city .mapView .mapPopup{bottom: 58px; left: 50px;}
+.cars .mapView .map-hotel-popup:before{border: 0; width:14px; height: 18px; background: url(../images/common/mapPopup-left-arrow.png) no-repeat center center; left: -14px;}
+.cars .mapView .map-hotel-popup .img-section{ border: 0; padding: 3px; }
+.cars .mapView .dragged:before, .cars .mapView li.selected-box:before{ left: 0; top: 0; right: 0; bottom: 0; }
+.cars .mapView .draggable-sect{ margin: 0; }
+.btnListView{ display: none}
+.cars .add-activities-sec .listing-sec h5{ font-size: 17px; font-weight: 600; margin-bottom: 0; }
+.cars .addactivitiessec-lt-panel{padding: 15px;}
+
+
+
+.cars .customize-trip-list .schedule-details .iti-details .action-btn ul li.order-list{ margin-left: 6px; display: none}
+
+.cars.define-route .customize-trip-list .schedule-details .iti-details .action-btn ul li.order-list{ display: inline}
+
+.cars .customize-trip.activeSec .customize-trip-list .schedule-details .btn-wrapper{ display: block}
+.cars .customize-trip.activeSec .customize-trip-list .schedule-details .iti-details .action-btn ul li.order-list{ display: inline-block}
+/*.cars  .undo-redo-opt li:last-child a {border: 1px solid #0072bc; border-radius:0px;  padding: 5px;color: #0072bc;}*/
+.cars  .undo-redo-opt li:last-child a:hover {/*color: #ffffff;*/}
+.cars .undo-redo-opt li:last-child:before{width: 0px;}
+.cars .undo-redo-opt li > a{padding: 5px 0px; display: inline;}
+.undo-redo-opt > li > a:hover .fa-custom-align-justify::before {background-image: url(../images/common/icons/fa-custom-align-justify-white.png);}
+.cars .view-detialed-itinerary{margin-top: 5px; float: right;}
+.btn-itinerary {padding: 5px 10px;border: 1px solid #6792c5; border-radius: 2px; margin-left: 10px;}
+.cars .customize-trip-list .schedule-details > ul > li.schedule-slot.selected  .schedule-slot .iti-details{background: #fefbea;}
+/* Included activities sec css ends */
+
+
+
+
+
+
+
+/*Cars - Within City list view : Starts*/
+
+/*.recommended-cars .place-attractions{border-top:0px; }
+.place-attractions{display: table;width: 100%;padding-bottom: 4px;border-top: 1px solid #eaeaea;padding-top: 11px;margin-top: 11px;}
+.place-attractions >div {display: table-cell;}
+.place-attractions-left {width: 55%;  padding-right: 8px; position: relative;}
+.place-attractions-left:after   {content: ""; position: absolute; right: 0px; top: 3px; bottom: 3px; width: 1px; background: #d8d8d8; }
+.place-attractions-left:before  {display: inline-block;  position: absolute; content: "+"; width: 17px; height: 17px; border-radius: 50%; border:1px solid #bfbfbf; background: #efefef; color: #000; line-height: 15px; text-align: center; right: -8px; top: 50%; margin-top: -8.5px; z-index: 9; font-size: 15px; font-weight: 400}
+.cars .list-view .place-attractions h6   {font-size: 13px; line-height: 16px;padding-bottom: 8px;}
+.place-attractions-right    {width: 45%; padding-left: 13px; position: relative;}
+.place-attractions h6   {font-size: 14px; line-height: 16px; color: #333333; font-weight: 600; padding-bottom: 4px;}
+.place-attractions-left ol {list-style: none;}
+.place-attractions-left ol li   {color: #333333;  padding-left: 14px; position: relative; font-size: 14px; line-height: 25px; padding-bottom:1px;}
+.place-attractions-left ol li:before  {content: ""; position: absolute; left: 0; top: 10px; width: 7px; height: 7px; border: 1px solid #9f9f9f; border-radius: 7px;}
+.cars .list-view .place-attractions-left ol li:after {width:2px; height: calc(100% - 14px); content: ""; position: absolute; left: 6px; top: 16px; background: #e0e0e0;} 
+.place-attractions-left a.others    {font-size: 11px; color: #0072bc; line-height: 16px; padding-bottom: 1px; }
+.place-attractions-left a.others:hover  {background:#0072bc; color: #fff; padding-left: 4px; padding-right: 4px; }
+.place-attractions-right figure {margin-bottom: 5px;}
+.place-attractions-right figure img {max-width: 100%; height: auto; display: block;width: 155px;}
+.place-attractions-right span   {display: block; font-size: 12px; color: #333333;}
+.place-attractions .place-attractions-right h6 {font-weight: 400;}
+.place-attractions-right .seating-capacity {margin-top: 10px;}*/
+
+/*.cars .pkg-similar-list > li .seating-capacity  {width: 205px;}*/
+/*.cars .pkg-similar-list > li .seating-capacity span {display: block; font-size: 10px; color: #838383;}*//* Modify 
+.cars .list-view .place-attractions-right .seating-capacity span { display: block; font-size: 10px;  color: #838383;}
+.cars .list-view .place-attractions-right   figure img  {width: 133px; height: auto; object-fit: cover;}*/
+/*.cars .pkg-thumbnail .thumb-wrap .img-sec .tour-likes .likes-counter    {font-weight: 600;}
+.cars .pkg-listing .pck-days li + li:before {content: ""; width: 1px; height: 17px; background: #d2d3d4; top: 5px;}
+.cars .pkg-listing .pck-days li:last-child::before{display: none !important;}
+.cars .grid-view .place-attractions-right .seating-capacity,
+.cars .grid-view .place-attractions-right .more-details,
+.cars .grid-view .place-attractions-right .upgrade-car,
+.cars .recommended-cars .col-mob-6 .seating-capacity{display: none;}
+/*.cars .recommended-cars .ajax-entry-rec .place-attractions, .cars .grid-view .ajax-entry-rec .place-attractions{border-top: 1px solid #eaeaea;}
+/*.inclusions ul li i.inclusion1:before   {content: ""; display: inline-block;  width: 18px; height: 14px; background: url(../images/common/icons/inclusion-icon1.png) left center no-repeat;}
+.inclusions ul li i.inclusion2:before   {content: ""; display: inline-block;  width: 18px; height: 14px; background: url(../images/common/icons/inclusion-icon2.png) left center no-repeat;}
+/*.cars .pkg-thumbnail .thumb-wrap .img-descr .inclusions span    {display: inline-block; font-size: 13px; line-height: 14px; color: #818181; top: -4px;}
+.cars .pkg-thumbnail .inclusions{margin-bottom: 0px;padding-top: 6px; margin-top: 0}
+.cars .list-view .place-attractions-left    {padding-right: 10px; width: 52%;}
+.cars .list-view .place-attractions-left ol li   { padding-left: 24px; font-size: 13px; line-height: 16px; padding-bottom:10px;}
+.cars .list-view .place-attractions-left ol li em{font-size: 11px; color: #6b92c5; font-style: italic;}
+.cars .list-view .place-attractions-left ol li:last-child   {padding-bottom: 6px;}
+.cars .list-view .place-attractions-left ol li:before    { top: 2px; width: 14px; height: 14px;  border-radius: 14px; border-color: #070707;}
+.cars .list-view .place-attractions-left ol li:last-child:after {display: none;}
+.cars .list-view .place-attractions-left a.others    {font-size: 12px;}
+.cars .list-view .place-attractions-left:before {width: 21px; height: 21px; font-size: 17px; line-height: 17px;     right: -11px; margin-top: -10.5px;}
+.cars .list-view .place-attractions-right   {padding-left: 22px; padding-right: 10px;  width: 48%; position: relative;}
+.cars .list-view .place-attractions-right h6    {font-size: 14px; font-weight: 700;}
+.cars .list-view .place-attractions-right figure {margin-bottom: 10px;}
+.cars .list-view .place-attractions-right span   {display: block; font-size: 13px; color: #333333; }
+.cars .list-view .cars .pkg-thumbnail .offer-txt {font-size: 13px;}
+.cars .list-view .place-attractions-right a.upgrade-car {position: relative;margin-left: 20px;display: inline-block;height: 29px;line-height: 26px;font-size: 13px;color: #fff;padding: 0 12px;border-radius: 3px;margin-top: 11px;background: #6a92c5;}
+.cars .list-view .place-attractions-right a.upgrade-car.active:after{z-index: 999; position: absolute; left:57%; bottom:-11px; content: '';  width: 8px;  height: 8px; background: url(../images/common/icons/fa-custom-top-blue.png) no-repeat center center;}
+.cars .list-view .transfer-details a.recomended-btn{position: relative;}
+.cars .list-view .transfer-details a.recomended-btn.active:after{z-index: 999; position: absolute; left: 48%; bottom: -14px; content: '';  width: 8px;  height: 8px; background: url(../images/common/icons/fa-custom-top-blue.png) no-repeat center center;}
+.cars .list-view .place-attractions-right a.more-details{position: relative;}
+.cars .list-view .place-attractions-right a.more-details.active:after{z-index: 999; position: absolute; left: 39%; bottom: -19px; content: '';  width: 8px;  height: 8px; background: url(../images/common/icons/fa-custom-top-blue.png) no-repeat center center;}
+.cars .list-view .place-attractions-right a.upgrade-car:hover   {}
+.cars .price-info .starting-txt{text-align: left;}
+.tour-city-name {font-size: 13px;color: #333333;}
+.cars .list-view .pkg-thumbnail .thumb-wrap .img-descr .pkg-days {padding-bottom: 6px;}
+.car-tab .car-form-element .form-des-element input.input-edit{ padding-right: 30px}*/
+/*Cars - Within City list view : Ends*/
+
+
+/*13-07-2017*/
+.cartransfer-return{ display: none}
+.nonshare .cartransfer-oneway{ display: none}
+.nonshare .cartransfer-return{ display: block}
+/*13-07-2017*/
+
+
+/*04-07-2017*/
+/*.car-tab #Multicity{ position: static}
+.car-tab #Multicity .widget-form-elements > li{ width: 30%}
+#Multicity .pckup-cont{ width: 20% !important} 
+.search-sec .form-sec .car-tab  .multi-rw-cont{ background: none; margin-top: 10px;}
+.search-sec .form-sec .car-tab  .multi-rw-cont .frm-cont,
+.search-sec .form-sec .car-tab  .multi-rw-cont .to-cont{ width: 50% !important}
+.search-sec .form-sec .car-tab  .multi-rw-cont .act-col{ bottom: 29px;}
+.search-sec .form-sec .car-tab  .multi-rw-cont .act-col > span{ text-transform: uppercase}
+/*04-07-2017*/
+
+/******** Common Starts *********/
+
+.white-bg {background-color: #fff;}
+
+
+
+
+
+/*.cars .list-view .select-seats-contain > .pkg-brief{margin-bottom: 15px;}
+.cars .list-view .select-seats-contain > .pkg-brief,.cars.amendment.packages .steps-container > .pkg-brief strong{font-size: 16px}*/
+
+/* Car Seat Selection Starts */
+.sel-seats-wrap.seats-theme-type-2{position: relative;width: 100%;display: block !important;box-shadow: 0 0 0 transparent; background: #f6f8fd; border: 1px solid #d6d6d6;right: 0;}
+/* Car Seat Selection Ends */
+
+/* Page - car-transfer-cancel-traveler-review.shtml */
+
+
+
+
+/* Page - self Drive Starts */
+
+/*
+.cars.amendment.self-drive .pkg-info > .pkg-img{ min-width: 145px;width: 145px;}
+.cars.amendment.self-drive .pkg-brief,.cars.amendment.packages .pkg-brief{margin-bottom: 20px;}
+.cars.amendment.self-drive .pkg-similar-list.rcmd-extrs{padding: 20px;box-shadow:0 0 0 0 #000;}
+.cars.amendment.self-drive .pkg-similar-list.rcmd-extrs > ul{border: 1px solid #d6d6d6;}
+.cars.amendment.self-drive .pkg-similar-list.rcmd-extrs > ul > li.head > div{background-color: #f5f5f5;padding-top: 20px;padding-bottom:10px;}
+.cars.amendment.self-drive .pkg-similar-list.rcmd-extrs > ul > li > div{background-color: #fff;}
+.cars.amendment.self-drive .pkg-similar-list.rcmd-extrs > ul > li.active > div{background-color: #ecf3fd; text-align: left}
+.cars.amendment.self-drive .pkg-similar-list.rcmd-extrs > ul > li > div.price-sec{ text-align: left}
+
+
+.cars.amendment.self-drive .steps-container .step{border: 1px solid #dadada;}
+.cars.amendment.self-drive .steps-container .step-content{margin-bottom: 0; border: none;}
+.cars.amendment.self-drive .pkg-dtl ol.price-details{margin-left: 15px;}
+
+.cars.amendment.self-drive.search-result .fa-custom-car-purple:before {text-align: center;width: 33px;height: 15px;margin: 0px auto;background-image: url(../images/common/icons/fa-custom-car-purple.png);background-position: -2px -9px;}
+.cars.amendment.self-drive.search-result .list-view .pkg-thumbnail .offer-txt{display: block;}
+.info-block .pkg-dtl ul.price-details li .description .sub-title{display: block;}
+
+*/
+
+/* Page - self Drive Ends */
+
+/* Model Container */
+.modal-type01 .modal-container .row > [class^="col"] > label{font-size: 14px;display: block;text-align: left;padding-left: 26px;}
+.post-booking .bkg-details .list-icons-big > li{  margin-bottom: 0; vertical-align: top}
+.post-booking .bkg-details .desr-opts{ margin-bottom: 10px;}
+.bkng-status-container{ background: #fff; border:1px solid #d8d8d8}
+.bkng-status-container .table-bordered{ border:0}
+/*
+.amendment.review-refund .booking-details .booked-pkg .section .bkng-status .bkng-status-container .pkg-bkng-dtls h5.sub-head{ padding-bottom: 10px;}
+.amendment.review-refund .booking-details .booked-pkg .section .bkng-status .bkng-status-container .pkg-thumbnail{ border: 0}*/
+/******** Media Starts *********/
+.sel-seats-wrap .rht-sec .book-btn{ min-width: 125px; font-weight: 700;}
+/*
+.amendment .styled-select .btn-group .btn .caret::before{ background: none; margin-top: -10px}
+.amendment.cars .top-mid-sec.pkg-add{ position: relative; z-index: 99}
+
+.cars .list-view  .pkg-pace li{ width: 33.333%}*/
+/*.cars .booked{color:#ff0000; font-size:12px; text-align:left; padding:25px 0px; width:148px;}*/
+/*.amendment.review-refund .right-md .info-block .price-brekup > .add-refund{ border-top: 1px solid #d0cfce; margin-top: 9px; padding:12px 0 0 }*/
+
+/***** Cars Amendment Ends *****/
+
+.pkg-bar ul.pkg-bar-list li.pck-info{ width: 20%; padding-left: 20px;}
+.itnerary-desc{ max-width: 580px;}
+.cars .customize-trip-list .schedule-details .droppable-sect.iti-details .pkg-details .pkg-feature-img-descr p{ font-style: 14px} 
+
+/*.cars.share.search-result .pkg-list.listing{ padding-top: 10px;}*/
+.transfr-incl .transfr-incl-icons > i.fa-custom-baggage-2.grey.fa-1x{ position: relative; top: 2px;}
+
+.popup-box.theme01 .para, .conf-cont .para b{ font-weight: 600}
+.pkg-bar .actn-btn-sec > ul > li{ }
+
+/*.grid-view .list-view .details-sec{ display: block}*/
+.sel-seats-wrap  .btn.btn-blue{ width: 140px; margin: 0 auto}
+
+
+
+
+
+.pkg-bar ul.pkg-bar-list li li span.trip-edit{ color: #000096; font-size: 11px; vertical-align: top; margin-left: 5px; cursor: pointer}
+/*.cars .pkg-listing .offer-price  .price{ padding-top: 16px;}*/
+.cars .pck-info .list-icons-big > li{ width: 100%}
+.cars .pkg-similar-list ul > li .car-type > figure{ float: left; margin-right: 10px;}
+.cars .customize-trip-list .schedule-details .iti-details .pkg-details .pkg-feature-img-descr .tool-tip > a:before { bottom: -9px}
+.trip-edit-popup .modal-type01.type-02{ position: static}
+.multi-city .pkg-bar ul.pkg-bar-list li.trip-edit-wrap{ display: none}
+/*.within-city .pkg-thumbnail .price-info,
+.within-city.cars .list-view .price-info{ margin-top: 5px;}*/
+
+/*.cars .pkg-thumbnail .old-price{display:block; position: absolute; left: 0; top: -3px;}
+.cars .pkg-thumbnail .price-info{ position: relative; padding-top: 10px;}*/
+/*04-09-*2017*/
+/*.inner-pg .search-sec .styled-select .btn-group .btn.dropdown-toggle{height: 42px;}*/
+.modal-type01.customize-popup #btn-trip-book{ display: none}
+.modal-type01.customize-popup #btn-trip-continue{ display: block}
+.modal-type01.booknow-popup #btn-trip-book{ display: block}
+.modal-type01.booknow-popup #btn-trip-continue{ display: none}
+.activity-list .HrzTab .resp-tabs-list.theme-blue li{ border-color: #000096 }
+.activity-list .HrzTab .resp-tabs-list.theme-blue li a{ background: #000096}
+.activity-list .HrzTab .resp-tabs-list.theme-blue li.r-tabs-state-active{ border-color: #000 }
+.activity-list .HrzTab .resp-tabs-list.theme-blue li.r-tabs-state-active a{ background: #fff}
+.comp-tbl-dev .comp-tbl-list.count-four > li.comp-tbl-servic{ width: 23%}
+.comp-tbl-dev .total-sec .comp-tbl-list > li{ vertical-align: top}
+.cars .details-container .photos-panel .tour-likes{bottom: 60px;}
+.cars .customize-trip .schedule-tl:before{content: "";position: absolute;width: 2px;height: 40px;left: 8px;top: 24px;background: url(http://dev.ui.coxandkings.com/in/en/resources/images/common/custom-border2.png) left top repeat-y;}
+/*04-09-*2017*/

@@ -1,0 +1,1465 @@
+/* Globle CSS */
+/* Text Color */
+.black{color: #000 !important;}
+
+/* Button CSS */
+.btn-cont {font-size: 14px;display: block;}
+.btn-cont .btn{padding-left:14px; padding-right: 14px; margin-left: 15px;}
+
+/*** Email Login Page Strts ***/
+/*signup/Signin box starts*/
+.signup-box{padding:16px; position: relative}
+.signin-box {padding: 30px 50px;}
+.signin-box .signin-form .label-head{font-size: 14px; color: #000;font-weight: 600; margin-bottom: 5px;}
+.signin-form {position: relative; padding-right: 90px;}
+.signin-form .txtbox{font-weight: 400;}
+.signin-form .form-group {margin-bottom: 10px;}
+
+.signin-box .btn {font-weight: 700; padding: 5px 15px; border: 1px solid #a4a5db; margin-top: 10px;}
+.signin-form .lnk-frgt-pw { margin-top: 3px;}
+.frgt-pw {display: block; font-size: 12px;  margin-top: 8px;}
+.signin-form .checkbox-container{cursor: pointer;  font-size: 14px; white-space: nowrap}
+.signin-form .styled-checkbox {margin-right: 10px; margin-top: 1px;}
+.signup-lnk {font-size: 16px; margin-top: 20px; padding-left:75px; padding-right: 20px}
+.signup-lnk > .qstn,.signup-lnk > a {display: block;}
+.vert-seprter { position: absolute; right: 0px; font-size: 15px; height: 100%;}
+.vert-seprter span{position: absolute; display: inline-block;  background: #7b7b7b; color: #fff; border-radius: 6px; padding: 2px 8px; text-transform: uppercase;font-size: 10px; text-align: center; top: 50%; margin-top: -5px; z-index: 2;}
+.vert-seprter:after{content: ''; height: 100%; width: 1px; background: #d1d3d7; display: inline-block; position: absolute; right: -14px; top: 0px;}
+.sigin-social{padding-left: 75px; padding-right: 20px;}
+.sigin-social .sbtn{display: block; padding: 11px 15px; font-size: 15px; font-weight: 500; background: #999; color: #fff; border-radius: 4px; margin-bottom: 10px;}
+.sigin-social .sbtn i{display: inline-block; margin-right: 2px;}
+.sigin-social .sbtn.btn-fb{background: #295696;}
+.sigin-social .sbtn.btn-fb:hover{background: #0c3979;;}
+.sigin-social .sbtn.btn-g{background: #dd4931;}
+.sigin-social .sbtn.btn-g:hover{background: #bf2910;}
+.btn-group-sec{margin-top: 10px;padding-bottom: 15px;}
+.mend-sec{margin: 5px 0px; margin-bottom: 12px; color: #999;}
+/*Signup/Signin box Ends*/
+
+/*----------- IRCTC Login form start ----------*/
+.irctc-login-sec{padding: 30px 50px; position: relative; display: none}
+.irctc-header {padding: 18px 50px;; border-top: 1px solid #eee; cursor: pointer;}
+.irctc-header > * {display: table-cell; vertical-align: middle; padding-right: 10px;}
+.irctc-header > strong {font-size: 14px; }
+.irctc-login-sec .form-section .frm-txt{vertical-align: middle}
+.irctc-login-sec .form-section .form-group-sec > .row-sm > div{padding-bottom: 0px;}
+.lnk-create {font-size: 14px; display: block; padding: 5px 0px;}
+.irctc-login-sec .btn-sec {margin-top: 15px;}
+.irctc-login-sec .btn-login-cont {float: right; font-weight: 700; padding: 5px 15px; border: 1px solid #a4a5db; margin-top: 10px; }
+.irctc-header.inner{padding: 0px; border: 0px; padding-bottom: 10px; }
+/*----------- IRCTC Login form End ----------*/
+
+
+/*----------- Checkout-Email-Login-CreateNewAccount-Popup start ----------*/
+.rail .popup-box.popup-sm .popup-in h5.head{ font-size:16px; color:#333333; font-weight:600; padding-top:20px; padding-bottom: 20px;}
+.rail .popup-box.popup-sm .popup-in ul li{ font-size:14px; color:#333333; }
+.rail .popup-box.popup-sm .popup-in ul li:first-child{ font-weight: 600;}
+.rail .popup-box.popup-sm .popup-in ul li:last-child{ padding-bottom:20px;}
+.rail .popup-box.popup-sm .popup-in h6.head{    padding-bottom: 6px;border-top:solid 1px #e7e7e7; font-size:14px; color:#333333; font-weight:600; padding-top:18px; }
+.rail .popup-box.popup-sm .popup-in ol { counter-reset: list;}
+.rail .popup-box.popup-sm .popup-in ol > li {list-style: none; position: relative; padding-left:15px; font-size:14px; color:#333333;  margin-bottom:15px;}
+.rail .popup-box.popup-sm .popup-in ol > li:before {content: counter(list) ") ";counter-increment: list; position: absolute;left:0px;}
+.rail .popup-box.popup-sm .popup-in .btn.btn-primary{ font-size:12px; padding: 4px 12px;}
+/*----------- Checkout-Email-Login-CreateNewAccount-Popup end ----------*/
+
+.forgot-note {margin-right: -65px;}
+.forgot-note span{font-size: 12px;}
+.forgot-note .msg-success .fa { position: absolute;left: 2px; color: #01781f; font-size: 24px;}
+.forgot-note .msg-success { padding-left: 32px;position: relative; display: block; top: 3px;}
+
+/*** Email Login Page Ends ***/
+
+/*** Checkout Page Starts ***/
+/*Aside Block starts*/
+.aside-block {border: 1px solid #d6d6d6;background: #f6f4f3; margin-bottom: 15px;}
+.list-icons-big > li > .icon-sec > i    {display: inline-block;}
+.list-icons-big > li > .icon-sec > i.fa-custom-seating-capacity{width: 20px;}
+.fa-custom-seating-capacity::before { width: 20px; height: 32px; background: url(../images/common/icons/custom-seating-capacity.png) center center no-repeat;}
+.fa-custom-padlock::before { width: 14px; height: 19px; background: url(../images/common/icons/fa-custom-padlock.png) center center no-repeat;}
+/* Summary head css Start */
+.info-block .heading{cursor:pointer;font-size: 24px;color: #000;font-weight: 300;margin: 6px 15px;}
+.info-block .heading a{color: #37336b;display: block; font-weight: 400; position: relative;}
+.info-block .heading a > span{ display: none}
+.info-block .heading .colaps-icon:before { position: relative; right: 0px; display: inline-block; cursor: pointer; font-size: 14px; color: #1177d7; overflow: hidden; z-index: 9; width: 30px; font-style: normal; top: 5px; content: "\f068";}
+/* Summary head css Ends */
+
+.info-block p { font-size: 12px; color: #333333; margin-bottom: 0px;line-height: 22px;}
+/* help box css Start */
+.info-block .cntct-info{padding: 0px 12px; background: #f7f8fd;}
+.info-block .cntct-info > div{border-bottom: 1px solid #d8d8d8;padding: 12px 0px;}
+.info-block .cntct-info .icon{color: #c7d6ed;font-size: 46px;width: 55px;vertical-align: middle;}
+.info-block .cntct-info .ph-dtl{display: inline-block;font-size: 18px;color: #000;vertical-align: middle;}
+.info-block .cntct-info .ph-dtl .phone-number{font-weight: 600;display: block; line-height: 18px}
+/* help box css Ends */
+
+.info-block .price-brekup{border-top:1px solid #d8d8d8;margin: 10px;padding-top: 10px;}
+.info-block .price-brekup > ul > li + li{ margin: 15px 0px;}
+.info-block .price-brekup > .add-refund{border-bottom: 0 none;padding: 5px 15px; font-size: 14px;}
+.info-block .price-brekup > li{border-top: 0; padding-top: 0px;}
+.info-block .pkg-dtl {padding-left: 20px;border-bottom: 1px solid #d8d8d8;position: relative;}
+.info-block .pkg-dtl .price{color: #000;font-size: 12px;position: absolute;right: 2px;top: 0px;}
+.info-block .pkg-dtl .icon{display: inline-block;width: 13px;margin-left: -17px;vertical-align: middle;}
+.info-block .pkg-dtl .detail-container{display: inline-block;vertical-align: text-top;position: relative;width: 100%;}
+.info-block .pkg-dtl .detail-container .package-title{font-weight: 700;color: #000;position:relative;cursor:pointer;padding-right: 65px; font-size: 14px;}
+.info-block .pkg-dtl .detail-container .package-title::before{position:absolute; left:-17px; content: "\f105"; color: #6b92c5;  font-size: 18px; top:-4px;}
+.info-block .pkg-dtl .detail-container .package-title.collapsed::before{content: "\f107";}
+.info-block .pkg-dtl .detail-container .package-title span{font-weight: 600;}
+.info-block .pkg-dtl .detail-container .package-title .car-img  {display: inline-block; vertical-align: middle;}
+.info-block .pkg-dtl .detail-container .package-name{position: static;background: none;font-size: 14px;padding: 0px;color: #000;font-weight: 600;display: block;margin:0px 3px 0px 0px;/* text-transform: uppercase*/}
+.info-block .pkg-dtl .detail-container .packge-desc {font-size: 12px; line-height: 15px;color: #000;margin-bottom: 10px;}
+.info-block .pkg-dtl .detail-container h4{font-size: 14px;padding: 3px 0px;}
+.info-block .pkg-dtl ul.price-details{padding-bottom: 0px;}
+.info-block .pkg-dtl ul.price-details li{font-size: 12px;color: #000;margin:6px 0px;}
+.info-block .pkg-dtl ul.price-details li:last-child{margin-top:10px;}
+.info-block .pkg-dtl ul.price-details li .charges{float: right;padding-right: 2px;}
+.info-block .pkg-dtl ul.price-details li .description{background: none;width: 73%;display: inline-block;}
+.info-block .pkg-dtl ul.price-details .pay-ttl .description{ font-weight: 700; font-size: 14px}
+.info-block .pkg-dtl ul.price-details .pay-ttl .charges {font-weight: 600; font-size: 14px}
+.info-block .pkg-dtl .detail-container .packge-desc.large li{font-size: 14px; color: #262523; font-weight: 600;}
+.info-block .pkg-dtl .detail-container .packge-desc.large li:after{width: 1px; background:#262523; height: 15px; bottom: auto; top:0}
+.info-block .pkg-dtl .bg-block { background: #fff; margin-left: -30px;margin-right: -10px; padding: 10px 10px 0px 30px; margin-bottom: 15px;}
+.info-block .pkg-dtl .detail-container.sub-details > .package-title, 
+.info-block .pkg-dtl .detail-container.sub-details > .price {font-size: 12px; color: #0056a7; font-weight: normal; }
+.info-block .pkg-dtl .detail-container.sub-details > .package-title:before { content: '\f068'; font-size: 12px; top:1px;}
+.info-block .pkg-dtl ul.price-details .sub-ttl {text-align: left; font-family: inherit; font-weight: 600;}
+.info-block .pkg-dtl ul.price-details li.price-head{ margin-bottom: 15px;}
+.info-block .pkg-dtl .icon{margin-left: -12px;}
+
+.info-block .tot-price{position: relative;color: #000096;font-weight: 700;font-size: 18px;margin-top: 10px;}
+.info-block .tot-price .price-value{position: absolute;top: 0px;right: 0px;}
+.info-block .tot-price .price-head{padding-left: 20px; padding-right: 80px;}
+.info-block .tot-price .price-head .sm-txt{ font-size: 12px; color: #000; display: block; font-weight: 400}
+.info-block .tot-price .price-head p{ text-transform: capitalize; color:#0061ac; font-size:12px; line-height:13px;}
+.info-block .tot-price .price-head.big{border-bottom: 1px solid #d8d8d8; padding-bottom: 10px;}
+.info-block .tot-price.paid-amt .price-head,
+.info-block .tot-price.paid-amt .price-value{ color: #88c33f; font-size: 15px;}
+.info-block .tot-price.wlt-prc {background-color: #d1d0cf;color: #000000 !important;font-size: 15px !important;margin-left: -10px;margin-right: -10px;padding: 7px 10px 7px 15px;margin-bottom: 15px;}
+.info-block .tot-price.wlt-prc .price-value {top:10px; right: 10px;}
+
+.info-block .pkg-dtl-block{padding-left:17px;}
+.info-block .pkg-dtl-block .icon{display:inline-block;width: 10px;margin-left: -17px;color: #7599c8;font-size: 18px;vertical-align: middle;}
+.info-block .pkg-dtl-block .detail-container{display: inline-block;vertical-align: text-top;position: relative;width: 100%;}
+.info-block .pkg-dtl-block .detail-container h5{font-size: 13px;color: #000;}
+.info-block .pkg-dtl-block .detail-container .package-title{font-weight: 700;color: #333;padding-bottom:1px; font-size: 14px;}
+.info-block .pkg-dtl-block .detail-container .package-title strong{display: block; font-weight: 600;}
+.info-block .pkg-dtl-block .detail-container .package-title > span{color:#000}
+.info-block .pkg-dtl-block .detail-container .package-name{position: static;background: none;font-size: 14px;padding: 0px;color: #000;font-weight:                                                             600;display: block;margin: 5px 0px;}
+.info-block .pkg-dtl-block .detail-container .packge-desc{font-size: 12px;color: #4d4d4d;line-height: 21px;}
+.info-block .pkg-dtl-block .detail-container .status.cancel { color: #d50404;}
+.info-block .pkg-dtl-block .detail-container .status.in-process {color: #6b92c5; text-transform: none;}
+.info-block .pkg-dtl-block .border-list > li::after {top: 5px;bottom:4px;}
+.info-block > ul{margin: 0px 13px;}
+.info-block > ul > li { display: block; border-top: 1px solid #e7e7e7; padding-top: 8px; margin-bottom: 10px;}
+.info-block .status-text {font-size: 12px;}
+.info-block .status-text span{font-weight: 700; text-transform: uppercase;}
+.info-block .price-details > li > b{font-size: 14px;}
+.info-block .price-details > li > b > i {font-size: 11px;color: #6b92c5;}
+
+.info-block.refund .tot-price .price-head{padding-left: 5px; padding-right: 80px;}
+.info-block.refund .tot-price {padding-bottom: 10px;}
+.info-block.refund .pkg-brkup{border-top: 1px solid #d8d8d8; padding-top: 18px;padding-left: 5px;}
+.info-block.refund .pkg-tl.txt-lg {font-size: 14px; /* margin-left: -15px;*/}
+.info-block.refund .pkg-brkup ul {padding-bottom: 15px; border-bottom: 1px solid #d8d8d8;}
+.info-block.refund .pkg-brkup ul li{padding-top: 5px; position: relative}
+.info-block.refund .pkg-brkup ul li .charges{position: absolute; right: 00px;}
+.info-block.refund .chk-refund {border-top: 1px solid #d8d8d8; padding-top: 15px; padding-bottom: 10px; font-size: 14px; padding-left: 5px;}
+.info-block.refund .chk-refund input{ vertical-align: middle}
+.info-block .prz-ttl-amt li{ text-transform:capitalize; color:#88c33f;margin-top: 10px;}
+.info-block .prz-ttl-amt li span{ color:#88c33f;text-transform: lowercase; font-size:16px;}
+.info-block .prz-ttl-amt li + li{  padding-left:0px; color:#88c33f;}
+.info-block .prz-ttl-amt li .total-amt{color:#88c33f;}
+.info-block .tot-pricess{ border-top:none;}
+.info-block .safe-trnsaction{ border-bottom: 0px;}
+.info-block .safe-trnsaction { border-top:1px solid #d8d8d8; margin-top: 10px; padding-left: 15px; padding-top: 5px;}
+.info-block .safe-trnsaction .package-sub-title i{ vertical-align: top; margin-right: 5px}
+.info-block .safe-trnsaction ol.price-details {margin-left: 15px; list-style: decimal;}
+.info-block .safe-trnsaction ol.price-details li{ list-style: inherit}
+.info-block .safe-trnsaction .package-sub-title{padding:10px 0px; font-size:14px; font-weight:600;color:#000; width: 100%}
+.info-block .safe-trnsaction p{padding:10px 5px; font-size:12px; font-weight:600; display:inline-block; color:#000;}
+.info-block .safe-trnsaction ul.price-details li{margin-bottom: 2px;}
+.info-block .pmnt-info-list.purple{color: #5a00e2;}
+.info-block .pmnt-info-list {padding-left: 19px;}
+.info-block .price-head .price-head-icon > a:before{background: url(../images/common/icons/fa-custom-plus-thinblue.png) no-repeat center center; width: 16px; height: 9px; content: '';position: absolute;left: 0px;margin-top: 4px;}
+.info-block .price-head .price-head-icon.collapsed > a:before{background: url(../images/common/icons/fa-custom-price-head-blue.png) no-repeat center center;}
+.info-block .cnk-wallet{ position: relative; background: #fff; margin-left: -10px; margin-right: -10px; padding-top: 7px; padding-bottom: 6px; margin-bottom: 0; padding-left: 10px; font-weight: 14px; color: #000;}
+.info-block .cnk-wallet .price-value{position: absolute;top: 50%;right: 20px; font-size: 14px; font-weight: 700; margin-top: -10px; color: #000}
+.info-block .cnk-wallet .price-head { font-size: 14px; font-weight: 700;color: #000; padding-left: 25px} 
+.info-block .cnk-wallet .price-head b{ font-size: 15px;}
+
+.general .find-store .sort-sec.top label{ vertical-align: middle}
+.general .txt-desc p > a{ color: #000096}
+.sm-tl{font-size: 13px; padding: 0px 0px 7px 0px; font-weight: 600; color: #000000;}
+.md-tl{font-size: 14px; padding: 0px 0px 7px 0px; font-weight: 600; color: #000000;}
+
+/*Aside Block Ends*/
+/***Right section Ends***/
+
+/****** Form Secton starts *****/
+.form-section > li {padding-right: 0;}
+.form-section > li.no-top-bdr {border-top:none; padding-bottom:20px;}
+.form-section > li {padding-right: 35px;position: relative;border-bottom: none;margin-bottom: 0px;margin-top: 2px;}
+.form-section > li + li {padding-top: 20px;border-top: 1px solid #dddfe3}
+.form-section .frm-txt{font-size: 14px;display: table-cell;margin-left: 0px;width: 120px;line-height: 16px;vertical-align: top;  min-width: 120px;padding-top: 0px;font-weight: 600;}
+.form-section  .form-group-sec{position: relative;max-width: 532px;min-width: 532px;display: table-cell;vertical-align: top;}
+.form-section .form-group-sec > .row > div   {padding-left: 6px; padding-right: 6px; padding-bottom:15px}
+.form-section .radio-group-sec .radio-container{padding-right: 53px;font-size: 13px;color:#000096;cursor: pointer;}
+.form-section .frm-txt-sub.black{color:#000;font-size: 14px;font-weight: 600;}
+.form-section .form-control[disabled], .form-section .form-control[readonly], .form-section fieldset[disabled] .form-control{background-color: #fbfcfe;color:#626262;opacity: .40;}
+.form-section  .form-group-sec .radio-group-sec{margin-top: 6px; margin-bottom: 10px;}
+.form-section  .form-group-sec .clone-sec.ajaxform .frm-txt-sub{ display: none}
+/****** Form Secton Ends *****/
+.trvlr-dtl-block .pkg-brief{font-size:14px;padding-right: 230px; margin-bottom: 15px;}
+.trvlr-dtl-block .pkg-brief .pkg-desc > ul > li{font-size:14px; line-height: 22px}
+.trvlr-dtl-block .pkg-brief .travelers-act-btns{ position: absolute; right: 18px; top: 10px;}
+.trvlr-dtl-block .pkg-brief .travelers-act-btns .travelers-details{padding: 2px 10px;}
+.trvlr-dtl-block .pkg-brief .pkg-desc span{display:inline-block;}
+.pkg-brief .pkg-desc > ul > li{font-size:14px;}
+.pkg-brief .travelers-act-btns{ position: absolute; right: 18px; top: 10px;font-size: 18px;}
+.pkg-brief .travelers-act-btns .travelers-details{padding: 2px 10px;}
+
+/*Overview section starts*/
+.overview {padding: 15px 20px 15px 16px;color: #000;position: relative;border-bottom:1px solid #dddfe3;margin-bottom:-1px}
+.pkg-brief{display: table;width:100%;}
+.pkg-desc{display: table-cell;position: relative;padding-right: 60px;}
+.overview .right-sectn{display: table-cell;width: 130px;text-align: right;}
+.overview .pkg-detail .right-sectn{float: right}
+.overview .traverlers-price {font-size:18px;}
+.overview .inclusions ul > li a{ color: #4e4f51; opacity: 0.8; font-size: 16.09px;}
+.overview .pck-img{display: table-cell; vertical-align: top; width: 140px;}
+.overview .pck-details{display: table-cell; vertical-align: top; padding-left: 10px}
+.overview .pkg-container .inclusions{margin-top: 10px;}
+.overview .pkg-container{display: table;width: 100%;margin: 0px; margin-top: 10px;}
+.overview .pkg-brief + .pkg-container{margin: 20px 0 10px; }
+.overview .pkg-brief + .pkg-container .inclusions{margin-bottom: 0px;}
+
+.overview .price-panel{display: table;}
+.overview .price-blck{display: table-cell;color:#000;font-size: 13px;max-width: 300px;padding-right: 10px;padding-left: 18px;}
+.overview .price-blck > span{display: block;}
+.overview .price-panel .head{font-weight: 500;}
+.overview .price-panel .cont{font-weight: 600;}
+.overview .price-blck.new-prc .head{font-weight: 600;}
+.overview .price-blck.new-prc .cont{font-weight: 600;}
+.overview .instructions{font-size: 12px;padding-bottom: 13px;}
+.overview h5.sub-head strong{font-size: 16px}
+.addtional-info.type-02{margin-top: 20px;}
+.overview .addtional-info.pck-info{margin-top: 15px;}
+.overview .instructions i{margin-right: 5px;}
+.overview .pkg-tl{font-weight: 600;}
+.overview .travl-time-dtls{margin-top: 15px;}
+.fa-custom-info-red-sm::before {width: 12px;height: 12px;background-image: url(../images/common/icons/fa-custom-info-red-sm.png);}
+.dtls-lnk{position: absolute;right: 0;top: 5px;color: #6b92c5;font-size: 12px;cursor: pointer;}
+.dtls-lnk.collapse-link:before{content: "-"; padding-right: 5px; vertical-align: middle;}
+.dtls-lnk.collapse-link.collapsed:before{content: "+";}
+/****** List icons Starts *****/
+.pck-details .list-icons-big.count-two > li > .icon-sec       {width: 33px; padding-right: 10px;text-align: left;}
+.pck-details .list-icons-big.count-two > li:nth-child(2n) > .icon-sec  {width: 33px; padding-right: 10px; text-align: right;}
+.pck-details .list-icons-big.count-two > li > .icon-sec + .icon-details {padding-left: 0px;}
+.pck-details .list-icons-big.count-two > li {padding-bottom: 8px;}
+.lft-sec-cont .fa-custom-pax-seat{position: absolute; left: -22px;top: -5px;}
+.seat-info {padding-left: 18px}
+.lft-sec-cont li{font-weight: 600;}
+.more-lnk .hotel-room-details .cust-row-repeat .del-row-room{display: none;}
+.more-lnk .hotel-room-details .cust-row-repeat.clone-sec .del-row-room{display: inline-block; font-size: 17px}
+.more-lnk .hotel-room-details .cust-row-repeat.clone-sec .add-row-room{display: none;}
+
+/****** List icons Ends *****/
+/*Overview section Ends*/
+
+/*Visa-Services section starts*/
+.service-container{padding-left: 34px;padding-top: 5px;margin-bottom:20px;}
+.service-container .checkbox-container span {display:block; font-size:12px; color:#7e7e80;}
+.service-container .checkbox-container{font-size: 14px;color:#000;padding-right: 20px;}
+.service-container .instructions{color: rgba(0, 0, 0, 0.702);font-size: 13px;}
+.service-container table{max-width: 450px;margin-bottom: 10px;}
+.service-container table td,.service-container table th{text-align: center;background-color: #fff;font-size: 13px;color: #000;font-weight: normal;}
+.service-container .table-bordered>thead>tr>td,.service-container .table-bordered>thead>tr>th{border-bottom-width: 1px;}
+
+.service-container ul.travel-insurance-list{display: table;position: relative;margin-top: 6px;width: 100%; max-width: 570px; margin-bottom: 11px;}
+.service-container ul.travel-insurance-list li{display: table-cell;position: relative;padding: 10px 10px 3px 0px;}
+.service-container ul.travel-insurance-list li + li {padding-left: 34px;}
+.service-container ul.travel-insurance-list li span { display: inline-block; vertical-align: top}
+.service-container ul.travel-insurance-list li span > p { margin-left: 0; padding-left: 0;}
+.service-container ul.travel-insurance-list li span i.fa-custom-trip-cancellation{width: 43px;height: 47px;background-image: url(../images/common/icons/fa-custom-trip-cancellation.png) !important;top: 2px; background-repeat: no-repeat;}
+.service-container ul.travel-insurance-list li span i.fa-custom-baggage-loss{width: 48px;height: 47px;background-image: url(../images/common/icons/fa-custom-baggage-loss.png) !important;top: 2px; background-repeat: no-repeat;}
+.service-container ul.travel-insurance-list li span i.fa-custom-flight-delay{width: 37px;height: 47px;background-image: url(../images/common/icons/fa-custom-flight-delay.png) !important;top: 2px; background-repeat: no-repeat;}
+.service-container ul.travel-insurance-list li span i.fa-custom-medical-emergency{width: 40px;height: 47px;background-image: url(../images/common/icons/fa-custom-medical-emergency.png) !important;top: 2px; background-repeat: no-repeat;}
+.service-container ul.travel-insurance-list li span b{font-size: 12px;color: #000;display: block;font-weight: 400;margin-top: 10px;}
+.service-container ul.travel-insurance-list li span p,.service-container ul.travel-insurance-list li span .sm-text{font-size: 12px;color: #939393;display: block;font-weight: 400;max-width: 100px;line-height: 16px;}
+.steps-container .step .step-content .detial-info > .other-dtl > .optional-service label span a{font-size: 12px;color: #0058a3;}
+/*Visa-Services section Ends*/
+
+/*Total Price Starts*/
+.pkg-price{background:#fceadd;padding:14px 17px;text-align:right;font-size:24px;color:#000000;border-top:1px solid #e4e4e4;font-weight: 500;}
+.pkg-price .fa-rupee{font-size:90%; font-weight:lighter}
+.pkg-price .btn-continue{margin-left:10px;font-weight: 700; padding: 4px 12px; margin-top: -5px;}
+.pkg-price span{font-size:18px; margin-right: 5px; font-weight:600;}
+/*Total Price Ends*/
+
+/*.list-pax-cont {padding-top: 10px;}*/
+.list-pax-cont > li{border-bottom: #dddfe3 solid 1px;}
+.list-pax-cont > li:last-child{border-bottom: 0px}
+.list-pax-cont  li,.list-pax  li {padding:18px 17px;position: relative; padding-bottom: 0px;}
+.list-pax-cont > li dl dt,.list-pax > li dl dt{padding-bottom:20px;/*padding-right: 200px;*/}
+.list-pax-cont > li dl dt > span{font-size: 15px;font-weight: 600;color:#000096;}
+.list-pax-cont > li dl dt > span.grey{font-size: 12px;color:#626262; display: inline-block; margin-left: 10px}
+.accordion-style.list-pax-cont ul.form-section,.accordion-style.list-pax ul.form-section{margin-left: 40px;}
+.list-pax > li{border-top: #dddfe3 solid 1px; position: relative;}
+.accordion-style .list-pax .more-lnk .form-section, .accordion-style.list-pax-cont .more-lnk .form-section{margin-left: 0px}
+.list-pax-cont > li dl dt > span > b > span{ font-weight: 600}
+.list-pax-cont .form-section li,.list-pax-cont .form-section li,.list-pax .form-section li{padding-left: 0px;padding-right: 0;}
+.list-pax-cont > li [class^="fa-custom-"]:before,.list-pax > li [class^="fa-custom-"]:before{margin-right: 7px;margin-bottom: -2px;}
+.list-pax-cont .form-section > li.residential-address{border-top:none;padding-left: 120px;}
+.list-pax-cont > li .fa-custom-plus-blue-thin::before,.list-pax > li .fa-custom-plus-blue-thin::before{margin-bottom: 0px;}
+.list-pax-cont > li .fa-plus:before, .list-pax > li .fa-plus:before{padding-right: 5px;font-size: 13px;}
+.list-pax-cont .list-pax > li:last-child{padding-bottom:0px}
+.list-pax-cont > li > dl > dt .fa-custom-user-grey-thin::before { background-image: url(../images/common/icons/fa-custom-user-child-blue.png);}
+.list-pax > li dl dt > span{font-size: 14px;font-weight: 500;color:#6b96c1; font-weight: 600}
+.list-pax > li dl dt > span > small{font-size: 12px;color:#6b96c1;font-weight: 600;}
+.uline.collapsed .fa-plus:before{content: "\f068";}
+.list-pax.theme-03 .uline i, .list-pax.theme-03 .uline, .list-pax-cont .uline, .list-pax-cont .uline i {color: #000096;}
+.right-acord.mand-txt-cont,.right-acord.acrd-lnk-cont{width: 100%;text-align: right;display: block;}
+.right-acord.price-acord-cont{position: absolute;right: 0;}
+.mand-txt{font-size: 12px;color:#939394;font-weight: 400;}
+.mand-txt sup{color:#ff0000;}
+.list-pax-cont  .price-acord{font-size: 18px; font-weight: 500;color:#000;}
+.list-pax-cont .btn-group-sec .btn,.list-pax .btn-group-sec .btn{background-color: #6d91cb;}
+.list-pax-cont .btn-group-sec .btn:hover{background-color:#000096;}
+.residential-address{display: none;}
+.fa-custom-user-child-grey-thin::before {width: 16px;height: 17px;background-image: url(../images/common/icons/fa-custom-user-child-grey-thin.png);}
+.fa-custom-user-child-blue-thin::before {width: 16px;height: 17px;background-image: url(../images/common/icons/fa-custom-user-child-blue-thin.png);}
+.show-hide-txt{color:#000096;font-weight: 600; font-size: 14px;cursor: pointer;}
+.show-hide-txt.collapse-link:before{content:"-";font-size: 18px;font-weight: 700; padding-right: 5px;}
+.show-hide-txt.collapse-link.collapsed:before{content:"+";font-size: 18px;font-weight: 700;padding-right: 5px;}
+.activities-accord-cont .form-section > li{padding: 0 17px 0px 77px;}
+.activities-accord-cont .form-section > li .form-group-sec{min-width: auto;}
+.service-container .travel-insurance-list, .service-container  .lst-cnt{padding-left: 20px;}
+/**** Checkout flights start *****/
+.overview .details-sec.typ2 .details-sec-cont{padding:0px; padding-bottom: 10px}
+.overview .travl-time-dtls .date{margin-bottom: 0px;}
+/**** Checkout flights End *****/
+/*----------- Checkout-Travelers start ----------*/
+.list-pax-cont .person-dtls-tbl .fa-plus:before, .list-pax .person-dtls-tbl .fa-plus:before{padding-right: 0;}
+.details-sec-cont .singleline-info{ margin-top:50px; text-align: right;}
+.details-sec-cont .singleline-info li:last-child{ color: #006a1f;}
+.person-dtls-tbl .table .mend-star{ color:#ff0000;    font-size: 9px;}
+.or-click a{line-height: 34px; margin-left: 10px; color:#000096;}
+.person-dtls-tbl .table{margin-top: 10px;}
+.person-dtls-tbl .table>tbody>tr>td.srno{ width:6.88%;vertical-align: baseline; }
+.person-dtls-tbl .table>tbody>tr>td.name{ width:22.53%;}
+.person-dtls-tbl .table>tbody>tr>td.age{ width:5.49%;}
+.person-dtls-tbl .table>tbody>tr>td.gender{ width:11.54%;}
+.person-dtls-tbl .table>tbody>tr>td.berth-pref{ width:11.54%;}
+.person-dtls-tbl .table>tbody>tr>td.meal{ width:12.67%;}
+.person-dtls-tbl .table>tbody>tr>td.senior-citizen{ width:6.90%;}
+.person-dtls-tbl .table>tbody>tr>td.opt-berth{ width:6.90%;}
+.person-dtls-tbl .table>tbody>tr>td.senior-citizen,.person-dtls-tbl .table>tbody>tr>td.opt-berth{max-width: 40px;}
+.person-dtls-tbl .table>tbody>tr>td.nationality{ width:13.78%;}
+.person-dtls-tbl .table>tbody>tr>td.minus-btn{ width:2.78%;}
+.person-dtls-tbl .table>thead>tr>th{padding-top: 0px; font-weight: 600; border-bottom:solid 1px #dddfe3; padding-left:3px; padding-right:3px; vertical-align: top;}
+.person-dtls-tbl .table>tbody>tr>td{text-align: center; border-top:none; padding-top:15px; padding-left:3px; padding-right:3px;padding-bottom: 0;}
+.person-dtls-tbl .table>tbody>tr>td .add-morebtn{ text-align: left;}
+.person-dtls-tbl .table>tbody>tr>td .plus-icon{margin-top: 7px; border: solid 1px #000096;width: 20px;height: 20px;display: inline-block;text-align: center;border-radius: 15px; line-height: 19px}
+.person-dtls-tbl .table>tbody>tr>td.age input{ min-width:40px;text-align: center;}
+.person-dtls-tbl .checkbox-inline{margin-top: 9px;}
+.person-dtls-tbl .table>tbody>tr>td .btn-group .btn .caret::before{ right:-2px;}
+.person-dtls-tbl .table>tbody>tr.id-typ-rw td{padding-top: 5px;}
+.rail .steps-container.type02 .travel-booking-detail .travl-time-dtls.with-operator.tbl-style{ margin:0px auto; min-width:300px; max-width:300px;}
+.person-dtls-tbl .table>tbody>tr>td.minus-btn .plus-icon{line-height: 17px;}
+.chk-list-cont > li{padding: 6px 10px 6px 0px;}
+.chk-list-cont > li  li{padding: 6px 10px 6px 15px;}
+.prefer-cont{border-left:#dddfe3 solid 1px; margin-bottom: 30px;}
+.prefer-cont p{padding:5px 20px 5px 10px;font-size: 13px;}
+.prefer-cont p:last-child{padding-bottom: 20px;}
+.chk-list-cont{margin-top: 10px;}
+.id-typ-shw{display: none;}
+.duplicate-rw{display: none;}
+.customize-panel .travl-time-dtls.with-operator .duratn{width: 30%;}
+.customize-panel .travl-time-dtls.with-operator.tbl-style{margin:0px; min-width:300px; max-width:300px;}
+.pkg-container .customize-panel .heading{font-size:14px;}
+.customize-panel .border-list-sm li{ margin-top:20px; margin-bottom: 15px; font-size:16px;}
+.list-pax-cont .black-head > span{color:#585858;}
+.list-pax-cont .black-head > span b{color:#000;}
+.popup-box.theme01.type2{width: 674px;max-width: 674px;}
+.popup-box.theme01.type2 .custom-mob-tbl table > thead > tr > th.select{ width:15.31%;}
+.popup-box.theme01.type2 .custom-mob-tbl table > thead > tr > th.station-name{ width:25.72%; text-align: left;}
+.popup-box.theme01.type2 .custom-mob-tbl table > thead > tr > th.arrives{ width:14.52%;}
+.popup-box.theme01.type2 .custom-mob-tbl table > thead > tr > th.departs{ width:13.51%;}
+.popup-box.theme01.type2 .custom-mob-tbl table > thead > tr > th.day{ width:8.95%;}
+.popup-box.theme01.type2 .custom-mob-tbl table > thead > tr > th.boarding-date{ width:21.95%;}
+.popup-box.theme01.type2 .custom-mob-tbl table > tbody > tr > td .styled-radio-checked .check{background: #000;}
+.popup-box.theme01.type2 .custom-mob-tbl table > tbody > tr > td.station-name{ text-align: left;}
+.popup-box.theme01.type2 .custom-mob-tbl table > tbody > tr > td .styled-radio{ float:none; display: inline-block;}
+.popup-box.theme01.type2 .custom-mob-tbl table > thead > tr > th {text-align: center;font-size: 14px;line-height: 17px;padding: 10px 0;color: #000;
+eight: 400;border: none;vertical-align: middle; height: 50px;background-color: #f6f4f3;border-top: #d5d9da solid 1px !important;border-bottom: #d5d9da solid 1px;font-weight: 600;}
+.popup-box.theme01.type2 .custom-mob-tbl table >tbody>tr>td { font-size: 14px;border: none;text-align: center;line-height: 22px;color: #333; padding-left: 0px;padding-right: 5px;padding-bottom: 16px;padding-top: 16px;}
+
+.popup-box.theme01.type2 .popup-in .btn.btn-blue{ padding:6px 39px; font-size: 13px; font-weight: 700; margin-top: 52px; }
+.popup-box.theme01.type2 p span{ color:#333333; font-weight:700;}
+.natnlty-id-type{display:inline-block;width:48%;padding-right:1%;text-align: left;}
+.natnlty-id-type > span{display: block;}
+.accordion-style .activities-accord-cont ul.form-section{margin-left: 0;}
+.service-container .tandc{font-size: 13px;}
+.senior-citizen b{color:#000;}
+.senior-citizen-cont {font-size:13px;color:#000;}
+.senior-citizen-cont p{font-size: 13px;}
+.senior-citizen-cont ol{list-style-type: decimal; margin-left: 20px;margin-bottom: 15px;}
+.senior-citizen-cont ol li{list-style: decimal;padding: 0;padding-left: 5px;}
+.senior-citizen-cont ol li i{display: block;}
+.senior-citizen-cont ol li:before{content: ")"; margin-left: -7px;padding-right: 2px;}
+.senior-age{color:#ff0000;}
+.insurance-charge{color:#ff0000;font-size: 16px;font-weight: 600;}
+/*----------- Checkout-Travelers end ----------*/
+
+/*======Checkout Payment start======*/
+.checkout .room-block-details {padding:0px 20px 5px 20px;color: #000;position: relative;}
+.checkout .room-block-details .fa-user{font-size:20px; padding-right:5px;}
+.checkout .room-block-details  .fa-custom-user-new:before{position:absolute;  left: 0px;  top: -2px;}
+.checkout .ver-tab-container.theme-01 ul li{padding:4px 0px;}
+.checkout .ver-tab-container.theme-01 .wallet-info li + li {padding-top:15px}
+
+.select-width .styled-select .btn-group .btn.dropdown-toggle{width:225px!important;}
+.checkout .room-block-details .styled-select .btn-group .dropdown-menu li{padding:0px!important;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip { position: relative;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck{ display:table-cell; padding:0 5px; vertical-align: middle;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck label{ font-weight: 600;}
+.checkout .flight-checktfrm-blck .email-txt-cont a{ padding:4px 9px; border-radius:2px;}
+.checkout .flight-checktfrm-blck .email-txt-cont a.btn-sm{ width: 51px; line-height: 30px; padding: 0; text-align: center; background: #6b92c5; font-weight: 700}
+.checkout .flight-checktfrm-blck .email-txt-cont a.btn-sm:hover{ background: #232a5d}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .or{ font-size:12px; width:27px; height:27px; border-radius:100px; background:#6b92c5; color:#fff; text-align:center; line-height: 27px; display: inline-block; margin-left: 7px; margin-right: 3px;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .pricess{ font-size:16px; display:inline-block;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .enteramont{font-size:13px; color:#666666; margin-bottom:0px; padding-top: 6px}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .enteramont .fa-rupee{ font-size: 13px;}
+.ver-tab-container.theme-01 {display:table; width:100%; margin-bottom:30px; margin-top:20px;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab {padding:0px !important;display: table; width: 100%;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li{display:block; float:none; padding:0px; margin-right: -1px; border-bottom:1px solid #e4e4e4 !important;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li:after{content:"\f054"; width:7px; height:12px; display:inline-block; position:absolute; right:14px; top:15px;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li.r-tabs-state-active:after{}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li.r-tabs-state-active a{ font-weight:700; background:#fff !important; border-right:0px !important; color:#000;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li a{color:#000096; font-weight:600; font-size:13px; display:block;  padding:12px 23px; }
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li a:hover{border-bottom:0px solid #e4e4e4 !important}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li a span{ font-size:18px;font-weight:600; }
+.ver-tab-container.theme-01 .ver-tab-content .card-wrap ul li{padding: 4px 0px !important;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab .resp-tabs-list {background-color:#f9fce1; width:25%; display:table-cell; padding:0; margin: 0; border:0px; float: none;border: 1px solid #e4e4e4;border-right: 0px}
+.ver-tab-container.theme-01 .ver-tab-content { width: 100%; display: table-cell; vertical-align: top; padding: 11px 30px; background: #fff; border: 1px solid #e4e4e4; }
+.ver-tab-container.theme-01 .ver-tab-content [id^="tab-"] input[type="text"]{border: 1px solid #6992ca; border-radius: 3px; font-size:12px;}
+.ver-tab-container.theme-01 .ver-tab-content [id^="tab-"] .styled-select .btn-group .btn.dropdown-toggle{border: 1px solid #6992ca;}
+.checkout .ver-tab-container-title{ font-size:16px;font-weight:700; padding-top:19px;}
+.checkout .ver-tab-content p{font-size:14px; font-weight:400; margin-bottom:15px; color:#000;}
+.checkout .flight-checktfrm-blck2 { display:table-cell; position: relative;vertical-align:middle;}
+.checkout .flight-checktfrm-blck2 .flightchecktfrm-input{  float: right; width:152px; font-size:16px; font-weight:700; padding-left:20px; }
+.checkout .flight-checktfrm-blck2 .flightchecktfrm-inputrups{ font-size:16px; position:absolute; left:10px;    top: 7px;}   
+.checkout .wallet-info > li input { display: inline; padding: 4px 10px 4px 22px; font-size: 16px; font-weight: bold; box-shadow: none;}
+.checkout .wallet-info > li input.form-control[disabled] { background: transparent; border: solid 1px #efefef; }
+.checkout .price-input { position: relative;  font-size: 16px; width: 152px; vertical-align: top;}
+.checkout .price-text {font-size: 16px; width: 152px; vertical-align: top;font-weight: bold;padding-left: 8px;}
+.checkout .price-input > input { display: inline; padding: 4px 10px 4px 22px; font-size: 16px; font-weight: bold; box-shadow: none;}
+.checkout .price-input > i { position: absolute; top:12px; left: 10px;}
+.checkout .netbank-opts > li { width: 32.5%;  display: inline-block; vertical-align: top; }
+.checkout .netbank-opts > li > label , .netbank-opts .itscash-wrap, .netbank-opts .paytm-wrap, .netbank-opts .mobikwik-wrap { border: solid 1px #6991c8; border-radius: 3px; padding: 8px 0 0 30px; width: 142px; height: 41px;}
+.checkout .netbank-opts > li .radio-inline .styled-radio { left:8px; border: solid 1px #59699c; width: 18px; height: 18px; margin-top: -9px}
+.checkout .netbank-opts > li .radio-inline.selected .styled-radio { border: solid 1px #000; }
+.checkout .netbank-opts > li .radio-inline .styled-radio-checked .check { top: 2px; left: 2px; width: 12px; height: 12px; }
+.checkout .netbank-opts > li .radio-inline.selected .styled-radio .check { background: #000; }
+.checkout .opts-wrap1 .option-ttl, .checkout .opts-wrap .option-ttl, .checkout .card-wrap .option-ttl { font-size: 14px; font-weight: 600; margin: 0 0 12px; }
+.checkout .opts-wrap1, .checkout .opts-wrap { display: inline-block; width: 100%; margin: 0 0 7px; max-width: 450px;}
+.checkout .opts-wrap .styled-select .btn-group { width: 298px;}
+.checkout .netbank-info { font-size: 12px; color: #d20000; margin: 0 0 10px;}
+.checkout .card-wrap { padding: 0 75px 0 0; background: none; max-width: 470px}
+.checkout .card-wrap > .verified-by-visa { background: url(../images/common/verified-by-visa.jpg); width: 52px; height: 80px; position: absolute; display: inline-block; right: 0; top: 0;}
+.checkout .card-wrap ul li label { width: 106px; font-size: 12px; padding: 10px 0 0; }
+.checkout .card-wrap ul li .form-group-sec{ width: 100%}
+.checkout .card-wrap ul li .card-no-wrap { position: relative; }
+.checkout .card-wrap ul li .card-no-wrap .card-opt { background: url(../images/common/credit-card-opt.jpg); width: 131px; height: 28px; position: absolute; right: 1px; top: 1px; }
+.checkout .card-wrap ul li .card-no-wrap .card-opt.disabled {background: url(../images/common/credit-card-opt-disabled.png) no-repeat center center; width: 46px; height: 29px;} 
+.card-wrap ul li .cvv-info { /*background: url(../images/common/cvv-info.jpg);*/ width: 218px; height: 44px; display: inline-block; position: relative; top: -6px;}
+.checkout .netbank-opts > li > .emi-wrap {  display: table; padding: 1px 0 0 10px; }
+.checkout .netbank-opts > li > .emi-wrap > div { vertical-align: middle; }
+.i-icone { vertical-align: middle; border:solid 1px #3a93b3; color:#3a93b3; border-radius:100px; font-size:12px; padding:1px 8px;}
+.i-icone:hover { background:#3a93b3; color:#fff; font-style: normal;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip { position: relative;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip .tool-tip{ display: inline-block}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip .tool-tip a{ font-size: 14px; font-weight: 700; font-style: italic; width: 20px; height: 20px; line-height: 16px}
+.checkout .card-wrap ul li .cvv-info {background: url(../images/common/cvv-no.jpg) left 4px no-repeat; padding-left: 62px;font-size: 10px; color: #9d9d9d; line-height: 12px;    letter-spacing: -0.3px; width: calc(100% + 10px); display: table; }
+.checkout .card-wrap ul li .cvv-info em  {display: table-cell; vertical-align: middle;}
+.ver-tab-content .txt-wrap{ font-size: 14px; width: 65%}
+.checkout ul.netbank-opts.type2 { margin-left: -10px; margin-right: -10px;}
+.checkout ul.netbank-opts.type2 li{ padding: 5px 6px}
+.checkout ul.netbank-opts.type2 > li .radio-inline .styled-radio{ margin-right: 0} 
+.checkout ul.netbank-opts.type2 li label{ padding: 0;  height: 48px;padding-left:50px;display: table-cell; vertical-align: middle;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet { position: absolute; right: 0; top: -24px}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu { padding: 0px; min-width: 210px; right: -91% !important;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li{ padding: 0}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a{ padding: 7px 12px; background:#fff; display: block; color: #6992ca}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a:hover{ background: #000096; color: #fff}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a .bank-logo{ padding-right: 13px;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a .bank-logo img{ display: block}
+.checkout .netbank-opts > li .radio-inline.emi-wrap .styled-radio{ left: 0; margin-top: inherit}
+.checkout .room-block-details .action-btns{ text-align: right; padding: 25px 0 25px}
+.checkout .room-block-details .btn-primary{ width: 112px;}
+.checkout .steps-container .step .step-content .room-block-details > ul > li{ margin:0px; display:block; border-bottom:1px solid #e4e4e4; padding:15px 0px 15px 0px;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck input[type="text"]{ min-width: 210px;} 
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip .tool-tip a.active{ background: #232a5d; color: #fff}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.min-pay-amt{ position: relative; top: 10px}
+.popup-sec#payment-failed{width: 490px;}
+.popup-sec#payment-failed .popup-in .pop-tl {margin-bottom: 8px;}
+.popup-sec .btn-cont.align-right{text-align: right;}
+.popup-sec .btn-cont.align-right .btn{background: rgb(0, 0, 150);padding: 8px 20px;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet{color:#25269c !important;}
+.checkout #tab-creditcard-sect .netbank-opts > li > label{width: 150px;}
+.savetravl-poppup{position: absolute;right: -86px;font-size: 11px;top: 11px;}
+.savetravl-poppup a{ color: #000096;}
+.popup-box.zoom-anim-dialog.popup-sec.saved-traveler-popup{ width: 364px;}
+.popup-box.saved-traveler-popup .popup-in h5{ font-weight:600; font-size:18px; color:#333333; margin-bottom: 26px;}
+.popup-box.saved-traveler-popup .popup-in h5.filledMsg{ color:#007123;}
+.pkg-brief .traverlers-price-chan { position: absolute;font-size: 11px; color: #f50a0a; right:12px; top:34px; width:142px;}
+.pkg-brief .traverlers-price-chan .fa-custom-warning:before{ position: absolute;  left: -18px; top:0px;}
+.popup-box.saved-traveler-popup .popup-in ul.styled-checkbox-list li label.checkbox-inline{     padding-left: 26px;font-size:15px; color:#000; margin-bottom:15px;}
+.popup-box.saved-traveler-popup .popup-in ul.styled-checkbox-list li label.checkbox-inline.disabled{ opacity: 0.2;}
+.popup-box.saved-traveler-popup .popup-in .btn.btn-blue{ font-weight:400; margin:15px 0px 0 0; font-size: 14px;  padding: 8px 18px; }
+.steps-container .step .step-content .detial-info  .form-group-sec .row-sm  >div > .row-sm > div{ padding-bottom: 0}
+.fa-custom-info{background: url(../images/common/icons/fa-custom-info.png) no-repeat center center; background-size: 100%;width: 21px;height: 21px; }
+/* Insurance Checkout Travelers start*/
+.frm-gen {position: relative;padding-left: 20px;line-height: 30px; vertical-align: middle}
+.frm-gen i {position: absolute;left:2px;}
+.row-sm.gen-sel  [class^="col"]{padding-bottom: 0;}
+.row-sm.gen-sel  [class^="col"]:first-child{padding-right: 6px;}
+.row-sm.gen-sel  [class^="col"]:last-child{padding-left: 6px;}
+.ditails-list .radio-inline:first-child{margin-left: 0;}
+.ditails-list .radio-inline{color: #000096;}
+.ditails-list .radio-inline.selected{color: #000;}
+.insurance .gen-sel { padding-bottom: 0px;}
+.insurance .gen-sel .radio-inline { font-size: 13px !important; border:1px solid #d6d6d6; background: #ffffff; border-radius: 3px;vertical-align: middle;display: block; color:#000096 !important;padding-left: 25px;height: 30px;}
+.insurance .gen-sel .radio-inline .styled-radio{ left: 6px;}
+.insurance .radio-inline .fa-custom-men:before {width: 11px;height: 26px;background-image: url(../images/insurance/icons/fa-custom-men-blue.png);}
+.insurance .radio-inline .fa-custom-female:before {width: 12px;height: 26px;background-image: url(../images/insurance/icons/fa-custom-female-blue.png);}
+.insurance .radio-inline.selected .fa-custom-men:before {width: 11px;height: 26px;background-image: url(../images/insurance/icons/fa-custom-men-black.png);}
+.insurance .radio-inline.selected .fa-custom-female:before {width: 12px;height: 26px;background-image: url(../images/insurance/icons/fa-custom-female-black.png);}
+.insurance .radio-inline.selected .frm-gen {color: #000;}
+.insurance .shopping-cart .steps-container .step .step-content .detial-info .pax > ul > li + li p{ font-size: 13px;}
+.agree-cont .chk-group-sec > label{margin-bottom: 0;}
+.insurance .aside-block.info-block .pkg-dtl ul.price-details li .description span i{ color:#757575; }
+.insurance .shopping-cart.form-theme2 .steps-container .step-content .agree-cont p{font-size: 13px;color: #626262;padding-left: 24px; padding-top: 10px;}
+.insurance .shopping-cart .steps-container .step .step-content .detial-info .pax > ul > li + li .agree-txt{ font-size: 13px; color: #626262;}
+.insurance .detial-info .row-sm  .row-sm{ padding-bottom: 0px;}
+/* Insurance Checkout Travelers end*/
+
+
+
+.ancillary-srvcs > .head > span{color: #7f7f7f; font-size: 12px; font-weight: 700;}
+.ancillary-srvcs li{position: relative}
+.ancillary-srvcs  .room-price{position: absolute; top:0px; right: -82px; font-size: 15px;}
+.list-pax .ancillary-srvcs  .room-price{right: -60px;}
+
+
+/*======Checkout Payment end======*/
+@media screen and (max-width:1199px) {
+.form-section .frm-txt{display:block; margin-bottom:10px}
+.form-section  .form-group-sec{display: block}
+.pkg-pace li i, .pkg-pace li span{ font-size: 12px;}
+.list-pax-cont .form-section > li.residential-address{padding-left: 0px;}
+.form-section .form-group-sec {min-width: auto;}
+	
+	
+}
+@media screen and (max-width:991px) {
+	.form-theme2 .frm-txt-sub{ font-size: 12px;}
+}
+@media screen and (max-width:767px) {
+/*Global start*/
+.shopping-cart .overview .pck-details .pkg-tl{font-size: 14px; font-weight: 600;}
+p{font-size: 13px;}
+.shopping-cart .overview .pck-details .pck-days{margin-bottom: 0px;}
+.pkg-brief .pkg-desc > ul > li{font-size: 13px;}
+.shopping-cart .steps-container .step .step-content  .pkg-container .pck-img{width: 100px;}
+.overview .right-sectn{position: absolute;right: 10px;top:10px;}
+.shopping-cart .steps-container .step .step-content .overview .pkg-brief .pkg-desc strong{display: block;}
+.dtls-lnk{top:30px;}
+.overview .border-list > li:first-child::after{display: none;}
+/*Global end*/
+.list-pax-cont > li dl dt > span{font-size: 13px;}
+.list-pax-cont > li dl dt, .list-pax > li dl dt {padding-right:0;}
+.accordion-style .right-acord.mand-txt-cont,.accordion-style .right-acord.acrd-lnk-cont{position: static;display: block;width: 100%;text-align: right;}
+.list-pax {padding-left: 10px;padding-right: 10px;}
+.form-section .radio-group-sec .radio-container {padding-right: 10px;padding-bottom: 10px;}
+/*Rail Checkout Start*/	
+	.prefer-cont{border-left: none;}
+	.details-sec-cont .singleline-info{margin-top: 0;}
+	.pkg-container .customize-panel .heading {padding-bottom: 0px;}
+/*Rail Checkout End*/
+
+
+}
+@media screen and (max-width: 599px){
+/*Global start*/
+.shopping-cart .steps-container .step .step-content .overview .pkg-brief .pkg-desc{background: none}
+/*Global end*/
+.form-section .form-group-sec > .row-sm > div {padding-left: 0;}
+.form-theme2 .or-sec{padding-top: 0 !important;}
+.form-section > li.no-top-bdr{padding-top: 10px; padding-bottom: 10px !important;}
+.fa-custom-bed-blue-thin::before {width: 22px;height: 14px;}
+.fa-custom-activities-blue-thin::before {width: 22px;height: 14px;}
+.fa-custom-activities-blue-thin::before {width: 24px;height: 15px;}
+.fa-custom-visa-blue-thin::before {width: 21px;height: 15px;}
+.fa-custom-travelinsurance-blue-thin::before {width: 17px;height: 17px;}
+.fa-custom-user-grey-thin::before {width: 18px;height: 19px;}
+.fa-custom-plus-blue-thin::before {width: 7px;height: 7px;}
+.acrd-lnk{font-size: 10px;}
+.accordion-style .mand-txt {font-size: 10px}
+.form-section .frm-txt{font-size: 12px;}
+.accordion-style  .price-acord{font-size: 15px;}
+.shopping-cart .pkg-price span {font-size: 15px;}
+.shopping-cart .pkg-price{font-size: 21px;}
+.overview .traverlers-price{font-size: 15px;}
+.form-section .form-group-sec > .row-sm > div{padding-bottom: 8px;}
+.form-section > li + li {padding-top: 10px;}
+.list-pax-cont > li dl  dt:after,.list-pax > li dl  dt:after{top: 8px;}
+.accordion-style.theme-02 .list-pax ul {margin-left:0px;}
+.overview .price-blck{font-size: 10px;padding-right: 6px;}
+.overview .instructions{padding-bottom: 8px;}
+.form-theme2 .btn.btn-white-blu-bdr{margin-top:0px !important;}
+
+.btn-group-sec {margin-top: 0px;padding-bottom: 5px;}
+.service-container ul.travel-insurance-list li {display: inline-block;padding-bottom: 20px;padding-right: 20px;padding-left: 0;}
+.service-container ul.travel-insurance-list li + li {padding-left: 0px;}
+.form-section  .form-group-sec{min-width: auto;}
+}
+@media screen and (max-width: 479px) 
+{
+   .shopping-cart .steps-container .step .step-content  .pkg-container .pck-img  figure  {width: 100%;}
+}
+/*** Checkout Page Ends ***/
+
+/*** Booking Summary Page Starts ***/
+.booking-summary h1 {margin-bottom: 0px;padding-bottom: 0;}
+.booking-summary .section{margin-top: 15px;}
+.booking-summary .content-panel {padding:20px;}
+.booking-summary .content-panel .pkg-brief.lg{margin-bottom:18px;}
+.booking-summary .content-panel > .pkg-container{margin-bottom: 17px;}
+.booking-summary .pkg-info > .confirmation-id{width: 323px;min-width: 323px;}
+.booking-summary .pkg-info > .confirmation-id > span{border: 1px solid #6699cc;padding: 10px 8px;font-size: 15px;display: block;border-radius: 3px;}
+.booking-summary .summary{margin-bottom: 16px;}
+.booking-summary .summary table > thead > tr > th {line-height:20px; border-bottom: 0px;padding-left: 15px;padding-right: 15px;}
+.booking-summary .summary table > tbody > tr > td {font-weight:400;border-top: 0px;padding-left: 10px;border-bottom: 1px solid #dddee3;}
+.booking-summary .summary table > thead > tr > th:first-child, .booking-summary .summary table > tbody > tr > td:first-child{padding-left: 20px;padding-right: 10px;}
+.booking-summary .summary table > thead > tr > th:last-child, .booking-summary .summary table > tbody > tr > td:last-child{padding-left: 10px;padding-right: 20px;}
+.booking-summary .summary table.text-left th, .booking-summary .summary table.text-left td{text-align: left;}
+.booking-summary .summary table.text-left th.price, .booking-summary .summary table.text-left td.price{text-align: right;}
+.booking-summary .summary table > thead > tr > th.price:last-child{padding-right: 30px;}
+.booking-summary .summary td.price{font-size:24px; font-weight:600;}
+.booking-summary .summary td.no-of-cabins a,
+.booking-summary .summary td.no-of-nights a,
+.booking-summary .summary td.vouchr-no a,
+.booking-summary .summary td.sup-ref-no a{color: #0055ac;}
+.booking-summary .summary .status .confirmed{color: #026920; font-weight: 600; font-size: 16px;}
+.booking-summary .details-sec.typ2 .details-sec-cont{padding: 0;}
+
+/***Heding section starts***/
+/*Thank you message start*/
+.thankyou-msg h1 {font-size:24px; line-height:34px; color:#000;}
+.thankyou-msg > div{vertical-align: top;}
+.thankyou-msg > div:first-childp{padding-right: 30px;}
+.thankyou-msg > div:last-child{min-width: 350px;}
+.dobooking { color:#000; font-weight:500; right:0px; font-size:14px; text-align: right;}
+.bkng-itinery-dtl{text-align: right; padding-right: 20px;}
+.thankyou-msg{margin-top: 5px;}
+.bkng-itinery-dtl .bkng-id {background: #6699cc;font-size: 18px;padding: 8px 12px;right:0px;border-radius: 3px;color: #fff;text-align: center;margin-top: 10px;display: inline-block; font-weight: 600;}
+/*Thank you message end*/
+/***Heding section Ends***/
+
+/* Page -> Activities -> Booking Summary */
+.activities .booking-summary .summary .price{width:14%;}
+.activities .booking-summary .summary .guests{width:26%;}
+.activities .booking-summary .summary .sup-ref-no{width:20%;}
+.activities .booking-summary .summary .vouchr-no{width:20%;}
+.activities .booking-summary .summary .status{width:20%;}
+
+
+/* Page -> Rents & Transfers -> Booking Summary */
+.cars .booking-summary .pkg-info > .pkg-detail > .pkg-tl{font-size: 24px;margin-bottom: 10px;}
+.cars .booking-summary .additional-info > li > span{font-weight: 700;}
+.cars .booking-summary .summary .th-cars { width: 19%;}
+.cars .booking-summary .summary .guests, .cars .booking-summary .summary .guests{width: 19%;text-align: left;}
+.cars .booking-summary .summary .th-no-of-cars { width: 11%; }
+.cars .booking-summary .summary .sup-ref-no { width: 14%; }
+.cars .booking-summary .summary .vouchr-no {  width: 12%; }
+.cars .booking-summary .summary .th-status { width: 15%; }
+.cars .booking-summary .summary .th-price { width: 10%; }
+.cars .booking-summary .summary .td-no-of-cars {font-size:30px;}
+
+/* Page -> Bus -> Booking Summary */
+.bus .booking-summary .content-panel {margin-bottom:20px;}
+.bus .booking-summary .travel-booking-detail{border-bottom: 0 none;}
+.bus .booking-summary .summary .travelers{width:20%;}
+.bus .booking-summary .summary .seat-no{width:16%;}
+.bus .booking-summary .summary .pnr-no{width:16%;}
+.bus .booking-summary .summary .ticket-no{width:16%;}
+.bus .booking-summary .summary .status{width:18%;}
+.bus .booking-summary .summary .price{width:14%;}
+.bus .booking-summary .opt-dtls h3.pkg-tl {font-size: 22px; margin-bottom: 17px; font-weight: 600;}
+.bus .booking-summary .opt-dtls h3.pkg-tl em{font-size: 16px; font-weight: 300;}
+.bus .booking-summary .travl-time-dtls .time{font-size: 24px;}
+
+.bus h4.pkg-title{font-size: 24px; font-weight: 600; border-bottom: 1px solid #d6d6d6; padding-bottom:10px;}
+.bus .booking-summary .opt-dtls .travl-time-dtls .dprtur{width: 23%;}
+.bus .booking-summary .opt-dtls .travl-time-dtls .duratn .fa-custom-arrow-right-big{margin-top: 10px;margin-bottom: 7px;}
+.bus .details-sec.typ2 .details-sec-cont .operator-details > div > .opt-ttl.big {font-size: 22px;}
+.bus .details-sec.typ2 .details-sec-cont .operator-details > div > .opt-ttl > strong{font-size: 16px;}
+.bus .booking-summary .travl-time-dtls .date,
+.bus .booking-summary .travl-time-dtls .destintn,
+.bus .booking-summary .directn span{font-size: 14px;}
+
+/* Page -> Cruises -> Booking Summary */
+.cruises .summary th.cabin-details{width: 16.42335766%;}
+.cruises .summary th.guests{width: 15.32846715%;}
+.cruises .summary th.no-of-cabins{width: 8%;}
+.cruises .summary th.no-of-nights{width: 8%;}
+.cruises .summary th.sup-ref-no{width: 14.59854015%;}
+.cruises .summary th.vouchr-no{width: 11.31386861%;}
+.cruises .summary th.status{width: 12.77372263%;}
+.cruises .summary th.price{width: 13%;}
+
+.cruises .summary .tvler-list > li > small{display: block;}
+.cruises .summary td.no-of-cabins,
+.cruises .summary td.no-of-nights,
+.cruises .summary td.vouchr-no,
+.cruises .summary td.sup-ref-no{font-size: 16px;}
+.cruises .summary tr > td:first-child span{display: block;font-weight: 400;}
+.cruises .summary td.supplier-ref{color: #000;}
+
+/* Page -> Insurance -> Booking Summary */
+.insurance .pkg-info > .pkg-img{height: auto;min-width: 98px;width: 98px;}
+.insurance .pkg-info > .pkg-img > figure{height: auto;}
+.insurance .summary th.guests{width: 14.76754786%;}
+.insurance .summary th.destination{width: 17.22880583%;}
+.insurance .summary th.insurance-type{width: 10.39197812%;}
+.insurance .summary th.start-date{width: 11.21239745%;}
+.insurance .summary th.insurance-policy-no{width: 12.8532361%;}
+.insurance .summary th.sum-insured{width: 10.30082042%;}
+.insurance .summary th.status{width: 12.9443938%;}
+.insurance .summary th.price{width: 10.11850501%;}
+.insurance .summary td.sum-insured i.fa-usd{font-size: 12px;}
+
+/* Page -> Rail -> Booking Summary */
+.rail .booking-summary .sec-trav-ltrt{margin-bottom: 10px;}
+.rail .summary th.traveler{ width:20%;}
+.rail .summary th.age{ width:11.58%;}
+.rail .summary th.gender{ width:12.80%;}
+.rail .summary th.meal{ width:10.93%;}
+.rail .summary th.status{ width:12.52%;}
+.rail .summary th.coachno{ width:21.68%;}
+.rail .summary th.price{ width:19%;}
+.rail .summary th{text-align: center;}
+.rail .booking-summary .summary td.price{font-size: 18px;}
+.rail .booking-summary .summary .status .confirmed{font-size: 14px;font-weight: 600;}
+.rail .cnf{color: #006a1f;}
+.rail .wl{color: #ff0000;}
+.rail .rac{color: #f2a44d;}
+.rail .rg{color: #bf0d0d;}
+.rail .info-sec .pkg-total .offer-price{vertical-align: middle;margin-top: -3px;}
+.rail .booking-add-ser .air-trnfr-detail{width: 620px;}
+.rail .booking-add-ser .bkng-price{top: 20px; right: 0px;}
+.rail .booking-summary .price-list.total-price li{line-height:24px;}
+.rail .booking-summary .price-list.total-price li::after{ background:none;}
+.rail .booking-summary .tool-tip .tooltip-cont{ background:#fff;border-radius:0px; border-bottom: solid 1px #000096; border-top: solid 1px #000096; padding:30px 20px;}
+.rail .booking-summary .price-list > li.bordtop > div.price-tl{ font-size:14px; width: 60%;}
+/*.rail .booking-summary .price-list > li > div.price-txt .fa-rupee {font-size: 14px;}*/
+.rail .booking-summary .price-list.total-price li.bordtop .price-txt{width: 40%; font-size:20px; font-weight:600;}
+.rail .booking-summary .tool-tip > a::before{ background: url(../images/common/icons/fa-custom-angle-down-blue.png); width: 8px; height: 8px;}
+
+/* Page -> Flights -> Booking Summary */
+.bkng-smry-cnfrm .travl-time-dtls{min-width: 550px; max-width: 550px;}
+.travel-booking-detail{float: left; width: 100%; /*border-bottom: #dddfe3 solid 1px; */margin-bottom: 10px;}
+.booking-summary .travel-booking-detail{ border-bottom: #dddfe3 solid 1px; }
+.travel-booking-detail > .pnr-no{display: block;font-size: 16px;font-weight: bold;margin-bottom: 18px;}
+.travel-booking-detail > .pnr-no > a{color: #6699cc;}
+.booking-summary .content-panel > .travel-booking-detail{padding: 30px 0;}
+.flights .booking-summary .content-panel > .travel-booking-detail:first-child{padding-top: 0;}
+.flights .booking-summary .content-panel .pkg-brief.lg.tbl-style .pkg-desc > i,
+.flights .booking-summary .content-panel .pkg-brief.lg.tbl-style .pkg-desc > ul{display: inline-block;vertical-align: middle;}
+.flights .booking-summary .content-panel .pkg-brief.lg.tbl-style .right-sectn{font-size: 20px;text-align: right;padding-right: 20px;}
+.flights .summary table > thead > tr > th.travelers {text-align: left;width: 20%;}
+.flights .summary table > thead > tr >th.ticket-no { width: 15%; }
+.flights .summary table > thead > tr >th.insurance-policy { width: 20%; }
+.flights .summary table > thead > tr >th.ancillaries {  width: 25%; }
+.flights .summary table > thead > tr > th.ancillaries{width: 20%;}
+.flights .summary table > thead > tr > td .anci-list li {text-align: left;}
+.flights .summary td.price{font-size: 18px;}
+.flights .summary.col-6 table > thead > tr >th.travelers{width: 14%;}
+.flights .summary.col-6 table > thead > tr >th.ticket { width: 10%; }
+.flights .summary.col-6 table > thead > tr >th.policy { width: 15%; }
+.flights .summary.col-6 table > thead > tr >th.ancillaries {  width: 20%; }
+.flights .summary.col-6 table > thead > tr > th.anci-price{width: 18%; }
+.details-sec.typ2 .bkng-price,.info-sec .bkng-price, .booking-add-ser .bkng-price {font-size: 20px;right: 20px;text-align: right;}
+.travl-ins .bkng-price{/*font-size: 24px;right: 20px;text-align: right;*/}
+ul.anci-list  li {padding: 3px 0px;}
+.bkng-price .fa-rupee {margin-right: 5px;}
+.dvdr-wrp{min-width: 640px;max-width: 640px; padding-top: 20px; padding-bottom: 20px;}
+
+/* Page -> Hotels -> Booking Summary */
+.hotels .booking-summary .pkg-info > .pkg-detail > .pkg-tl {font-size: 24px;}
+.hotels .booking-summary .additional-info > li > span{font-size: 18px;font-weight: bold;}
+.hotels .booking-summary .summary th.rooms{width: 18%;}
+.hotels .booking-summary .summary th.guests{width: 20%;}
+.hotels .booking-summary .summary th.room-no{width: 10%;}
+.hotels .booking-summary .summary th.sup-ref-no{width: 13%;}
+.hotels .booking-summary .summary th.vouchr-no{width: 12%;}
+.hotels .booking-summary .summary th.status{width: 13%;}
+.hotels .booking-summary .summary th.price{width: 14%;}
+.hotels .booking-summary .summary td.room-no{font-size: 30px;}
+.special-request { margin:0px; border-bottom: solid 1px #cccccc; display:table;width: 100%;}
+.special-request  h3{ font-size:14px; margin-bottom:13px;}
+.special-request  ul li {line-height: 24px;font-size:14px; color:#000; margin-bottom:11px;}
+.special-request  ul li span{ font-weight:400;}
+.special-request  ul li .requst-details{float:left;}
+.special-request  ul li .charges{ float:right; color: #000; font-size:20px; font-weight:400; text-align: right;padding-right: 10px;}
+.special-request  ul li .hotel-bokgsumry-lis-gry{font-weight:400; color:#797979; font-size:14px; display:block;}
+.hotels .booking-summary .special-request{margin-bottom: 15px;}
+
+/* Page -> Flights + Hotels -> Booking Summary */
+.flights.hotels .plus-symbol{padding: 0;}
+.flights.hotels .summary tr .rooms{width: 17%}
+.flights.hotels .summary tr .travelers{padding-left: 10px;width: 14%}
+.flights.hotels .summary tr .ticket-no{width: 11%}
+.flights.hotels .summary tr >th.insurance-policy{width: 15%}
+.flights.hotels .summary table > thead > tr > th.ancillaries{width: 19%;}
+.booking-summary .travel-head{margin-bottom: 18px;}
+.travel-head .trvl-detl-list{display: table; width: 100%;}
+.travel-head .trvl-detl-list.lg > li{font-size: 18px;}
+.travel-head .trvl-detl-list > li{display: table-cell; font-size:14px; color:#000; padding: 0 18px 0 0; line-height:18px;}
+.travel-head .trvl-detl-list > li.col1{width: 34%;vertical-align: top;}
+.travel-head .trvl-detl-list > li.col2{width: 50%;vertical-align: top;}
+.travel-head .trvl-detl-list > li.col-prc{width: 15%; font-size: 20px;text-align: right;}
+.travel-head .trvl-detl-list > li .ttl{width: auto; min-width: 60px;}
+
+
+
+/* Page -> Visa -> Booking Summary */
+.content-hold { border-bottom:1px solid #d7d7d7; padding:0 0 20px 0; margin:0 0 20px 0;}
+.visa-content h4 { font-size:14px;}
+.visa-content { list-style:none;}
+.visa-content li { list-style:none; padding:0px; margin:0px;}
+.visa-content li {width:26%; padding:5px 1%; display: inline-block; color:#000; font-size: 12px; padding-left: 0px;}
+.visa-content li.small { width:19%}
+.visa-content li .purpose-desc:before { content:":"; display: inline-block; margin: 0 10px 0 0;}
+.visa-content li .purpose { min-width:100px; display: inline-block;}
+.visa-content li .purpose-desc { font-weight:600; }
+.visa-content li span{display: inline-block;}
+.branch-details > div{width: 50%;}
+.branch-details .address > h4{font-size: 16px;margin-bottom: 20px;}
+
+/*** inclusions start***/
+.info-sec {position: relative;}
+.info-sec p { font-size: 12px; color: #7c7d82; font-weight: 700; margin-bottom: 0;}
+.info-sec ul {margin-bottom:10px}
+.info-sec ul > li {font-size: 12px;color: #868789;}
+.info-sec ul > li:before {font-size: 8px;color: #494a4b;}
+.info-sec ul.circled-list li:before{font-size: 8px;}
+.info-sec small {display: block;font-size: 14px;color:#e90100;}
+.info-sec .pkg-total{font-size: 24px; position: absolute; right: 0; bottom: 0; text-align: right; padding-right: 20px;font-weight: 600;}
+/*.info-sec .pkg-total .fa-rupee{font-size: 18px;}*/
+/*** inclusions end***/
+
+/*PNR Ticket Status :: Starts *//*flight-style*/
+.yellow-strip {background: #fffdd6;padding: 0px;border: none;border-bottom: 0px;}
+.yellow-strip span {font-size: 16px;}
+.pnr-status {padding: 12px 0px 12px 0px;border: solid 1px #f2f2f2;border-bottom: 0px;display: inline-block;position: relative;width: 100%;}
+.pnr-status li {list-style: none;display: inline-block;font-size: 16px;font-weight: 400;padding: 0px 19px;color: black;position: relative;}
+.pnr-status .text-blue {color: #005ea7;font-weight: 600;font-size: 16px;}
+.pnr-status .text-green {color: #006a1f;font-weight: 600 !important;padding-left: 5px;}
+.pnr-status li::after {content: '';position: absolute;background: #000;width: 1px;height: 16px;margin-left: 20px;margin-top: 4px;}
+.pnr-status li:last-child::after {background: none;}
+/*PNR Ticket Status :: Ends */
+
+/*Additional Services Section :: Starts *//* Flight-style */
+.booking-add-ser {padding-bottom: 20px;position: relative;}
+.booking-add-ser h5 {font-size: 18px;color: #000;font-weight: 700;padding-bottom: 13px;}
+.booking-add-ser .air-label {display: table-cell;vertical-align: top; font-weight: 700;}
+.booking-add-ser .air-trnfr-detail { display: table-cell;width: 425px;}
+.booking-add-ser .air-trnfr-detail {font-size: 14px;font-weight: 400;color: #000;}
+.booking-add-ser .air-trnfr-detail li {display: inline-block;padding: 0 5px;}
+.booking-add-ser .air-trnfr-detail li::after {content: '';position: absolute;background: #000;width: 1px;height: 14px;margin-left: 7px;margin-top: 4px;}
+.booking-add-ser .air-trnfr-detail li:last-child::after {background: none;}
+.booking-add-ser p {margin-bottom: 0px;font-size: 12px;font-weight: 400;padding-top: 10px;}
+.booking-add-ser p a  {color:#000096;}
+.booking-add-ser p a:hover  {color:#000096;text-decoration: underline;}
+.booking-add-ser .bkng-price {right: 30px;top: 45px;position: absolute;}
+/*Additional Services Section :: Ends */
+
+/* Bottom Button : Starts */
+.btn-voucher { color: #fff; font-size: 16px; font-weight: 700;border-radius: 3px; padding: 7px 10px;margin-top: 25px; display: inline-block; background: #000096;}
+.btn-voucher .fa-play {margin-right: 5px;}
+.btn-voucher:hover{color: #E0E0E0;}
+/* Bottom Button : Ends */
+
+/* Bottom Price breakup : Starts */
+.bot-sec { margin-top: 20px; }
+.bot-sec .pmnt-brekup { text-align: right; }
+.bot-sec .pmnt-brekup li { font-size: 18px; color: #000; font-weight: 600;padding-right: 41px;}
+.bot-sec .pmnt-brekup li .amounts .fa-rupee{font-size: 16px;}
+.bot-sec .bot-links { padding: 10px 0; text-align: right; border-top: 1px solid #e5e5e5; margin-top: 20px; padding-top: 17px; }
+.bot-sec .bot-links > .icn-btn { cursor: pointer; padding: 0 7px;}
+/* Bottom Price breakup : Ends */
+
+@media screen and (max-width:991px){
+	.booking-summary .pkg-info > .confirmation-id{width: 100%;
+    min-width: 100%;
+    display: table-caption;
+    padding-bottom: 15px;}
+}
+
+@media screen and (max-width:767px){
+	
+	.branch-details > div{display: block;width: 100%;padding: 10px 0;}
+	
+}
+/*** Booking Summary Page Ends ***/
+
+/*** Booking Details Page Stars ***/
+.fa-custom-deals-rail-m:before {background-image: url(../images/common/icons/fa-custom-deals-rail-m.png);content: '';width: 30px;height: 25px;}
+.fa-custom-insurance-purple:before {background-image: url(../images/common/icons/fa-custom-insurance-purple.png);width: 30px;height: 30px;}
+.fa-custom-user-blue-thin::before {width: 20px; height: 21px;background-image: url(../images/common/icons/fa-custom-user-child-blue.png);}
+.fa-custom-canada-visa::before {background: url(../images/common/icons/fa-custom-canada-visa.png); width: 23px;height: 17px;}
+
+/***** Comman Start ****/
+h5.sub-head strong{font-weight: 600; font-size: 18px; padding-right: 8px; }
+h5.sub-head{padding: 0 0 10px 20px; font-size: 18px; display: inline-block;}
+/***** Comman End ****/
+
+/* Title section starts*/
+h3.pkg-title {color: #000000; font-weight: 700; padding: 0 0 8px;}
+.booking-details{padding-top: 15px;}
+.top-btn-links {text-align: right;}
+.top-btn-links .btn { font-weight: 600; padding: 4px 13px; margin-right: 0px; margin-left: 6px; border-radius:3px;}
+ul.download-options {display: inline-block;  margin-left: 12px }
+ul.download-options li { display: inline-block; vertical-align: top;}
+ul.download-options li a{font-size: 16px; color: #000096; padding: 0px 4px; border-radius: 2px;}
+ul.download-options li a:hover{color: #000}
+.top-btn-links ul.download-options {margin-top: 10px}
+/* Title section ends*/
+
+/* Booking info start*/
+
+.table-cell > span{display:block; margin-bottom:5px; color:#333;}
+.bkng-info { margin-bottom: 30px; background: #ecf3fd; border: solid 1px #d4d6d5; padding: 22px 18px; font-size: 14px; margin-top: 8px}
+.bkng-info .table-cell {vertical-align: top; padding-right: 15px;}.bkng-info .bkng-date { width: 16%;}
+.bkng-info .bkng-date strong{display: block;}
+.bkng-info .bkng-id { width: 17%;}
+.bkng-info .bkng-dtl { width: 33%;}
+.bkng-info .bkng-dtl .table-cell{padding-right: 5px;}
+.bkng-info .bkng-dtl .table-cell span{display: block;}
+.bkng-info .bkng-price { width: 21%;}
+.bkng-info .bkng-btn { width: 13%; vertical-align: bottom;}
+.bkng-info .bkng-btn .btn{width: 100%;}
+.bkng-info h5{ color: #000; margin-bottom: 7px; font-size: 14px;}
+.bkng-info p { line-height: 16px; margin-bottom: 6px;}
+.bkng-info  strong{ font-weight: 600;}
+.bkng-info .bluetext {color: #58689b;}
+/* Booking info ends*/
+
+
+.booked-pkg .section {background-color: #fff;position: relative; padding: 0px; margin-bottom: 28px; border: 1px solid #d6d6d6;}
+.booked-pkg .section .collapse-container .bkng-status p.txt {padding: 10px;}
+.booked-pkg .section .bkng-status.no-border{border:0px;}
+.booked-pkg .section .bkng-status.clpsbl-container{display: none}
+
+.price-detail{padding: 30px 10px 12px 10px; position: relative; background: #f7f8fd;}
+.price-detail .product ul li {color: #000;}
+.price-detail .product ul li.red-txt {color: #ea0000; display: table-cell;}
+.price-detail .cl2{width: 73%;}
+.price-detail .btn-pay { position: absolute; display: inline-block; top:100px; right: 15px; min-width: 206px;}
+.price-detail .btn-pay .btn{padding: 5px 23px; font-weight: 500; font-size: 14px; text-align: center; margin-left: 5px; font-weight: 600;}
+.price-detail .btn-pay .btn.btn-border{padding: 5px 8px;}
+.price-detail .product p {font-size: 11px;color: #a8a8a8;line-height: 8px;}
+.price-detail .cl1 { width: 9%; min-width: 50px; vertical-align: top;}
+.price-detail .cl3 { vertical-align: top; text-align: right; position: relative;padding-right: 10px;}
+.price-detail .product { text-align: center;  padding-right: 12px;}
+.price-detail .plus-icon-cont {display: block;text-align: center;} 
+.price-detail .plus-icon-cont .fa-custom-plus-icon:before {text-align: center; width: 9px; height: 11px; margin: 0px auto; background-image: url(../images/common/icons/fa-custom-plus-black.png);opacity: 0.5;}
+
+.amt-brekup {padding-top: 10px;}
+.amt-brekup ul li {color: #333333; display: inline-block; font-size: 14px; margin-bottom: 4px;}
+.amt-brekup ul li:first-child { width: 164px;}
+.pck-days i, .view-map i    {vertical-align: middle;}
+.pck-days.type02 { list-style: none; display: block;  width: 100%;  margin: 0; padding: 0px 0; margin-top: 5px;}
+.pck-days.type02 li {padding-right: 14px;  position: relative;}
+.pck-days.type02 li + li    {margin-left: 0px;}
+.pck-days.type02 li:before {content: '/'; font-size: 20px; position: absolute; right: 4px; top: 1px; color: #000;}
+.pck-days.type02 li:last-child:before { display:none; }
+.singleline-info {display:inline-block;list-style:none;padding: 3px 0;width:100%; }
+.singleline-info li { font-size:12px;display:inline-block; margin:0 16px 0 0px; position:relative; color: #6e6e6e; line-height: 20px;}
+.singleline-info li:after {content:''; position:absolute; background:#aaa; width:1px; height:13px; right:2px; top:4px; margin-right:-12px;}
+.singleline-info li:last-child {margin:0px}
+.singleline-info li:last-child:after {background:none;}
+.price-dtl-container .pkg-title {font-size: 18px; color: #000000; padding-right: 15px;}
+.singleline-info + .pkg-days {margin-top: 8px; display: inline-block}
+
+/*Links section start*/
+ul.lnks{display: inline-block;}
+ul.lnks > li{display: block; float: left; position: relative; border-right: #d3d7d8 solid 1px; margin-bottom: -4px;}
+ul.lnks > li:last-child{border-right:0px;}
+ul.lnks > li .dropdown-menu{left: -1px;  min-width: 210px; box-shadow: none; border: 1px solid #d6d6d6;}
+ul.lnks > li > a{font-size: 13px;color: #fff;text-decoration: none;font-weight:600;padding: 17px 18px;display: block;}
+ul.lnks > li > a:hover{background: #7e99a4; color:#fff}
+ul.lnks > li.open > a{background: #f6f5f3; color: #000}
+ul.lnks > li > a i.fa-caret-down{padding-left: 5px; font-size: 16px;}
+
+ul.lnks > li > .dropdown-menu li:last-child a{border-bottom: 0px;}
+ul.lnks > li > .dropdown-menu li a {color:#000; font-size: 13px; background:#f6f5f3; padding: 8px 10px; display:inline-block;width:100%; border-bottom: 1px solid #d3d7d8;}
+ul.lnks > li > .dropdown-menu li a:focus{outline: none;}
+ul.lnks > li > .dropdown-menu li a:hover {color:#000; background: #ecf3fd; display:inline-block;width:100%;}
+.lnk-contnr { background-color: #8cafdd; position: relative; padding-right: 142px; border-top: 1px solid #d5d5d5; margin-bottom: -1px;}
+.booked-pkg .section .bkng-status.clpsbl-container{display: none}
+.pkg-bkng-dtls{position: relative; background: #f6f8fd; padding-bottom: 1px; padding-top: 1px;}
+.lnk-dtail{color: #0072bc;display: inline-block;text-align: right;position: absolute;right: 0px;top: 2px;cursor: pointer;font-weight:600;}
+.lnk-dtail a{display: block;padding: 16px 37px 16px 20px; font-size: 14px; color: #fff;}
+.lnk-dtail a:hover{background: #7e99a4; color:#fff}
+.lnk-dtail a:hover .icon {color:#fff}
+.lnk-dtail .colaps-icon:before{content: " ";background: url(../images/common/icons/fa-custom-plus-white.png) no-repeat; position: absolute;z-index: 9;width: 12px;height: 12px;text-align: right; display: inline-block;background-size: 100%;}
+.lnk-dtail .colaps-icon-active:before{content: " ";background: url(../images/common/icons/fa-custom-minus-white.png) no-repeat;position: absolute;z-index: 9; width: 13px;height: 13px;text-align: right;display: inline-block;background-size: 100%;}
+.lnk-dtail .colaps-icon{cursor: pointer;display: inline-block;vertical-align: top;margin: 4px 0 0 4px;}
+.lnk-dtail .colaps-icon-active{cursor: pointer;display: inline-block;vertical-align: top;margin: 4px 0 0 4px;}
+.lnk-dtail .colaps-icon i{padding: 5px;}
+.lnk-dtail.active .colaps-icon:before{content: " ";/*background-image: url(../images/common/icons/fa-custom-minus-blue.png);*/width:13px;height: 13px;vertical-align: middle;top: 27px;}
+/*Links section ends*/
+
+.bkng-status { border:solid 1px #d6d6d6; margin: 23px; padding: 0px; position:relative; background: #fff;}
+.bkng-status.multi >.pkg-thumbnail:after{border-bottom: 1px solid #eaeaea; content: ''; display: block; position: absolute; top: -3px; width: 95%;}
+.bkng-status.multi >.pkg-thumbnail:first-child:after{display: none;}
+.bkng-status > p{padding:15px}
+/*.booked-pkg .pck-days li + li{margin-left: 0px;}*/
+.booked-pkg .section {background-color: #fff;position: relative; padding: 0px; margin-bottom: 28px; border: 1px solid #d6d6d6;}
+.booked-pkg .section .collapse-container .bkng-status p.txt {padding: 10px;}
+.booked-pkg .section .bkng-status.no-border{border:0px;}
+
+/*package details start*/
+.booked-pkg .pkg-thumbnail {border-top: 0px;border-left: 0px;border-right: 0px;border: 0px;padding: 15px 17px 15px 17px; position: relative;}
+.pkg-thumbnail-cont {display: table; font-size: 13px; width: 100%;}
+.pkg-thumbnail-cont > div {display: table-cell; vertical-align: top; padding-right: 15px;}
+.pkg-thumbnail-cont > div:last-child{padding-right:0px;}
+.pkg-thumbnail-cont .pkg-img {width: 17%; height: 94px; }
+.pkg-thumbnail-cont .pkg-img figure{width: 100%; height: 92px}
+.pkg-thumbnail-cont .pkg-detail{/*width: 58%;*/}
+.pkg-thumbnail-cont .pkg-amount{width: 24%; text-align: right;}
+.pkg-thumbnail-cont .pkg-detail .pkg-title {font-size: 13px; color: #6e6e6e;}
+.pkg-thumbnail-cont  b{font-weight: 600; color: #333333;}
+.pkg-thumbnail-cont .pkg-detail p{margin-bottom: 5px;}
+.pkg-thumbnail-cont .pkg-detail span{color: #6e6e6e; font-size: 13px;}
+.pkg-thumbnail-cont .pkg-detail span em{color: #333333;}
+.pkg-thumbnail-cont .pkg-amount p{ margin: 5px 0px;}
+.pkg-thumbnail-cont .pkg-detail .singleline-info li{font-size: 13px;}
+.booked-pkg .pkg-thumbnail .status.confirmed{font-size: 14px;}
+.pkg-from-to span{display: inline-block;}
+.pkg-from-to i{display: inline-block; padding: 0px 10px; }
+
+/**** Activity pkg-info Start ***/
+.booked-pkg .pkg-info.no-bg{background: none; padding: 0px;} 
+.booked-pkg .pkg-info {padding: 17px;}
+.booked-pkg .pkg-info > .pkg-img {  min-width: 230px; width: 230px; height: 129px; }
+.pkg-info > .pkg-detail  h4.pkg-tl { font-size: 14px; color: #000; }
+.booked-pkg .pkg-info > .pkg-detail > .pkg-subttl,
+.booked-pkg .pkg-info > .pkg-detail > .pkg-add,
+.booked-pkg .list-icons-big > li { font-size: 13px; color: #333; }
+.booked-pkg .list-icons-big > li { margin-bottom: 8px; }
+.list-dtls{margin-top: 10px; }
+.list-dtls li{font-size: 13px; padding-bottom: 5px; min-width: 39%; display: inline-block;}
+/**** Activity pkg-info Start ***/
+
+
+/**** Hotel Booking Details Start ***/
+.travl-loc-time-dtls{display: table;width: 100%;vertical-align: top;max-width: 587px;margin-bottom: 19px;}
+.travl-loc-time-dtls .location-dtls{display: table-cell;width: 30%; padding-right: 15px;}
+.travl-loc-time-dtls .location-dtls p{padding: 0px; margin: 0px !important; font-size: 14px;}
+.travl-loc-time-dtls .time-check-in-dtls{display: table-cell;text-align: center;width: 19%;}
+.travl-loc-time-dtls .time-check-out-dtls{display: table-cell;text-align: center;width: 19%;}
+.travl-loc-time-dtls .time-check-in-dtls .departure,
+.travl-loc-time-dtls .time-check-out-dtls .arrival{font-size: 16px; color:#adadad; display: block; font-weight: 300;}
+.travl-loc-time-dtls .time-check-in-dtls .time{font-size: 16px; color:#333333; display: block;}
+.travl-loc-time-dtls .time-check-in-dtls .date{font-size: 13px; color:#333333; display: block;}
+.travl-loc-time-dtls .time-check-out-dtls .time{font-size: 16px; color:#333333; display: block;}
+.travl-loc-time-dtls .time-check-out-dtls .date{font-size: 13px; color:#333333; display: block;}
+.trip-advisor-img{margin-bottom: 10px;display: block;}
+.amenities-cont{display: block; padding-top: 10px;}
+.booked-pkg .pkg-info > .pkg-amount{min-width: 160px;  text-align: right; font-size: 14px;}
+.booked-pkg .pkg-info > .pkg-amount b{display: block;}
+.booked-pkg .pkg-info > .pkg-amount .status.confirmed{color: #006a1f !important; font-weight: 700;}
+.booked-pkg .pkg-info > .pkg-amount .status .redtext{color: #d50404;}
+/**** Hotel Booking Details End ***/
+
+
+/**** Flight Booking Details End ***/
+.travl-time-dtls .icon-logo    {display: block; margin-bottom: 3px;}
+.travl-time-dtls{min-width: 640px; max-width: 640px; margin-top: 10px}
+.travl-time-dtls.with-operator .operator   {width: 10%; vertical-align: top;}
+.travl-time-dtls .dprtur{text-align: right;color: #000;vertical-align: top;}
+.travl-time-dtls.with-operator .dprtur{width: 30%; padding-bottom: 10px;}
+.travl-time-dtls .duratn{text-align: center; }
+.travl-time-dtls.with-operator .duratn{width: 20%;}
+.travl-time-dtls .arivl{color: #000; text-align: right;}
+.travl-time-dtls.with-operator .arivl{width: 30%; text-align: left;vertical-align: top;}
+
+/*.travl-time-dtls >div  {vertical-align: top;}*/
+.travl-time-dtls .operator-details span{display: block;color:#000000;font-size: 12px;}
+.travl-time-dtls .operator-details .logo-cont-numb{color:#6a6a6a;}
+.travl-time-dtls.with-operator .time{color:#000; margin-bottom: 5px;}
+.rht-sec-cont{float: right; margin-top: 5px;}
+.lft-sec-cont{float: left;}
+.sec-trav-ltrt {padding-top: 10px;}
+.sec-trav-ltrt:after{content: ''; clear: both; display: block;}
+.sec-trav-ltrt a{color:#000096;}
+.details-sec .details-sec-cont .sec-trav-ltrt .inclusions{margin-top: 0;}
+.flights .journey-details.details-sec .details-sec-cont .fl-act-sec a{color:#000096;}
+.travl-time-dtls .time {font-weight: 600;font-size:18px; }
+.travl-time-dtls .time span{ font-weight: 600;}
+.travl-time-dtls .date  {font-size: 12px; line-height: 15px;color: #595959;}
+.travl-time-dtls .date.sm{font-size: 12px;}
+.travl-time-dtls .destintn{color: #595959;font-size: 12px;}
+.travl-time-dtls .destintn > span{display: block;}
+.travl-time-dtls .destintn.sm{font-size: 12px;}
+.flights .journey-details.details-sec .details-sec-cont .action-btn li a.btn-link  {color: #6a6a6a;}
+.flights .journey-details.details-sec .details-sec-cont .action-btn li.active a.btn-link  {color: #0072bc;}
+.flights .journey-details.details-sec .details-sec-cont .action-btn {margin-left: -5px;}
+.flights .journey-details .details-sec .details-sec-cont .action-btn {padding-top: 5px;}
+.customize-trip-list .schedule-details .iti-details .iti-info .iti-tl small{ color: #6e6e6e}
+.details-sec .sec-toggle{ display: inline-block; font-size: 10px;  cursor: pointer; border:1px solid #e1e1e1; border-top: 0; padding: 0 12px 0 7px; line-height: 14px; bottom: -15px; position: absolute; right:200px; border-radius: 0 0 3px 3px}
+.flights .details-sec .sec-toggle.active{ background: #e1e1e1}
+.details-sec .sec-toggle > i{ font-size: 12px; margin-right: 6px;}
+.details-sec .sec-toggle.active > i.fa-angle-down{content:"\f106"}
+.details-sec .details-sec-cont .flight-info > div{ width: 33.33%;  font-size: 12px; color: #333333; vertical-align:top;}
+.details-sec .details-sec-cont .flight-info .flight-tl{ font-size: 18px; font-weight: 400; text-transform: uppercase; margin-bottom: 1px;}
+.details-sec .details-sec-cont .flight-info .flight-tl span{ display: inline-block; margin-left: 4px;}
+.details-sec .details-sec-cont .flight-info .flt-venue span{ display: block}
+.details-sec .details-sec-cont .flight-info .flt-directn{ text-align: center}
+.details-sec .details-sec-cont .flight-info .flt-directn p{ font-size: 12px; color: #333333}
+.details-sec .details-sec-cont .flight-info .flt-directn p span{ display: block}
+.details-sec .details-sec-cont .included-cont li{display: inline-block;vertical-align: middle;font-size: 12px;color: #333333;position: relative;margin-right: 17px;}
+.details-sec .details-sec-cont .included-cont li:last-child{ margin-right: 0}
+.details-sec .details-sec-cont .included-cont li > i{ vertical-align: middle}
+.details-sec .details-sec-cont .included-cont li > span{ display: inline-block; vertical-align: middle; margin-left: 5px;}
+.details-sec .details-sec-cont .inclusions.no-separator li{margin-right: 0px;}
+.details-sec.typ2 .details-sec-cont .inclusions.no-separator li + li::before{display: none}
+
+.details-sec.typ2 .details-sec-cont .inclusions li + li::before{height: 20px;}
+.directn span{display: block;color:#606060;font-size: 12px;}
+.travel-head .flg-details{background-color: transparent; padding-left: 0; padding-top: 0px;}
+.travel-head  .styled-radio {margin-top: 4px;}
+.flights #listview-details{margin-top: 10px;}
+.train-summary .rht-secdata .price-diffrence-sec  span.price-diffrence:after{top:7px;}
+
+.lft-sec-cont .inclusions .fa-custom-meal.darkgrey:before{opacity: 0.5}
+
+.flg-details{background:#f4f4f4;padding:7px 0px 7px 8px;color:#000000;font-size:16px;}
+.flg-details .fa-custom-plane-black{margin-left: 7px; margin-right: 7px;}
+.flg-details small{font-size: 12px;padding-left: 10px;}
+.flg-details  strong{background-color: #000;color: #fff;font-size: 14px;padding: 4px 9px;border-radius: 3px;line-height: 14px;display: inline-block;}
+.flg-details  .details > span{padding: 0 10px;}
+.travel-head .flg-details{background-color: transparent; padding-left: 0; padding-top: 0px;}
+.fliter-sec + .flg-details{ margin-bottom: 15px;}
+.flg-details  .sr-num { width: 22px; height: 22px; text-align: center; padding: 0; line-height: 22px; margin-right: 15px;}
+.flg-details .col-sm-6{ position: relative}
+.flg-details  .disabled  strong{ background: #a7a7a7}
+.flg-details  .disabled .details > span,
+.flg-details  .disabled  small{ color: #b5b5b5}
+.flg-details  .disabled .fa-custom-arrow-right-small:before{ background-image: url(../images/common/icons/fa-custom-arrow-right-small-grey.png)}
+.flg-details .col-sm-6 + .col-sm-6:before{ content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: #dcdcdc}
+.add-seperator {position: relative; margin-bottom: 5px; text-align: center;}
+.add-seperator:before{ content: ""; width: 24px; height: 24px; display: inline-block; background: url(../images/common/icon-add.png) no-repeat center center; position: relative; z-index: 1;}
+.add-seperator:after{content: ''; height: 1px; width: 100%; background: #ddd; display: block; position: absolute; top: 12px; z-index: 0;}
+
+/**** Flight Booking Details End ***/
+
+/*===================== Bus Booking Details Start =====================*/
+.opt-logo figure{margin-top: 8px;}
+.pkg-thumbnail .pkg-title {font-size: 18px;padding-right: 15px;}
+.operator-details > div{vertical-align: top;display: inline-block;}
+.operator-details > .opt-logo{min-width: 60px;}
+.operator-details > .opt-dtls{padding-left: 17px;width: calc(100% - 70px);}
+.operator-details > div  .opt-ttl{font-size: 14px;font-weight: 600;margin-bottom: 20px;}
+.operator-details > div  .opt-ttl > strong{font-weight: normal;}
+.pkg-thumbnail .travl-time-dtls{margin-top: 15px;}/* flights-style.css */
+.bus .opt-dtls .travl-time-dtls.with-operator .dprtur{text-align: left;width: 25%;}
+.bus .opt-dtls .travl-time-dtls.with-operator .duratn .fa-custom-arrow-right-big{min-height: 20px;margin-top: 7px;margin-bottom: 2px;}
+.bus .opt-dtls .travl-time-dtls.with-operator .arivl{width: 200px;padding-left: 40px;}
+.opt-dtls h3.pkg-tl{font-size: 14px;}
+.opt-dtls h4{font-size: 16px;}
+.bus .details-sec .details-sec-cont .inclusions li > span b{font-weight: 600;}
+/*===================== Bus Booking Details End =====================*/
+
+/*----------- IRCTC-TDR-Review Start ----------*/
+.lg .flg-details ul.border-list li{ font-size:18px;}
+.lg .flg-details ul.border-list > li::after{ height:70%; top:2px; width: 1px; background: #000;}
+.lg .travl-time-dtls{max-width: 450px; min-width: 450px}
+.lg .travl-time-dtls .time{font-size: 24px;}
+.lg .travl-time-dtls .date,.lg .travl-time-dtls .destintn{font-size: 15px;}
+.lg .travl-time-dtls .arivl{text-align: left; padding-left: 30px;}
+.lg .travl-time-dtls .dprtur{text-align: right; padding-right: 30px; }
+.lg .border-list.md{margin: 15px 0px;}
+.rail .pkg-thumbnail ul.border-list.md li{font-size: 15px; }
+
+
+/*Journey Departure and Arival Section :: Starts */
+.details-sec .details-sec-cont.type2 .travl-dtls {max-width: 465px;vertical-align: top;margin-bottom: 20px;}
+.details-sec .details-sec-cont.type2 .logo-cont-wrap {width: 8%;vertical-align: top;text-align: left;}
+.logo-cont .logo-cont-heading {clear: both;display: block;font-size: 10px;font-weight: 600;color: #000;}
+.logo-cont .logo-cont-numb {clear: both;display: block;font-size: 12px;position: relative;top: -2px;color: #6a6a6a;}
+.details-sec-cont.type2 .dprtur {width: 30%;text-align: right;color: #000;}
+.details-sec-cont.type2 .arivl {width: 30%;color: #000;}
+.details-sec-cont.type2 .time {line-height: 26px;text-transform: uppercase;margin-left: 0px;font-weight: 600;color: #000;font-size: 24px;}
+.details-sec-cont.type2 .date {font-size: 12px;line-height: 15px;color: #6a6a6a;}
+.details-sec-cont.type2 .destintn {color: #6a6a6a;padding-top: 5px;font-size: 12px;line-height: 15px;} 
+.journey-details.details-sec .details-sec-cont.type2 .duratn {width: 25.66%;vertical-align: top;padding-top: 6px;}
+.details-sec .details-sec-cont.type2 .duratn .flt-directn {text-align: center;}
+.details-sec .details-sec-cont.type2 .duratn p {font-size: 11px; color: #6a6a6a;line-height: 11px;font-weight: 400;}
+.details-sec.typ2 .bkng-price, .travl-ins .bkng-price, .info-sec .bkng-price, .booking-add-ser .bkng-price  {position: absolute;top: 0px;right:15px;}
+.details-sec .details-sec-cont.type2 .inclusions {display: inline-block;line-height: 21px;margin-top: 0px;}
+.details-sec .details-sec-cont.type2 .inclusions li > span {margin-left: 10px;}
+.details-sec-cont.type2 .travl-dtls.layover {border-top: 1px solid #dedfe4;padding-top: 20px;position: relative;}
+.details-sec-cont.type2 .travl-dtls.layover .layover-cont {position: absolute;top: -8px;left: 50%;font-size: 12px;background-color: #f6f8fd;padding: 0px 10px;color: #000;font-weight: 600;}
+.details-sec .details-sec-cont.type2 .other-dtls {display: inline-block;margin-top: 0px;float:right;}
+.details-sec-cont.type2 .other-dtls li {display: inline-block;text-align: right;padding: 0px 5px;font-size: 13px;font-weight: 400;line-height: 23px;color:#6a6a6a}
+.details-sec-cont.type2 .other-dtls li a {color:#000096;}
+.details-sec-cont.type2 .other-dtls li::after {content: '';position: absolute;background: #6a6a6a; width: 1px;height: 14px;margin-left: 7px;margin-top: 5px;}
+.details-sec-cont.type2 .other-dtls li:last-child:after {background: none;}
+/*Journey Departure and Arival Section :: Ends */
+
+
+/* Insurance Booking Details table start*/
+.insurance .booking-details .booked-pkg .section .pkg-thumbnail .pkg-thumbnail-cont .pkg-img{ width: 14%; height:50px;}
+.insurance .booking-details .booked-pkg .section .pkg-thumbnail .pkg-thumbnail-cont .pkg-img figure{height:100%;}
+.insurance .booking-details .booked-pkg .section .custom-mob-tbl table > thead > tr > th{ width:auto;}
+.insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.name{ width: 17.37%; border-bottom:none;}
+.insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.destination{ width: 15.98%;}
+.insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.insurance-type{ width:12.72%;}
+.insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.start-date{ width:12.17%;}
+.insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.insurance-policy{ width: 15.99%;}
+.insurance .booking-details .custom-mob-tbl .table>tbody > tr > td.sum-insured{ width: 13%;}
+/* Insurance Booking Details table end*/
+
+/* Visa Booking Details Start */
+i.flag-md-canada:before { background: url(../images/common/icons/fa-custom-canada.png) 0 0px no-repeat;content: ""; width: 36px;height: 19px;display: inline-block;position: absolute;left: 0px;top: 0px;}
+h5.flag-hold {padding: 3px 0 3px 42px;position: relative;font-size: 14px;color: #000;font-weight: 700;}
+.list-visa { padding:7px 0;}
+.list-visa li { width: 100%;}
+.list-visa li .purpose-desc:before { content:":"; display: inline-block; margin: 0 10px 0 0;}
+.list-visa li .purpose { min-width:120px; display: inline-block;}
+/*Package bar start*/
+.visa .packag-sec .border-list{line-height: 21px;}
+.visa .packag-sec .border-list li{font-size: 13px;}
+/* Visa Booking Details End */
+
+
+/*===================== Pkg bar End =====================*/
+.flights .pkg-bar ul.pkg-bar-list li.packag-sec .packag-sec-cont .fa-custom-jetAirways-o::before{background-size: 100%; width: 22px;}
+.flights .flg-amt{color: #333333; font-size: 18px; font-weight: 700;}
+.flights .pkg-bar ul.pkg-bar-list li.packag-sec .packag-sec-img.table-cell figure{margin-top: 2px;}
+.flights .pkg-bar ul.pkg-bar-list li.packag-sec .packag-sec-img.table-cell figure > img{width: auto; margin-bottom: 5px;}
+.flights .pkg-bar ul.pkg-bar-list li.packag-sec .packag-sec-cont .flg-amt{margin-left: 25px;}
+.packag-sec-cont.empty .empty-cont{ border:1px #a3aab0 dashed; width: 315px; height: 59px;}
+.packag-sec-cont.empty .empty-cont.lg{width: 380px;}
+
+.ecash span {color: #f00;}
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec .packag-sec-cont {padding-right: 20px; line-height: 21px; position: relative; width: 54%; vertical-align: middle;}
+.pkg-bar.type-02 ul.pkg-bar-list li .packag-sec-img .fa{color: #6993c5; font-size: 20px;}
+.pkg-bar ul.pkg-bar-list li .border-list li{color: #000; font-size: 13px; line-height: 21px}
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec figcaption{color: #606060; position: static; white-space: nowrap;}
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec .packag-sec-cont.sec2{padding-left: 15px; border-left: 1px solid #d7dee8;}
+small.min-info{color: #777; display: block}
+/******************* Flight Top bar start *************************/
+.selected-operator {font-size: 12px;}
+.selected-operator  h3{font-size: 13px;font-weight: 600;margin-bottom: 10px;display: block;}
+.selected-operator  h3 > span{width: 60px;margin-right: 10px;vertical-align: baseline;}
+.selected-operator .logo-cont-heading{font-size: 13px;}
+.selected-operator .logo-cont-heading.lg{font-size: 18px;}
+.selected-operator .logo-cont-heading span{color: #666;}
+.selected-operator .logo-cont-heading > .logo-cont-numb{display: inline;}
+.selected-operator .from-to{font-size: 13px;}
+.selected-operator .from-to span{color: #666;}
+.selected-operator .from-to strong{font-weight: 600}
+.selected-operator .seat-no span{color: #000;}
+.selected-operator .fa-custom-arrow-right-small {display: inline-block ; padding: 0px 5px;}
+.selected-operator .fa-custom-arrow-right-small:before{content: ""; background:url(../images/common/icons/fa-custom-arrow-right-small.png) no-repeat center center; height:10px; width:16px; background-size: 100%; opacity:0.4}
+.packag-sec .lnk-change {position: absolute; right: 10px;bottom: 00px; color: #000096; font-weight: 600; }
+.selected-operator .operator-travelling-details{padding-left: 90px;}
+.selected-operator .operator-details > .blank-data{display: block;border: 1px dashed #a6a9ae;min-height: 60px;}
+/******************* Flight Top bar Ends*************************/
+.pkg-bar.type-02 ul.pkg-bar-list li.right-section .share-sec{text-align: center;}
+
+
+/*Insurance Package abr Start*/
+.insurance .pkg-bar ul.pkg-bar-list li.price-packag-sec{width: 28%;}
+.insurance .border-list li{font-size: 13px;}
+.insurance .pkg-bar ul.pkg-bar-list > li.packag-sec{width: 47%}
+.insurance .pkg-bar ul.pkg-bar-list > li.actn-btn{width: 15%;}
+.insurance .packag-sec-cont img {width: 143px; padding-right: 10px;}
+.pkg-bar ul.pkg-bar-list li.price-packag-sec  strong{font-weight: 600; font-size: 13px; display: inline-block; }
+.insurance .pkg-bar ul.pkg-bar-list li.price-packag-sec .table-cell{vertical-align: top; width: 150px;}
+.pkg-bar ul.pkg-bar-list li.price-packag-sec .prie-dollar{padding-right: 20px;}
+.pkg-bar ul.pkg-bar-list li.price-packag-sec .prie-dollar .price{color: #005596; font-size: 18px;}
+.insurance .pkg-bar ul.pkg-bar-list > li.right-section{vertical-align: middle;}
+/*Insurance Package abr Ends*/
+
+/*===================== Pkg bar Start =====================*/
+/*===================== Rail Europe Pkg bar Start =====================*/
+.rail-europe .booking-summary .summary .travelers{width:20%;}
+.rail-europe .booking-summary .summary .seat-no{width:16%;}
+.rail-europe .booking-summary .summary .pnr-no{width:16%;}
+.rail-europe .booking-summary .summary .ticket-no{width:16%;}
+.rail-europe .booking-summary .summary .status{width:18%;}
+.rail-europe .booking-summary .summary .status{width:18%;}
+.rail-europe .booking-summary .summary .price{width:14%;}
+h5.pkg-title{font-size: 20px; font-weight: 600; border-bottom: 1px solid #d6d6d6; padding-bottom:9px;}
+.rail-europe .booking-summary .content-panel + .content-panel{ margin-top: 20px;}
+.rail-europe .pass-details { max-width: 422px;}
+.rail-europe .pass-details > li{ display: inline-block; min-width: 190px; font-size: 15px; line-height: 28px; color: #000000}
+.info-sec .info-tooltip > .fa-info-circle{ color: #fff}
+
+.rht-secdata .price-diffrence-sec .price-diffrence-left .dropdown-menu{ left: 0; right: inherit}
+.rail-europe .selected-operator .from-to{ width: 150px;}
+.rail-europe .selected-operator .from-to strong{ font-size: 18px; line-height: 18px; display: block} 
+.rail-europe .selected-operator .from-to span{ text-transform: uppercase; font-size: 12px; color: #000}
+.rail-europe .search-res-txt{ margin-bottom: 15px;}
+.rail-europe .pkg-bar.type-02 ul.pkg-bar-list li.packag-sec{width: 62%;}
+.rail-europe .pkg-bar.type-02 ul.pkg-bar-list li.price-packag-sec{ width: 18%}
+.rail-europe .pkg-bar ul.pkg-bar-list > li.actn-btn{ width: 28%}
+.rail-europe .pkg-bar.type-02 ul.pkg-bar-list li.right-section{ width: 23%}
+/*===================== Rail Europe Pkg bar End =====================*/
+
+
+/********06-11-17******/
+.info-block .pkg-dtl .detail-container .package-title.no-pad {padding-right:0;}
+/********06-11-17******/
+
+
+/********09-11-17******/
+.post-booking .chk-group-sec > label {font-size:12px;}
+.post-booking.checkout .card-wrap > .verified-by-visa {width: 50px;height: 70px;}
+.checkout.flights .card-wrap > .verified-by-visa {width: 53px;height: 78px;}
+.amendment.checkout .star-rating:before{font-size:15px;}
+.amendment.checkout .card-wrap > .verified-by-visa {width: 53px;height: 80px;}
+.checkout.post-booking .form-theme2 .styled-select .btn-group .btn .caret:before,
+.checkout.post-booking .form-theme4 .styled-select .btn-group .btn .caret:before {content: "\f078"; background:none; margin-top:-11px; color:#6992ca}
+/*.checkout.post-booking .form-theme2 .styled-select .btn-group.open .btn .caret:before {content: "\f054";}*/
+/********09-11-17******/
+@media screen and (max-width: 1199px){
+.travl-time-dtls{min-width:100%;  max-width: 100%;}
+.list-visa li .purpose {    min-width: 100px;}
+    
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec{width: 67%;}
+.pkg-bar ul.pkg-bar-list li .packag-sec-img {display: inline-block}
+
+.details-sec .details-sec-cont .transfer-details .transfr-incl > li::before {background: none;}
+
+/* Bus */
+.bus .booking-summary .content-panel > .travel-booking-detail{padding: 10px 0;}
+    
+.dvdr-wrp{min-width: 100%; max-width: 100%;}
+.checkout .card-wrap {width: 100%;}
+}
+@media screen and (min-width:992px) {
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec{width: 73%;}
+.pkg-bar.type-02 ul.pkg-bar-list li.price-packag-sec{width: 15%; padding-right: 10px;}
+.pkg-bar.type-02 ul.pkg-bar-list li.right-section{width: 12%; padding-left: 20px;}
+.pkg-bar.pkg-multicity ul.pkg-bar-list > li.packag-sec{width: 72%; padding-left: 20px;}
+}
+@media screen and (max-width: 991px){
+.bus .tbl-style.operator-details,.bus .operator-details > .opt-dtls{width: 100%;}
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec {width: 75%}
+.pkg-bar.type-02 ul.pkg-bar-list li.price-packag-sec {display: block; width: 100%; margin: 0px auto}
+.pkg-bar.type-02 ul.pkg-bar-list li.right-section{display: block; width: 100%; padding: 5px 20px;}
+	
+	/* booking summary : starts */
+	.bkng-itinery-dtl{padding-right: 0px;}
+	.booking-summary .summary table > thead > tr > th:first-child, .booking-summary .summary table > tbody > tr > td:first-child,
+	.booking-summary .summary table > thead > tr > th:last-child, .booking-summary .summary table > tbody > tr > td:last-child{padding-left: 5px;padding-right: 5px;}	
+	.bot-sec .pmnt-brekup li{padding-right: 26px;}
+	/* booking summary : ends */
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec {margin-bottom: 15px;  border-bottom: 1px solid #ddd; padding-bottom: 10px; display: block; width: 100%;} 
+.pkg-bar.type-02 ul.pkg-bar-list li.price-packag-sec{border-left: 0px; display: inline-block; width: 300px;}
+.pkg-bar.type-02 ul.pkg-bar-list li.right-section{border-left: 0px; display: inline-block; width: 300px;}        
+}
+
+@media screen and (max-width: 767px){
+	
+	.thankyou-msg{margin-top: 10px;}
+	.rail .custom-mob-tbl table > tbody > tr > td[data-label]:before{width: 150px;}
+	.rail .booking-summary .summary table > tbody > tr > td.coachno{min-height:50px}
+	/* Visa */
+	.visa-content li, .visa-content li.small{ display: table;  width: 100%}
+	.visa-content li span, .visa-content li .purpose{ display: table-cell; width: 50%;}
+}
+@media screen and (max-width: 599px){
+.rht-sec-cont {float: left}
+.travl-loc-time-dtls{border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 12px;}
+.travl-loc-time-dtls .location-dtls{margin-bottom: 10px; display: block; width: 100%;}
+.travl-loc-time-dtls .time-check-out-dtls,.travl-loc-time-dtls .time-check-in-dtls {display: inline-block; width: 49%; text-align: left}
+.bus .opt-dtls .travl-time-dtls.with-operator .dprtur,
+.bus .opt-dtls .travl-time-dtls.with-operator .duratn,
+.bus .opt-dtls .travl-time-dtls.with-operator .arivl {width: 33%;}
+.bus .operator-details > .opt-dtls {width: 100%;padding-left: 0;}
+.operator-details > .opt-logo{margin-bottom: 4px;}
+.bus .operator-details > div > .opt-ttl{margin-bottom: 5px;margin-top: 10px;}
+.bus .booking-summary .pkg-desc{padding-right: 0;}
+/*pkg bar*/
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec .packag-sec-cont {display: block; width: 100%; }
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec .packag-sec-cont.sec1{margin-bottom: 20px;}
+.pkg-bar .plus-cont{left: 0px;top: -20px; width: 100%; text-align: center;}
+.pkg-bar .plus-cont:before {height: 1px; width: 100%; top: 10px; left: 0px;}
+.pkg-bar.type-02 ul.pkg-bar-list li.price-packag-sec {padding-left: 20px;}
+.pkg-bar.type-02 ul.pkg-bar-list li.right-section{width: inherit; padding-top: 15px; padding-bottom: 10px; border-bottom: 0px;}
+.pkg-bar.type-02 ul.pkg-bar-list li.packag-sec .packag-sec-cont.sec2 {border-left: 0px;}
+.packag-sec .lnk-change {position: static}
+    
+.insurance .pkg-bar ul.pkg-bar-list li.price-packag-sec .table-cell{width: 130px}
+
+.thankyou-msg.tbl-style{display: block; border: 0px;}
+.thankyou-msg.tbl-style > div{display: block;}
+.thankyou-msg.tbl-style > div h1{font-size: 16px;}
+.bkng-itinery-dtl{text-align: left; }
+.bkng-itinery-dtl .bkng-id{font-size: 14px; padding: 6px 11px;}
+.bkng-itinery-dtl .dobooking{text-align: left;}
+
+/* booking summary : starts */
+.booking-summary .content-panel{padding: 10px;}
+.booking-summary .pkg-brief.lg > div{display: block;}
+.booking-summary .summary table > thead > tr > th:last-child, .booking-summary .summary table > tbody > tr > td:last-child{border-bottom: 2px solid #ccc;}
+.booking-summary .summary table.text-left th.price, .booking-summary .summary table.text-left td.price{text-align: left;}
+.booking-summary .yellow-strip .pnr-status li::after{ background:none;}
+.booking-summary .yellow-strip .pnr-status li{ display: block; line-height: 30px;}
+/* booking summary : ends */
+
+.travl-time-dtls.with-operator .duratn{width: 28%;}
+.travl-time-dtls .destintn{font-size: 12px;}
+.travl-time-dtls .date{font-size: 12px;}
+.directn span{font-size: 12px;}	
+
+.bkng-smry-cnfrm .travl-time-dtls{min-width: 100% !important; max-width: 100% !important; }
+.bkng-price{position: static !important;font-size: 22px !important;}
+}
+/*** Booking Details Page Ends ***/
+
+
+@media screen and (max-width:479px){
+	
+	.thankyou-msg h1{line-height: normal;}
+	.thankyou-msg > div:last-child{min-width: auto;}
+	
+	/* booking summary : starts */
+	.booking-summary .content-panel .pkg-brief.lg{margin-bottom: 10px;}
+	.bot-sec .pmnt-brekup li{padding-right: 11px;}
+	/* booking summary : ends */
+}
+/* max-width:413px ::Starts */
+@media screen and (max-width:413px){
+    
+    .bus .opt-dtls .travl-time-dtls.with-operator .dprtur,
+    .bus .opt-dtls .travl-time-dtls.with-operator .duratn,
+    .bus .opt-dtls .travl-time-dtls.with-operator .arivl {max-width: 100%;display: block;padding: 10px 0;text-align: center;margin: 0;width: 100%;border-top: 1px solid #ddd;}
+    .bus .opt-dtls .travl-time-dtls.with-operator .dprtur{border-top: 0 none;}
+}
+/* max-width:413px ::Starts */
+
+
+

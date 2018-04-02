@@ -1,0 +1,65 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.8.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.coxandkings.travel'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+apply plugin: 'war'
+war{
+	baseName= 'Booking-Engine-DBServices'
+	version= '1.0'
+}
+
+repositories {
+	mavenCentral()
+}
+
+springBoot {
+    executable = true
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile ('commons-logging:commons-logging:1.1.1')
+	runtime('org.postgresql:postgresql')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	runtime('com.h2database:h2')
+	testRuntime('com.h2database:h2')
+	compile ('org.apache.logging.log4j:log4j-api')
+	compile ('org.apache.logging.log4j:log4j-core')
+    compile('commons-lang:commons-lang:2.6')
+	compile ('org.json:json:20171018')
+	compile('c3p0:c3p0:0.9.0.4')
+	compile ('org.mongodb:mongo-java-driver')
+	
+	//for java8 time and auditing
+	compile ('org.hibernate:hibernate-java8')
+	
+	//for kafka
+	compile ('org.apache.kafka:kafka-clients:0.10.2.0')
+    compile 'ch.qos.logback:logback-classic:1.2.2'
+    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '1.0.0'
+	compile "org.springframework.kafka:spring-kafka:1.3.2.RELEASE"
+    
+	
+	//Changed by pritish for auto Redeploy and acco merge(Later make changes according to what implementations we are using for json)
+	 //compile("org.springframework.boot:spring-boot-devtools")
+
+}

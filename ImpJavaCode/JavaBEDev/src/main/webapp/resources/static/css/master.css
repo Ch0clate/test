@@ -1,0 +1,41 @@
+/* Style css */
+@import url("style.css");
+@import url("products.css");/* search result, details, customize, compair, review */
+@import url("post-booking.css");/* email login to booking details pages */
+@import url("holidays-style.css");
+@import url("activities-style.css");
+@import url("cars-style.css");
+@import url("my-account-style.css");
+@import url("login-style.css");
+@import url("collections-style.css");
+@import url("gift-cards-style.css");
+@import url("general-style.css");
+@import url("all-product-style.css");
+@import url("cruise-style.css");
+@import url("flights-style.css");
+@import url("insurance-style.css");
+@import url("bus-style.css");
+@import url("destinations-style.css");
+@import url("deals-style.css");
+@import url("rail-style.css");
+@import url("visa-style.css");
+/* Media css */
+@import url("media.css");
+@import url("holidays-media.css");
+@import url("activities-media.css");
+@import url("cars-media.css");
+@import url("my-account-media.css");
+@import url("login-media.css");
+@import url("collections-media.css");
+@import url("gift-cards-media.css");
+@import url("general-media.css");
+@import url("all-product-media.css");
+@import url("cruise-media.css");
+@import url("flights-media.css");
+@import url("insurance-media.css");
+@import url("bus-media.css");
+@import url("destinations-media.css");
+@import url("deals-media.css");
+@import url("rail-media.css");
+@import url("visa-media.css");
+

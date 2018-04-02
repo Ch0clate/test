@@ -1,0 +1,196 @@
+/******* Comman Start *******/
+.fa-custom-purpletrick::before { background: url("/in/en/resources/images/common/icons/purple-tick-circle.png") center center no-repeat; height: 18px; width: 19px}
+.txt-purple{ color: #5a00e2;}
+/******* Comman End *******/
+
+/*Shooping Cart : Price Block*/
+.steps-container .step .step-content .room-block-details {padding:0px 20px 5px 20px;color: #000;position: relative;/*margin-bottom:25px;*/}
+/*.steps-container .step-content .room-block-details p{color:#000000; font-weight:500; position;relative; padding-left:30px;}*/
+.steps-container .step .step-content .room-block-details .fa-user{font-size:20px; padding-right:5px;}
+
+.steps-container .step .step-content .room-block-details  .fa-custom-user-new:before{position:absolute;  left: 0px;  top: -2px;}
+/*.steps-container .step .step-content .room-block-details ul li{padding:10px 0px;}*/
+.select-width .styled-select .btn-group .btn.dropdown-toggle{width:225px!important;}
+.steps-container .step .step-content .room-block-details .styled-select .btn-group .dropdown-menu li{padding:0px!important;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip { position: relative;}
+/*.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip .tooltip-cont { top: 29px; }*/
+.checkout .room-block-details > ul > li .flight-checktfrm-blck{ display:table-cell; padding:0 5px; vertical-align: middle;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck label{ font-weight: 600; font-size:14px;}
+.checkout .flight-checktfrm-blck .email-txt-cont a{ padding:4px 9px; border-radius:2px;}
+.checkout .flight-checktfrm-blck .email-txt-cont a.btn-sm{ width: 51px; line-height: 30px; padding: 0; text-align: center; background: #6b92c5; font-weight: 700}
+.checkout .flight-checktfrm-blck .email-txt-cont a.btn-sm:hover{ background: #232a5d}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .or{ font-size:12px; width:27px; height:27px; border-radius:100px; background:#6b92c5; color:#fff; text-align:center; line-height: 27px; display: inline-block; margin-left: 7px; margin-right: 3px;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .pricess{ font-size:16px; display:inline-block;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .enteramont{font-size:13px; color:#666666; margin-bottom:0px; padding-top: 6px}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck .enteramont .fa-rupee{ font-size: 13px;}
+/*
+
+.ver-tab-container.theme-01 {display:table; width:100%; margin-bottom:30px; margin-top:20px;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab {padding:0px !important;display: table; width: 100%;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li{display:block; float:none; padding:0px;margin-bottom: -1px; margin-right: -1px}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li:after{content:"\f054"; width:7px; height:12px; display:inline-block; position:absolute; right:14px; top:15px;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li.r-tabs-state-active{border:0px !important;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li.r-tabs-state-active:after{}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li.r-tabs-state-active a{ font-weight:700; background:#fff !important; border-right:0px !important; color:#000;}
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li a{color:#000096; font-weight:600; font-size:13px; display:block; border:1px solid #e4e4e4; padding:12px 23px; }
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab > ul > li a span{ font-size:18px;font-weight:600; }
+.ver-tab-container.theme-01 #HorizontalTab.HrzTab .resp-tabs-list {background-color:#f9fce1; width:187px; display:table-cell; padding:0; margin: 0; border:0px;}
+.ver-tab-container.theme-01 .ver-tab-content { width: 100%; display: table-cell; vertical-align: top; padding: 11px 30px 0; background: #fff; border: 1px solid #e4e4e4}
+.checkout .ver-tab-container-title{ font-size:16px;font-weight:700; padding-top:19px;}
+.checkout .ver-tab-content p{font-size:14px; font-weight:400; margin-bottom:15px; color:#000;}
+.checkout .flight-checktfrm-blck2 { display:table-cell; position: relative;vertical-align:middle;}
+.checkout .flight-checktfrm-blck2 .flightchecktfrm-input{  float: right; width:152px; font-size:16px; font-weight:700; padding-left:20px; }
+.checkout .flight-checktfrm-blck2 .flightchecktfrm-inputrups{ font-size:16px; position:absolute; left:10px;    top: 7px;}   
+
+
+.checkout .wallet-info > li input { display: inline; padding: 4px 10px 4px 22px; font-size: 16px; font-weight: bold; box-shadow: none;}
+.checkout .wallet-info > li input.form-control[disabled] { background: transparent; border: solid 1px #efefef; }
+.checkout .price-input { position: relative;  font-size: 16px; width: 152px; vertical-align: top;}
+.checkout .price-text {font-size: 16px; width: 152px; vertical-align: top;font-weight: bold;padding-left: 8px;}
+.checkout .price-input > input { display: inline; padding: 4px 10px 4px 22px; font-size: 16px; font-weight: bold; box-shadow: none;}
+.checkout .price-input > i { position: absolute; top:12px; left: 10px;}
+.checkout .netbank-opts > li { width: 32.5%;  display: inline-block; vertical-align: top; }
+.checkout .netbank-opts > li > label , .netbank-opts .itscash-wrap, .netbank-opts .paytm-wrap, .netbank-opts .mobikwik-wrap { border: solid 1px #6991c8; border-radius: 3px; padding: 8px 0 0 30px; width: 142px; height: 41px;}
+.checkout .netbank-opts > li .radio-inline .styled-radio { left:8px; border: solid 1px #59699c; width: 18px; height: 18px; margin-top: -9px}
+.checkout .netbank-opts > li .radio-inline.selected .styled-radio { border: solid 1px #000; }
+.checkout .netbank-opts > li .radio-inline .styled-radio-checked .check { top: 2px; left: 2px; width: 12px; height: 12px; }
+.checkout .netbank-opts > li .radio-inline.selected .styled-radio .check { background: #000; }
+.checkout .opts-wrap1 .option-ttl, .checkout .opts-wrap .option-ttl, .checkout .card-wrap .option-ttl { font-size: 14px; font-weight: 600; margin: 0 0 12px; }
+.checkout .opts-wrap1, .checkout .opts-wrap { display: inline-block; width: 100%; margin: 0 0 7px; }
+.checkout .opts-wrap .styled-select .btn-group { width: 298px;}
+.checkout .netbank-info { font-size: 12px; color: #d20000; margin: 0 0 10px;}
+.checkout .card-wrap { position: relative; padding: 0 75px 0 0; background: none}
+.checkout .card-wrap > .verified-by-visa { background: url(../images/common/verified-by-visa.jpg); width: 52px; height: 80px; position: absolute; display: inline-block; right: 0; top: 0;}
+.checkout .card-wrap ul li label { width: 106px; font-size: 12px; padding: 10px 0 0; }
+.checkout .card-wrap ul li .form-group-sec{ width: 100%}
+.checkout .card-wrap ul li .card-no-wrap { position: relative; }
+.checkout .card-wrap ul li .card-no-wrap .card-opt { background: url(../images/common/credit-card-opt.jpg); width: 131px; height: 29px; position: absolute; right: 1px; top: 3px; }
+.checkout .card-wrap ul li .card-no-wrap .card-opt.disabled {background: url(../images/common/credit-card-opt-disabled.png) no-repeat center center; width: 46px; height: 29px;} 
+.card-wrap ul li .cvv-info {width: 218px; height: 44px; display: inline-block; position: relative; top: -6px;}
+.checkout .netbank-opts > li > .emi-wrap {  display: table; padding: 1px 0 0 10px; }
+.checkout .netbank-opts > li > .emi-wrap > div { vertical-align: middle; }
+*/
+.checkout .steps-container .steps .step-section .shopping-wrap .checkbox-inline { /*margin: 0 0 30px;*/}
+/*.checkout .steps-container .steps .step-section .btn-continue { width: 112px;  height: 37px; padding: 10px 12px !important; display: inline-block; float: right;}*/
+.i-icone { vertical-align: middle; border:solid 1px #3a93b3; color:#3a93b3; border-radius:100px; font-size:12px; padding:1px 8px;}
+.i-icone:hover { background:#3a93b3; color:#fff; font-style: normal;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip { position: relative;}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip .tool-tip{ display: inline-block}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip .tool-tip a{ font-size: 14px; font-weight: 700; font-style: italic; width: 20px; height: 20px; line-height: 16px}
+
+.checkout .steps-container .steps .step-section .step-content .room-block-details label { /*min-width: 110px !important;*/ }
+.checkout .card-wrap ul li .cvv-info {background: url(../images/common/cvv-no.jpg) left 4px no-repeat; padding-left: 62px;font-size: 10px; color: #9d9d9d; line-height: 12px;    letter-spacing: -0.3px; width: calc(100% + 10px); display: table; }
+.checkout .card-wrap ul li .cvv-info em  {display: table-cell; vertical-align: middle;}
+
+.ver-tab-content .txt-wrap{ font-size: 14px; width: 65%}
+.checkout ul.netbank-opts.type2 { /*margin-left: -10px; margin-right: -10px;*/}
+.checkout ul.netbank-opts.type2 li{ padding: 5px 6px}
+.checkout ul.netbank-opts.type2 > li .radio-inline .styled-radio{ margin-right: 0} 
+.checkout ul.netbank-opts.type2 li label{ padding: 0;  height: 48px !important;padding-left:50px;display: table-cell; vertical-align: middle;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet { position: absolute; right: 0; top: -24px}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu { padding: 0px; min-width: 210px; right: -91% !important;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li{ padding: 0}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a{ padding: 7px 12px; background:#fff; display: block; color: #6992ca}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a:hover{ background: #000096; color: #fff}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a .bank-logo{ padding-right: 13px;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet .dropdown-menu li a .bank-logo img{ display: block}
+
+.checkout .netbank-opts > li .radio-inline.emi-wrap .styled-radio{ left: 0; margin-top: inherit}
+.checkout .room-block-details .action-btns{ text-align: right; padding: 25px 0 25px}
+.checkout .room-block-details .btn-primary{ width: 112px;}
+.checkout .steps-container .step .step-content .room-block-details > ul > li{ margin:0px; display:block; border-bottom:1px solid #e4e4e4; padding:15px 0px 15px 0px;}
+.checkout .room-block-details ul.netbank-opts > li > label{min-height: 37px}
+
+
+.checkout .room-block-details > ul > li .flight-checktfrm-blck input[type="text"]{ min-width: 210px;} 
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.card-tooltip .tool-tip a.active{ background: #232a5d; color: #fff}
+.checkout .room-block-details > ul > li .flight-checktfrm-blck.min-pay-amt{ position: relative; top: 10px}
+
+.popup-sec#payment-failed{width: 490px;}
+.popup-sec#payment-failed .popup-in .pop-tl {margin-bottom: 8px;}
+.popup-sec#saved-traveler,
+.popup-sec#car-saved-traveler{max-width: 364px;}
+.popup-sec .btn-cont.align-right{text-align: right;}
+.popup-sec .btn-cont.align-right .btn{background: rgb(0, 0, 150);padding: 8px 20px;}
+.checkout .card-wrap ul li .card-no-wrap .cnkwallet{color:#25269c !important;}
+.checkout #tab-creditcard-sect .netbank-opts > li > label{width: 150px;}
+
+.savetravl-poppup{position: absolute;right: -86px;font-size: 11px;top: 11px;}
+.savetravl-poppup a{ color: #000096;}
+.popup-box.zoom-anim-dialog.popup-sec.saved-traveler-popup{ width: 364px;}
+.popup-box.saved-traveler-popup .popup-in h5{ font-weight:600; font-size:18px; color:#333333; margin-bottom: 26px;}
+.popup-box.saved-traveler-popup .popup-in h5.filledMsg{ color:#007123;}
+.pkg-brief .traverlers-price-chan { position: absolute;font-size: 11px; color: #f50a0a; right:12px; top:34px; width:142px;}
+.pkg-brief .traverlers-price-chan .fa-custom-warning:before{ position: absolute;  left: -18px; top:0px;}
+.popup-box.saved-traveler-popup .popup-in ul.styled-checkbox-list li label.checkbox-inline{     padding-left: 26px;font-size:15px; color:#000; margin-bottom:15px;}
+.popup-box.saved-traveler-popup .popup-in ul.styled-checkbox-list li label.checkbox-inline.disabled{ opacity: 0.2;}
+.popup-box.saved-traveler-popup .popup-in .btn.btn-blue{ font-weight:400; margin:15px 0px 0 0; font-size: 14px;  padding: 8px 18px; }
+
+
+.steps-container .step .step-content .detial-info  .form-group-sec .row-sm  >div > .row-sm > div{ padding-bottom: 0}
+.multi-prod-chkt .steps-container .step .step-content .detial-info .ancillary-srvcs .form-group-sec{ display: none}
+.fa-custom-info{background: url(../images/common/icons/fa-custom-info.png) no-repeat center center; background-size: 100%;width: 21px;height: 21px; }
+
+
+/******** Error page css starts ********/
+.form-block{background: #f5f8fd; padding: 30px 75px; border: 1px solid #d7d7d8; margin-top: 25px;}
+.form-block .btn-basic{width: 147px; font-size: 14px; font-weight: 700;}
+.contact-block .btn-basic{font-weight: 700;}
+.all-products input[type="text"], .my-account input[type="password"] {box-shadow: none;background: #ffffff;border: 1px solid #6992ca;font-size: 13px;color: #626262;padding: 0 8px;display: block;height: 37px; border-radius: 3px;}
+.all-products textarea    {height: 65px; resize: none; padding: 5px 8px;}
+.all-products textarea.form-control   {box-shadow: none;background: #ffffff;border: 1px solid #6992ca;font-size: 13px;color: #626262; border-radius: 3px;}
+.all-products .holder + input{ background: none !important}
+.all-products .custom-field {border: 1px solid #6992ca;border-radius: 3px;/* background: #fff; */}
+.all-products .custom-field .holder { left: 0;border-radius: 3px; padding-left: 8px;  padding-right: 8px;padding-top: 5px;}
+.all-products .custom-field .holder label { font-size: 13px;color: #626262; line-height: 24px;}
+.all-products .custom-field{ position: relative}
+.all-products .holder + input{ background: none !important}
+.all-products .btn-blue-white{margin-right: 10px; /*padding-left: 50px; padding-right: 50px;*/ width: 167px;}
+.all-products hr{margin-top: 30px; margin-bottom: 30px;}
+.all-products .login-box .input-inner-addon small{font-size: 13px;}
+.contact-block {padding-bottom: 40px; border-bottom:1px solid #cdcdcd; float: left;}
+.contact-block h2{color:#38336b; font-size:25px; font-weight: 400; margin-top: 15px; margin-bottom: 5px; padding-bottom: 5px;}
+.contact-block .phoneno{font-size: 21px; font-weight: normal;}
+.error-content .oops-txt{font-size: 150px; line-height: 105px; padding-bottom: 50px;}
+.error-content .error-txt{color: #ff0007; font-size: 22px;}
+.error-content > p{font-size: 17px;}
+.error-right-block{padding-top: 25px;}
+.home-button {margin-top: 40px; float: left;}
+.home-button .btn-blue-white {border-color: #011996; color: #011996; border-radius: 3px;}
+.home-button .btn-blue-white:hover{color: #ffffff;}
+/******* Error page css ends ******/
+
+.multi-prod-chkt .steps-container .step .step-content .trvlr-dtl-block .pkg-brief{margin-bottom: 12px;}
+.multi-prod-chkt .sec-trav-ltrt {position: relative;}
+.multi-prod-chkt .sec-trav-ltrt .fl-act-sec {float: right;}
+.multi-prod-chkt .journey-details.details-sec .details-sec-cont .travl-time-dtls .destintn span {display: inline-block;white-space: nowrap;}
+.multi-prod-chkt .journey-details.details-sec .details-sec-cont .travl-time-dtls .destintn {font-size: 12px;line-height: 15px;}
+.multi-prod-chkt .journey-details.details-sec .details-sec-cont .travl-time-dtls .dprtur {text-align: right;}
+.multi-prod-chkt .journey-details.details-sec .travl-time-dtls >div {vertical-align: top;}
+.multi-prod-chkt .travl-time-dtls .duratn {width: 36%;display: table-cell;padding: 0px 10px;}
+.multi-prod-chkt .travel-booking-detail .journey-details.details-sec .details-sec-cont .travl-time-dtls .destintn {color: #6a6a6a;}
+.multi-prod-chkt .fl-act-sec li {display: inline-block;text-align: right;padding: 0px 7px;font-size: 12px;font-weight: 400;line-height: 23px;}
+.multi-prod-chkt .fl-act-sec li:after {content: '';position: absolute;background: #6a6a6a;width: 1px;height: 12px;margin-left: 8px;margin-top: 6px;}
+.multi-prod-chkt .fl-act-sec li:last-child:after {background: none;}
+.multi-prod-chkt .fl-act-sec {display: inline-block;}
+.multi-prod-chkt .rating-txt {display: inline-block;color: #000;}
+.multi-prod-chkt .rating-txt .out-of-review {font-size: 18px;font-weight: 600;}
+.multi-prod-chkt .rating-txt .out-of-review span{font-size: 14px; font-size: 300;}
+.multi-prod-chkt .lead-text{font-size: 12px; color: #6b92c5;}
+.multi-prod-chkt .head span{font-size: 12px; color: #7f7f7f; font-weight: 600;}
+.multi-prod-chkt .services-prc {font-size: 18px;text-align: right;}
+.multi-prod-chkt .detial-info .row-sm  .row-sm{padding-bottom: 0px;}
+.multi-prod-chkt  #checkboxes1 { display: none; border: 1px #dadada solid; border-top: none; padding: 0 0 7px; border-radius: 0 0 5px 5px;}
+.multi-prod-chkt  #checkboxes1 label { display: block; padding: 9px 0 0 9px; font-size: 13px;}
+
+.multi-prod-chkt .details-sec.typ2 .details-sec-cont{padding: 5px 0px;}
+.multi-prod-chkt .details-sec .details-sec-cont .flt-inclusion li > span{display: inline-block;vertical-align: middle;margin-left: 5px;}
+.multi-prod-chkt .details-sec .details-sec-cont .flt-inclusion li > i{vertical-align: middle;}
+/*.checkout .room-block-details ul.netbank-opts > li { padding: 0 !important}*/
+.popup-sec#payment-failed p{ color: #666666; font-size: 14px; line-height: 18px;}
+.info-block .pmnt-info-list{ position: relative; padding-left: 25px}
+.info-block .pmnt-info-list .list-icon{ position: absolute; left: 0; top: 0}
+.error.inner-pg .banner .banner-img-fit > figure{ height: 350px !important;} 
+.captcha-img{ width: 100%}
+.checkout ul.netbank-opts.type2 > li{ margin-bottom: 5px;}
+/*.checkout .opts-wrap .netbank-opts > li{ margin-bottom: 5px;}*/
